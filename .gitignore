@@ -1,0 +1,16 @@
+.next
+node_modules
+coverage
+.env
+.env*.local
+!.env.example
+npm-debug.log*
+*.log
+*.err.log
+*.tsbuildinfo
+/.venv
+__pycache__/
+*.pyc
+dist/
+build/
+*.egg-info

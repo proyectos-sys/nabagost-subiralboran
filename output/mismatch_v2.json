@@ -1,0 +1,550 @@
+{
+  "tolerancia_eur": 1.0,
+  "resumen": {
+    "total_presupuestos": 38,
+    "con_factura_match": 16,
+    "sin_factura_mismatch": 22
+  },
+  "sin_factura": [
+    {
+      "order_name": "S00025",
+      "date_order": "2026-04-30",
+      "partner": "EL OLMO PAISAJISMO SL.",
+      "amount_total": 740.52,
+      "order_state": "sale",
+      "invoice_status": "to invoice",
+      "invoice_ids_link": [],
+      "facturas_match": []
+    },
+    {
+      "order_name": "S00023",
+      "date_order": "2026-04-27",
+      "partner": "ALFERVI VENTANAS Y CERRAMIENTOS SOCIEDAD LIMITADA.",
+      "amount_total": 517.88,
+      "order_state": "sale",
+      "invoice_status": "to invoice",
+      "invoice_ids_link": [],
+      "facturas_match": []
+    },
+    {
+      "order_name": "S00006",
+      "date_order": "2026-04-07",
+      "partner": "Ricardo",
+      "amount_total": 54673.67,
+      "order_state": "draft",
+      "invoice_status": "no",
+      "invoice_ids_link": [],
+      "facturas_match": []
+    },
+    {
+      "order_name": "S00026",
+      "date_order": "2026-04-30",
+      "partner": "ATYCO CONSTRUCCION SL",
+      "amount_total": 54536.35,
+      "order_state": "draft",
+      "invoice_status": "no",
+      "invoice_ids_link": [],
+      "facturas_match": []
+    },
+    {
+      "order_name": "S00027",
+      "date_order": "2026-05-01",
+      "partner": "BECSA SOCIEDAD ANONIMA",
+      "amount_total": 43479.9,
+      "order_state": "draft",
+      "invoice_status": "no",
+      "invoice_ids_link": [],
+      "facturas_match": []
+    },
+    {
+      "order_name": "S00038",
+      "date_order": "2026-05-21",
+      "partner": "GEOTILES SLU",
+      "amount_total": 29819.48,
+      "order_state": "draft",
+      "invoice_status": "no",
+      "invoice_ids_link": [],
+      "facturas_match": []
+    },
+    {
+      "order_name": "S00029",
+      "date_order": "2026-05-05",
+      "partner": "BECSA SOCIEDAD ANONIMA",
+      "amount_total": 10285.0,
+      "order_state": "draft",
+      "invoice_status": "no",
+      "invoice_ids_link": [],
+      "facturas_match": []
+    },
+    {
+      "order_name": "S00039",
+      "date_order": "2026-05-22",
+      "partner": "ATYCO CONSTRUCCION SL",
+      "amount_total": 7289.86,
+      "order_state": "draft",
+      "invoice_status": "no",
+      "invoice_ids_link": [],
+      "facturas_match": []
+    },
+    {
+      "order_name": "S00034",
+      "date_order": "2026-05-12",
+      "partner": "ARES CONSTRUCCIONES",
+      "amount_total": 2490.91,
+      "order_state": "draft",
+      "invoice_status": "no",
+      "invoice_ids_link": [],
+      "facturas_match": []
+    },
+    {
+      "order_name": "S00010",
+      "date_order": "2026-04-10",
+      "partner": "PARTICULAR",
+      "amount_total": 2208.1,
+      "order_state": "draft",
+      "invoice_status": "no",
+      "invoice_ids_link": [],
+      "facturas_match": []
+    },
+    {
+      "order_name": "S00021",
+      "date_order": "2026-04-23",
+      "partner": "DURANTIA INFRAESTRUCTURAS SOCIEDAD ANONIMA.",
+      "amount_total": 2079.24,
+      "order_state": "draft",
+      "invoice_status": "no",
+      "invoice_ids_link": [],
+      "facturas_match": []
+    },
+    {
+      "order_name": "S00005",
+      "date_order": "2026-04-07",
+      "partner": "Ricardo",
+      "amount_total": 1954.15,
+      "order_state": "draft",
+      "invoice_status": "no",
+      "invoice_ids_link": [],
+      "facturas_match": []
+    },
+    {
+      "order_name": "S00031",
+      "date_order": "2026-05-08",
+      "partner": "LB MASCERCA ESPAÑA SOCIEDAD LIMITADA.",
+      "amount_total": 1867.03,
+      "order_state": "draft",
+      "invoice_status": "no",
+      "invoice_ids_link": [],
+      "facturas_match": []
+    },
+    {
+      "order_name": "Presupuesto_Maset_OK",
+      "date_order": "2026-05-23",
+      "partner": "Hasan",
+      "amount_total": 1742.42,
+      "order_state": "draft",
+      "invoice_status": "no",
+      "invoice_ids_link": [],
+      "facturas_match": []
+    },
+    {
+      "order_name": "S00035",
+      "date_order": "2026-05-14",
+      "partner": "DCSI DESARROLLO DE PROYECTOS DE CONSTRUCCION Y REFORMA SOCIEDAD LIMITADA.",
+      "amount_total": 919.25,
+      "order_state": "draft",
+      "invoice_status": "no",
+      "invoice_ids_link": [],
+      "facturas_match": []
+    },
+    {
+      "order_name": "S00024",
+      "date_order": "2026-04-27",
+      "partner": "PISCINAS POOLINESIA",
+      "amount_total": 607.42,
+      "order_state": "draft",
+      "invoice_status": "no",
+      "invoice_ids_link": [],
+      "facturas_match": []
+    },
+    {
+      "order_name": "S00036",
+      "date_order": "2026-05-18",
+      "partner": "Javier Tarrega",
+      "amount_total": 279.51,
+      "order_state": "draft",
+      "invoice_status": "no",
+      "invoice_ids_link": [],
+      "facturas_match": []
+    },
+    {
+      "order_name": "S00030",
+      "date_order": "2026-05-08",
+      "partner": "CONSTRUCCIONES Y ESTRUCTURAS ALEEA SOCIEDAD DE RESPONSABILIDAD LIMITADA",
+      "amount_total": 242.48,
+      "order_state": "draft",
+      "invoice_status": "no",
+      "invoice_ids_link": [],
+      "facturas_match": []
+    },
+    {
+      "order_name": "S00033",
+      "date_order": "2026-05-12",
+      "partner": "CARPINTERIA COLLADO",
+      "amount_total": 240.39,
+      "order_state": "draft",
+      "invoice_status": "no",
+      "invoice_ids_link": [],
+      "facturas_match": []
+    },
+    {
+      "order_name": "S00016",
+      "date_order": "2026-04-17",
+      "partner": "ATYCO CONSTRUCCION SL",
+      "amount_total": 212.96,
+      "order_state": "draft",
+      "invoice_status": "no",
+      "invoice_ids_link": [],
+      "facturas_match": []
+    },
+    {
+      "order_name": "S00015",
+      "date_order": "2026-04-15",
+      "partner": "Pilar Decoradora",
+      "amount_total": 166.98,
+      "order_state": "draft",
+      "invoice_status": "no",
+      "invoice_ids_link": [],
+      "facturas_match": []
+    },
+    {
+      "order_name": "S00020",
+      "date_order": "2026-04-23",
+      "partner": "CONSTRUCCIONES Y ESTRUCTURAS ALEEA SOCIEDAD DE RESPONSABILIDAD LIMITADA",
+      "amount_total": 150.28,
+      "order_state": "draft",
+      "invoice_status": "no",
+      "invoice_ids_link": [],
+      "facturas_match": []
+    }
+  ],
+  "con_factura": [
+    {
+      "order_name": "S00037",
+      "date_order": "2026-05-21",
+      "partner": "U.T.E REHABILITACION RAFALAFENA",
+      "amount_total": 12862.6,
+      "order_state": "sale",
+      "invoice_status": "invoiced",
+      "invoice_ids_link": [
+        90
+      ],
+      "facturas_match": [
+        {
+          "id": 90,
+          "name": "FRA-00021",
+          "amount": 12862.6,
+          "state": "posted"
+        }
+      ]
+    },
+    {
+      "order_name": "S00028",
+      "date_order": "2026-05-06",
+      "partner": "CESAR SANCHEZ VALERO",
+      "amount_total": 2678.21,
+      "order_state": "sale",
+      "invoice_status": "invoiced",
+      "invoice_ids_link": [
+        72
+      ],
+      "facturas_match": [
+        {
+          "id": 72,
+          "name": "FRA-00016",
+          "amount": 2678.21,
+          "state": "posted"
+        }
+      ]
+    },
+    {
+      "order_name": "S00004",
+      "date_order": "2026-05-01",
+      "partner": "COMUNIDAD JARDINES DE TAXIDA",
+      "amount_total": 987.36,
+      "order_state": "sale",
+      "invoice_status": "invoiced",
+      "invoice_ids_link": [
+        60
+      ],
+      "facturas_match": [
+        {
+          "id": 60,
+          "name": "FRA-00014",
+          "amount": 987.36,
+          "state": "posted"
+        }
+      ]
+    },
+    {
+      "order_name": "S00017",
+      "date_order": "2026-04-29",
+      "partner": "LB MASCERCA ESPAÑA SOCIEDAD LIMITADA.",
+      "amount_total": 587.82,
+      "order_state": "sale",
+      "invoice_status": "invoiced",
+      "invoice_ids_link": [
+        13
+      ],
+      "facturas_match": [
+        {
+          "id": 13,
+          "name": "MATERIAL INOX EUROATOMIZADO ES5000251",
+          "amount": 587.82,
+          "state": "posted"
+        }
+      ]
+    },
+    {
+      "order_name": "S00022",
+      "date_order": "2026-04-27",
+      "partner": "TALLERES A GUILLAMON SL",
+      "amount_total": 574.9,
+      "order_state": "sale",
+      "invoice_status": "invoiced",
+      "invoice_ids_link": [
+        81
+      ],
+      "facturas_match": [
+        {
+          "id": 81,
+          "name": "FRA-00018",
+          "amount": 574.9,
+          "state": "posted"
+        }
+      ]
+    },
+    {
+      "order_name": "S00019",
+      "date_order": "2026-04-23",
+      "partner": "TALLERES A GUILLAMON SL",
+      "amount_total": 271.52,
+      "order_state": "sale",
+      "invoice_status": "invoiced",
+      "invoice_ids_link": [
+        10
+      ],
+      "facturas_match": [
+        {
+          "id": 10,
+          "name": "ZAPATAS IMPRESAS",
+          "amount": 271.52,
+          "state": "posted"
+        }
+      ]
+    },
+    {
+      "order_name": "S00012",
+      "date_order": "2026-04-22",
+      "partner": "BAÑOS 10 SL",
+      "amount_total": 276.49,
+      "order_state": "sale",
+      "invoice_status": "invoiced",
+      "invoice_ids_link": [
+        22
+      ],
+      "facturas_match": [
+        {
+          "id": 22,
+          "name": "FRA-00012",
+          "amount": 276.49,
+          "state": "posted"
+        }
+      ]
+    },
+    {
+      "order_name": "S00018",
+      "date_order": "2026-04-20",
+      "partner": "Jesús Soto Henares",
+      "amount_total": 1034.07,
+      "order_state": "sale",
+      "invoice_status": "invoiced",
+      "invoice_ids_link": [
+        86,
+        87,
+        17
+      ],
+      "facturas_match": [
+        {
+          "id": 87,
+          "name": "FRA-00020",
+          "amount": 1034.07,
+          "state": "posted"
+        },
+        {
+          "id": 17,
+          "name": "REPARAR TECHADO PATIO",
+          "amount": 1034.07,
+          "state": "posted"
+        }
+      ]
+    },
+    {
+      "order_name": "S00013",
+      "date_order": "2026-04-14",
+      "partner": "MIELSO SA",
+      "amount_total": 204.49,
+      "order_state": "sale",
+      "invoice_status": "to invoice",
+      "invoice_ids_link": [
+        6
+      ],
+      "facturas_match": [
+        {
+          "id": 6,
+          "name": "REPARAR PISTON PRENSA1",
+          "amount": 204.49,
+          "state": "posted"
+        }
+      ]
+    },
+    {
+      "order_name": "S00014",
+      "date_order": "2026-04-14",
+      "partner": "DURANTIA INFRAESTRUCTURAS SOCIEDAD ANONIMA.",
+      "amount_total": 646.44,
+      "order_state": "sale",
+      "invoice_status": "invoiced",
+      "invoice_ids_link": [
+        67
+      ],
+      "facturas_match": [
+        {
+          "id": 67,
+          "name": "FRA-00015 N.º Pedido: 450239873",
+          "amount": 646.44,
+          "state": "posted"
+        }
+      ]
+    },
+    {
+      "order_name": "S00011",
+      "date_order": "2026-04-10",
+      "partner": "MIELSO SA",
+      "amount_total": 277.09,
+      "order_state": "sale",
+      "invoice_status": "to invoice",
+      "invoice_ids_link": [
+        5
+      ],
+      "facturas_match": [
+        {
+          "id": 5,
+          "name": "REPARAR PISTON PRENSA",
+          "amount": 277.09,
+          "state": "posted"
+        }
+      ]
+    },
+    {
+      "order_name": "S00009",
+      "date_order": "2026-04-09",
+      "partner": "TALLERES A GUILLAMON SL",
+      "amount_total": 868.68,
+      "order_state": "sale",
+      "invoice_status": "invoiced",
+      "invoice_ids_link": [
+        9
+      ],
+      "facturas_match": [
+        {
+          "id": 9,
+          "name": "PEDIDO GEOLITE TOLVAS BANDEJAS Y PROTECCIONES",
+          "amount": 868.68,
+          "state": "posted"
+        }
+      ]
+    },
+    {
+      "order_name": "S00008",
+      "date_order": "2026-04-09",
+      "partner": "ANA MARIA TENA CAÑIZAL",
+      "amount_total": 150.0,
+      "order_state": "sale",
+      "invoice_status": "to invoice",
+      "invoice_ids_link": [
+        84,
+        85,
+        8
+      ],
+      "facturas_match": [
+        {
+          "id": 85,
+          "name": "FRA-00019",
+          "amount": 150.0,
+          "state": "posted"
+        },
+        {
+          "id": 8,
+          "name": "REPARAR PUERTA Y TAPA",
+          "amount": 150.0,
+          "state": "posted"
+        }
+      ]
+    },
+    {
+      "order_name": "S00007",
+      "date_order": "2026-04-08",
+      "partner": "TALLERES A GUILLAMON SL",
+      "amount_total": 1644.5,
+      "order_state": "sale",
+      "invoice_status": "invoiced",
+      "invoice_ids_link": [
+        7
+      ],
+      "facturas_match": [
+        {
+          "id": 7,
+          "name": "TOLVA ASPIRACION GEOTILES",
+          "amount": 1644.5,
+          "state": "posted"
+        }
+      ]
+    },
+    {
+      "order_name": "S00003",
+      "date_order": "2026-04-02",
+      "partner": "LURDES (VILLA BENI)",
+      "amount_total": 2117.73,
+      "order_state": "sale",
+      "invoice_status": "invoiced",
+      "invoice_ids_link": [
+        11
+      ],
+      "facturas_match": [
+        {
+          "id": 11,
+          "name": "FRA-00013",
+          "amount": 2117.73,
+          "state": "posted"
+        }
+      ]
+    },
+    {
+      "order_name": "S00002",
+      "date_order": "2026-04-02",
+      "partner": "COMUNIDAD JARDINES DE TAXIDA",
+      "amount_total": 987.36,
+      "order_state": "sale",
+      "invoice_status": "to invoice",
+      "invoice_ids_link": [],
+      "facturas_match": [
+        {
+          "id": 60,
+          "name": "FRA-00014",
+          "amount": 987.36,
+          "state": "posted"
+        }
+      ]
+    }
+  ]
+}

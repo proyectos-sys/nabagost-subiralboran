@@ -1,0 +1,8563 @@
+[
+  {
+    "id": 76,
+    "name": "Presupuesto_Maset_OK",
+    "date_order": "2026-05-23 17:08:37",
+    "state": "draft",
+    "partner": {
+      "id": 67,
+      "name": "Hasan"
+    },
+    "amount_total": 1742.42,
+    "create_uid": "Navagost",
+    "lines": [
+      {
+        "id": 534,
+        "product": {
+          "id": 233,
+          "name": "PDS 40 X 50"
+        },
+        "description": "PDS 40 X 50\nEn hierros online: 9,50 € / mt.",
+        "qty": 1.0,
+        "price_unit": 13.0,
+        "price_subtotal": 13.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 535,
+        "product": {
+          "id": 45,
+          "name": "PERFIL 80 X 40 X 2"
+        },
+        "description": "PERFIL 80 X 40 X 2\nEl precio de venta  sale de PUERTA CORREDERA MASET 4 X 1,8 METROS",
+        "qty": 2.0,
+        "price_unit": 5.33,
+        "price_subtotal": 10.66,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 523,
+        "product": {
+          "id": 236,
+          "name": "PRODUCTO"
+        },
+        "description": "PRODUCTO\npletina perforada (agujero de 20) ( 1 barra)\n\nNo se ha comprado nunca pedir precio ",
+        "qty": 1.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 524,
+        "product": {
+          "id": 102,
+          "name": "TUBO DIAMETRO 40 X 2"
+        },
+        "description": "TUBO DIAMETRO 40 X 2\nEntiendo que un tuvo \"redondo\" 20 es tuvo diametro de 20 que aun no hemos hecho pedido de compra ya que no aparece solo este producot",
+        "qty": 1.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 527,
+        "product": {
+          "id": 126,
+          "name": "VIDRIO 5-5"
+        },
+        "description": "VIDRIO 5-5\nEsto seria el laminado 1500*800 (1,2 m pongo 1,3 por margenes)\n\nLo que no se de donde sacas el precio porque no he visto consultas en el correo, la IA dice qui lo compras en una cristalería local de tu zona: Al ahorrarte los gastos de envío online de un bulto tan pesado (30 kg), el taller de cristalería de toda la vida te lo debería dejar por unos 100€. Si buscas online qeu te lo traen ronda los 160-200€\n\n",
+        "qty": 1.3,
+        "price_unit": 302.4,
+        "price_subtotal": 393.12,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 528,
+        "product": {
+          "id": 49,
+          "name": "CERRADURA GRANDE"
+        },
+        "description": "CERRADURA GRANDE\nBasado en PARTICULAR presupuesto 10 que era una puerta corredera",
+        "qty": 1.0,
+        "price_unit": 50.0,
+        "price_subtotal": 50.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 529,
+        "product": {
+          "id": 39,
+          "name": "PERNIO TORNEADO 16 X 100"
+        },
+        "description": "PERNIO TORNEADO 16 X 100\nNo entiendo como una cosa que cuesta 1,05€ en un presupuesto llamado PARTICULAR la vendemos a 3€ y en geotiles una unidad la vendemos a 8€.\n\ndejo 3€\n\npuede ser qeu sea el metro entonces seria 1,05*6= 6,3 y entonces aplciando margen salen los 8€",
+        "qty": 2.0,
+        "price_unit": 8.0,
+        "price_subtotal": 16.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 530,
+        "product": {
+          "id": 169,
+          "name": "PERNIO TORNEADO 8 x 50"
+        },
+        "description": "PERNIO TORNEADO 8 x 50\nNos cuesta 0.42 en cosumnse\n\nenitenedo  que es el metro:\n\n0,42*6= 2,52",
+        "qty": 2.0,
+        "price_unit": 3.52,
+        "price_subtotal": 7.04,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 525,
+        "product": {
+          "id": 239,
+          "name": "ANGULO NEGRO 25"
+        },
+        "description": "ANGULO NEGRO 25\n0,95 de coste un angulo negro de 30, entiendo que sera el metro y que es x6 pon 6€\n\nlo hemos veniddo a 28.0 en presupuesto 9",
+        "qty": 1.0,
+        "price_unit": 28.0,
+        "price_subtotal": 28.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 536,
+        "product": {
+          "id": 177,
+          "name": "TUBO 20 X 20 X 2"
+        },
+        "description": "TUBO 20 X 20 X 2\nPrecio sacado de presupuesto 30 ALEA\n\nhe puesto 6 unidades porqeu en alea pones 8 entiendo que porque la uniadad aqui pusiste el metro y no unia unidad 6 metros  ",
+        "qty": 6.0,
+        "price_unit": 1.7,
+        "price_subtotal": 10.2,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 531,
+        "product": {
+          "id": 105,
+          "name": "PINTURA NEGRA"
+        },
+        "description": "PINTURA NEGRA\nHay 10€ la unidad en le presupuesto de Javier tarrega (36) yo por lo que he visto en itnernet unos 20€ la pontura en obramart 4l, hay otros mas caros pongo 25",
+        "qty": 4.0,
+        "price_unit": 35.0,
+        "price_subtotal": 140.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 532,
+        "product": {
+          "id": 27,
+          "name": "Horas Cortar"
+        },
+        "description": "Horas Cortar",
+        "qty": 16.0,
+        "price_unit": 42.0,
+        "price_subtotal": 672.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 533,
+        "product": {
+          "id": 5,
+          "name": "Horas Peon"
+        },
+        "description": "Horas Peon",
+        "qty": 4.0,
+        "price_unit": 25.0,
+        "price_subtotal": 100.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "name": "S00039",
+    "date_order": "2026-05-22 14:56:10",
+    "state": "draft",
+    "partner": {
+      "id": 33,
+      "name": "ATYCO CONSTRUCCION SL"
+    },
+    "amount_total": 7289.86,
+    "create_uid": "Navagost",
+    "lines": [
+      {
+        "id": 487,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "REFUERZO ESCALERAS CALLE HERRERO",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 488,
+        "product": {
+          "id": 1,
+          "name": "Horas Oficial"
+        },
+        "description": "Horas Oficial",
+        "qty": 150.0,
+        "price_unit": 25.0,
+        "price_subtotal": 3750.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 489,
+        "product": {
+          "id": 7,
+          "name": "Soldadura/Montaje"
+        },
+        "description": "Soldadura/Montaje\nCORTAR",
+        "qty": 8.0,
+        "price_unit": 42.0,
+        "price_subtotal": 336.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 490,
+        "product": {
+          "id": 7,
+          "name": "Soldadura/Montaje"
+        },
+        "description": "Soldadura/Montaje\nSOLDAR\n",
+        "qty": 40.0,
+        "price_unit": 42.0,
+        "price_subtotal": 1680.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 491,
+        "product": {
+          "id": 30,
+          "name": "HORAS PINTAR"
+        },
+        "description": "HORAS PINTAR",
+        "qty": 8.0,
+        "price_unit": 40.0,
+        "price_subtotal": 320.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 492,
+        "product": {
+          "id": 51,
+          "name": "PINTURA"
+        },
+        "description": "PINTURA",
+        "qty": 1.0,
+        "price_unit": 150.0,
+        "price_subtotal": 150.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 493,
+        "product": {
+          "id": 41,
+          "name": "LASER"
+        },
+        "description": "LASER\nPLACA 200 X 200 X 8 ",
+        "qty": 60.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 494,
+        "product": {
+          "id": 222,
+          "name": "VARILLA ROSCADA M10 GALVA 1 METRO"
+        },
+        "description": "VARILLA ROSCADA M10 GALVA 1 METRO",
+        "qty": 50.0,
+        "price_unit": 1.65,
+        "price_subtotal": 82.5,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 495,
+        "product": {
+          "id": 134,
+          "name": "TACO QUIMICO 320 ML"
+        },
+        "description": "TACO QUIMICO 320 ML",
+        "qty": 30.0,
+        "price_unit": 10.5,
+        "price_subtotal": 315.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 496,
+        "product": {
+          "id": 223,
+          "name": "TUERCA M10"
+        },
+        "description": "TUERCA M10",
+        "qty": 280.0,
+        "price_unit": 0.1,
+        "price_subtotal": 28.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 497,
+        "product": {
+          "id": 224,
+          "name": "ARANDELA M10"
+        },
+        "description": "ARANDELA M10",
+        "qty": 280.0,
+        "price_unit": 0.05,
+        "price_subtotal": 14.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "name": "S00037",
+    "date_order": "2026-05-21 15:10:47",
+    "state": "sale",
+    "partner": {
+      "id": 61,
+      "name": "U.T.E REHABILITACION RAFALAFENA"
+    },
+    "amount_total": 12862.6,
+    "create_uid": "Navagost",
+    "lines": [
+      {
+        "id": 415,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "TUBO VERTILCAL REPARACION OXIDADO ------------- 29 UND.",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 416,
+        "product": {
+          "id": 22,
+          "name": "MATERIAL COMPLETO"
+        },
+        "description": "MATERIAL COMPLETO",
+        "qty": 29.0,
+        "price_unit": 68.0,
+        "price_subtotal": 1972.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 417,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "TUBO HORIZONTAL ENTRE REJAS --------------- 68 UND.",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 418,
+        "product": {
+          "id": 22,
+          "name": "MATERIAL COMPLETO"
+        },
+        "description": "MATERIAL COMPLETO",
+        "qty": 68.0,
+        "price_unit": 108.0,
+        "price_subtotal": 7344.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 419,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "REPARAR REJAS DIA 12 MAYO BLOQUE G1/G2",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 420,
+        "product": {
+          "id": 1,
+          "name": "Horas Oficial"
+        },
+        "description": "Horas Oficial",
+        "qty": 3.0,
+        "price_unit": 25.0,
+        "price_subtotal": 75.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 422,
+        "product": {
+          "id": 208,
+          "name": "ELECTRODO UND."
+        },
+        "description": "ELECTRODO UND.",
+        "qty": 5.0,
+        "price_unit": 0.25,
+        "price_subtotal": 1.25,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 421,
+        "product": {
+          "id": 207,
+          "name": "Discos Milhojas"
+        },
+        "description": "Discos Milhojas",
+        "qty": 2.0,
+        "price_unit": 0.5,
+        "price_subtotal": 1.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 424,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "REPARAR REJAS DIA 13 MAYO BLOQUE H1/H2",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 425,
+        "product": {
+          "id": 1,
+          "name": "Horas Oficial"
+        },
+        "description": "Horas Oficial",
+        "qty": 7.0,
+        "price_unit": 25.0,
+        "price_subtotal": 175.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 426,
+        "product": {
+          "id": 208,
+          "name": "ELECTRODO UND."
+        },
+        "description": "ELECTRODO UND.",
+        "qty": 10.0,
+        "price_unit": 0.25,
+        "price_subtotal": 2.5,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 427,
+        "product": {
+          "id": 207,
+          "name": "Discos Milhojas"
+        },
+        "description": "Discos Milhojas",
+        "qty": 2.0,
+        "price_unit": 0.5,
+        "price_subtotal": 1.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 428,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "REPARAR REJAS DIA 14 MAYO BLOQUE H1/H2",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 429,
+        "product": {
+          "id": 1,
+          "name": "Horas Oficial"
+        },
+        "description": "Horas Oficial",
+        "qty": 0.5,
+        "price_unit": 25.0,
+        "price_subtotal": 12.5,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 430,
+        "product": {
+          "id": 208,
+          "name": "ELECTRODO UND."
+        },
+        "description": "ELECTRODO UND.",
+        "qty": 1.0,
+        "price_unit": 0.25,
+        "price_subtotal": 0.25,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 431,
+        "product": {
+          "id": 209,
+          "name": "PLT. REJA NUEVA"
+        },
+        "description": "PLT. REJA NUEVA",
+        "qty": 1.0,
+        "price_unit": 18.0,
+        "price_subtotal": 18.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 432,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "REPARAR REJAS DIA 14 MAYO BLOQUE I1/I2",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 433,
+        "product": {
+          "id": 1,
+          "name": "Horas Oficial"
+        },
+        "description": "Horas Oficial",
+        "qty": 5.5,
+        "price_unit": 25.0,
+        "price_subtotal": 137.5,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 434,
+        "product": {
+          "id": 208,
+          "name": "ELECTRODO UND."
+        },
+        "description": "ELECTRODO UND.",
+        "qty": 11.0,
+        "price_unit": 0.25,
+        "price_subtotal": 2.75,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 435,
+        "product": {
+          "id": 207,
+          "name": "Discos Milhojas"
+        },
+        "description": "Discos Milhojas",
+        "qty": 2.0,
+        "price_unit": 0.5,
+        "price_subtotal": 1.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 436,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "REPARAR REJAS DIA 15 MAYO BLOQUE G1",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 437,
+        "product": {
+          "id": 1,
+          "name": "Horas Oficial"
+        },
+        "description": "Horas Oficial",
+        "qty": 0.5,
+        "price_unit": 25.0,
+        "price_subtotal": 12.5,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 438,
+        "product": {
+          "id": 208,
+          "name": "ELECTRODO UND."
+        },
+        "description": "ELECTRODO UND.",
+        "qty": 1.0,
+        "price_unit": 0.25,
+        "price_subtotal": 0.25,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 439,
+        "product": {
+          "id": 209,
+          "name": "PLT. REJA NUEVA"
+        },
+        "description": "PLT. REJA NUEVA",
+        "qty": 2.0,
+        "price_unit": 18.0,
+        "price_subtotal": 36.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 440,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "REPARAR REJAS DIA 15 MAYO BLOQUES",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 441,
+        "product": {
+          "id": 1,
+          "name": "Horas Oficial"
+        },
+        "description": "Horas Oficial",
+        "qty": 5.0,
+        "price_unit": 25.0,
+        "price_subtotal": 125.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 442,
+        "product": {
+          "id": 208,
+          "name": "ELECTRODO UND."
+        },
+        "description": "ELECTRODO UND.",
+        "qty": 10.0,
+        "price_unit": 0.25,
+        "price_subtotal": 2.5,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 443,
+        "product": {
+          "id": 209,
+          "name": "PLT. REJA NUEVA"
+        },
+        "description": "PLT. REJA NUEVA",
+        "qty": 6.0,
+        "price_unit": 18.0,
+        "price_subtotal": 108.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 444,
+        "product": {
+          "id": 207,
+          "name": "Discos Milhojas"
+        },
+        "description": "Discos Milhojas",
+        "qty": 2.0,
+        "price_unit": 0.5,
+        "price_subtotal": 1.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 445,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "REPARAR REJAS DIA 18 MAYO BLOQUE J1/J2",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 446,
+        "product": {
+          "id": 1,
+          "name": "Horas Oficial"
+        },
+        "description": "Horas Oficial",
+        "qty": 1.0,
+        "price_unit": 25.0,
+        "price_subtotal": 25.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 447,
+        "product": {
+          "id": 208,
+          "name": "ELECTRODO UND."
+        },
+        "description": "ELECTRODO UND.",
+        "qty": 2.0,
+        "price_unit": 0.25,
+        "price_subtotal": 0.5,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 448,
+        "product": {
+          "id": 207,
+          "name": "Discos Milhojas"
+        },
+        "description": "Discos Milhojas",
+        "qty": 1.0,
+        "price_unit": 0.5,
+        "price_subtotal": 0.5,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 449,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "REPARAR REJAS DIA 18 MAYO BLOQUE R1/R2/R3",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 450,
+        "product": {
+          "id": 1,
+          "name": "Horas Oficial"
+        },
+        "description": "Horas Oficial",
+        "qty": 5.5,
+        "price_unit": 25.0,
+        "price_subtotal": 137.5,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 451,
+        "product": {
+          "id": 208,
+          "name": "ELECTRODO UND."
+        },
+        "description": "ELECTRODO UND.",
+        "qty": 6.0,
+        "price_unit": 0.25,
+        "price_subtotal": 1.5,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 452,
+        "product": {
+          "id": 207,
+          "name": "Discos Milhojas"
+        },
+        "description": "Discos Milhojas",
+        "qty": 1.0,
+        "price_unit": 0.5,
+        "price_subtotal": 0.5,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 453,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "REPARAR REJAS DIA 19 MAYO BLOQUE G2/J2",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 454,
+        "product": {
+          "id": 1,
+          "name": "Horas Oficial"
+        },
+        "description": "Horas Oficial",
+        "qty": 0.5,
+        "price_unit": 25.0,
+        "price_subtotal": 12.5,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 455,
+        "product": {
+          "id": 208,
+          "name": "ELECTRODO UND."
+        },
+        "description": "ELECTRODO UND.",
+        "qty": 1.0,
+        "price_unit": 0.25,
+        "price_subtotal": 0.25,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 456,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "REPARAR REJAS DIA 19 MAYO BLOQUES",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 457,
+        "product": {
+          "id": 1,
+          "name": "Horas Oficial"
+        },
+        "description": "Horas Oficial",
+        "qty": 2.5,
+        "price_unit": 25.0,
+        "price_subtotal": 62.5,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 458,
+        "product": {
+          "id": 208,
+          "name": "ELECTRODO UND."
+        },
+        "description": "ELECTRODO UND.",
+        "qty": 3.0,
+        "price_unit": 0.25,
+        "price_subtotal": 0.75,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 459,
+        "product": {
+          "id": 207,
+          "name": "Discos Milhojas"
+        },
+        "description": "Discos Milhojas",
+        "qty": 1.0,
+        "price_unit": 0.5,
+        "price_subtotal": 0.5,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 460,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "REPARAR REJAS DIA 20 MAYO BLOQUE S1/S2",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 461,
+        "product": {
+          "id": 1,
+          "name": "Horas Oficial"
+        },
+        "description": "Horas Oficial",
+        "qty": 4.0,
+        "price_unit": 25.0,
+        "price_subtotal": 100.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 462,
+        "product": {
+          "id": 208,
+          "name": "ELECTRODO UND."
+        },
+        "description": "ELECTRODO UND.",
+        "qty": 8.0,
+        "price_unit": 0.25,
+        "price_subtotal": 2.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 463,
+        "product": {
+          "id": 207,
+          "name": "Discos Milhojas"
+        },
+        "description": "Discos Milhojas",
+        "qty": 1.0,
+        "price_unit": 0.5,
+        "price_subtotal": 0.5,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 464,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "REPARAR REJAS DIA 21 MAYO BLOQUE S1/S2/S3",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 465,
+        "product": {
+          "id": 1,
+          "name": "Horas Oficial"
+        },
+        "description": "Horas Oficial",
+        "qty": 5.0,
+        "price_unit": 25.0,
+        "price_subtotal": 125.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 466,
+        "product": {
+          "id": 208,
+          "name": "ELECTRODO UND."
+        },
+        "description": "ELECTRODO UND.",
+        "qty": 15.0,
+        "price_unit": 0.25,
+        "price_subtotal": 3.75,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 467,
+        "product": {
+          "id": 207,
+          "name": "Discos Milhojas"
+        },
+        "description": "Discos Milhojas",
+        "qty": 2.0,
+        "price_unit": 0.5,
+        "price_subtotal": 1.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 468,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "REPARAR REJAS DIA 21 MAYO BLOQUE R1/R2/R3",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 469,
+        "product": {
+          "id": 1,
+          "name": "Horas Oficial"
+        },
+        "description": "Horas Oficial",
+        "qty": 5.0,
+        "price_unit": 25.0,
+        "price_subtotal": 125.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 470,
+        "product": {
+          "id": 208,
+          "name": "ELECTRODO UND."
+        },
+        "description": "ELECTRODO UND.",
+        "qty": 6.0,
+        "price_unit": 0.25,
+        "price_subtotal": 1.5,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 471,
+        "product": {
+          "id": 207,
+          "name": "Discos Milhojas"
+        },
+        "description": "Discos Milhojas",
+        "qty": 1.0,
+        "price_unit": 0.5,
+        "price_subtotal": 0.5,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "name": "S00038",
+    "date_order": "2026-05-21 14:11:54",
+    "state": "draft",
+    "partner": {
+      "id": 62,
+      "name": "GEOTILES SLU"
+    },
+    "amount_total": 29819.48,
+    "create_uid": "Navagost",
+    "lines": [
+      {
+        "id": 472,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "TUBERIA ASPIRACION 1 LINEA",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 473,
+        "product": {
+          "id": 41,
+          "name": "LASER"
+        },
+        "description": "LASER",
+        "qty": 1.0,
+        "price_unit": 5800.0,
+        "price_subtotal": 5800.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 474,
+        "product": {
+          "id": 7,
+          "name": "Soldadura/Montaje"
+        },
+        "description": "Soldadura/Montaje",
+        "qty": 160.0,
+        "price_unit": 42.0,
+        "price_subtotal": 6720.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 475,
+        "product": {
+          "id": 1,
+          "name": "Horas Oficial"
+        },
+        "description": "Horas Oficial",
+        "qty": 200.0,
+        "price_unit": 25.0,
+        "price_subtotal": 5000.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 476,
+        "product": {
+          "id": 217,
+          "name": "FIBRA DE VIDRIO D8"
+        },
+        "description": "FIBRA DE VIDRIO D8",
+        "qty": 200.0,
+        "price_unit": 0.7,
+        "price_subtotal": 140.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 480,
+        "product": {
+          "id": 108,
+          "name": "CHAPA 2000 X 1000 X 2"
+        },
+        "description": "CHAPA 2000 X 1000 X 2",
+        "qty": 64.0,
+        "price_unit": 1.5,
+        "price_subtotal": 96.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 481,
+        "product": {
+          "id": 40,
+          "name": "PERNIO TORNEADO 10 X 60"
+        },
+        "description": "PERNIO TORNEADO 10 X 60",
+        "qty": 30.0,
+        "price_unit": 1.0,
+        "price_subtotal": 30.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 482,
+        "product": {
+          "id": 54,
+          "name": "MECANIZADO"
+        },
+        "description": "MECANIZADO",
+        "qty": 1.0,
+        "price_unit": 200.0,
+        "price_subtotal": 200.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 484,
+        "product": {
+          "id": 25,
+          "name": "RAL 7032 IMPRIMACION"
+        },
+        "description": "RAL 7032 IMPRIMACION",
+        "qty": 1.0,
+        "price_unit": 50.0,
+        "price_subtotal": 50.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 483,
+        "product": {
+          "id": 219,
+          "name": "PISTON NEUMATICO"
+        },
+        "description": "PISTON NEUMATICO",
+        "qty": 1.0,
+        "price_unit": 300.0,
+        "price_subtotal": 300.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 485,
+        "product": {
+          "id": 220,
+          "name": "TUBO DIAMETRO 120 X 2"
+        },
+        "description": "TUBO DIAMETRO 120 X 2",
+        "qty": 18.0,
+        "price_unit": 12.9,
+        "price_subtotal": 232.2,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 486,
+        "product": {
+          "id": 221,
+          "name": "TUBO DIAMETRO 200 X 3"
+        },
+        "description": "TUBO DIAMETRO 200 X 3",
+        "qty": 24.0,
+        "price_unit": 24.0,
+        "price_subtotal": 576.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 477,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "GRUA",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 478,
+        "product": {
+          "id": 33,
+          "name": "GRUA"
+        },
+        "description": "GRUA",
+        "qty": 60.0,
+        "price_unit": 85.0,
+        "price_subtotal": 5100.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 479,
+        "product": {
+          "id": 218,
+          "name": "TRANSPORTE GRUA"
+        },
+        "description": "TRANSPORTE GRUA",
+        "qty": 50.0,
+        "price_unit": 8.0,
+        "price_subtotal": 400.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "name": "S00036",
+    "date_order": "2026-05-18 15:03:25",
+    "state": "draft",
+    "partner": {
+      "id": 59,
+      "name": "Javier Tarrega"
+    },
+    "amount_total": 279.51,
+    "create_uid": "Navagost",
+    "lines": [
+      {
+        "id": 404,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "PROTECCION AIRE ACONDICIONADO",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 405,
+        "product": {
+          "id": 41,
+          "name": "LASER"
+        },
+        "description": "LASER\nLASERTAS OFERTA 26-2778",
+        "qty": 1.0,
+        "price_unit": 120.0,
+        "price_subtotal": 120.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 406,
+        "product": {
+          "id": 7,
+          "name": "Soldadura/Montaje"
+        },
+        "description": "Soldadura/Montaje",
+        "qty": 0.5,
+        "price_unit": 42.0,
+        "price_subtotal": 21.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 407,
+        "product": {
+          "id": 130,
+          "name": "TORNILLERIA"
+        },
+        "description": "TORNILLERIA",
+        "qty": 1.0,
+        "price_unit": 10.0,
+        "price_subtotal": 10.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 408,
+        "product": {
+          "id": 1,
+          "name": "Horas Oficial"
+        },
+        "description": "Horas Oficial",
+        "qty": 2.0,
+        "price_unit": 25.0,
+        "price_subtotal": 50.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 409,
+        "product": {
+          "id": 51,
+          "name": "PINTURA"
+        },
+        "description": "PINTURA",
+        "qty": 1.0,
+        "price_unit": 10.0,
+        "price_subtotal": 10.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 410,
+        "product": {
+          "id": 30,
+          "name": "HORAS PINTAR"
+        },
+        "description": "HORAS PINTAR",
+        "qty": 0.5,
+        "price_unit": 40.0,
+        "price_subtotal": 20.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "name": "S00035",
+    "date_order": "2026-05-14 16:07:41",
+    "state": "draft",
+    "partner": {
+      "id": 58,
+      "name": "DCSI DESARROLLO DE PROYECTOS DE CONSTRUCCION Y REFORMA SOCIEDAD LIMITADA."
+    },
+    "amount_total": 919.25,
+    "create_uid": "Navagost",
+    "lines": [
+      {
+        "id": 389,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "BARANDILLA CASA",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 390,
+        "product": {
+          "id": 131,
+          "name": "TUBO DIAMETRO 43 INOX. PULIDO"
+        },
+        "description": "TUBO DIAMETRO 43 INOX. PULIDO",
+        "qty": 12.0,
+        "price_unit": 9.072,
+        "price_subtotal": 108.86,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 391,
+        "product": {
+          "id": 206,
+          "name": "TUBO 16 x 16 x 1,5"
+        },
+        "description": "TUBO 16 x 16 x 1,5",
+        "qty": 30.0,
+        "price_unit": 1.288,
+        "price_subtotal": 38.64,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 392,
+        "product": {
+          "id": 9,
+          "name": "TUBO 40 X 40 X 2"
+        },
+        "description": "TUBO 40 X 40 X 2",
+        "qty": 18.0,
+        "price_unit": 3.08,
+        "price_subtotal": 55.44,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 403,
+        "product": {
+          "id": 210,
+          "name": "tapas inox"
+        },
+        "description": "tapas inox",
+        "qty": 6.0,
+        "price_unit": 5.0,
+        "price_subtotal": 30.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 393,
+        "product": {
+          "id": 7,
+          "name": "Soldadura/Montaje"
+        },
+        "description": "Soldadura/Montaje\nCORTAR",
+        "qty": 1.0,
+        "price_unit": 42.0,
+        "price_subtotal": 42.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 394,
+        "product": {
+          "id": 7,
+          "name": "Soldadura/Montaje"
+        },
+        "description": "Soldadura/Montaje\nSOLDADURA",
+        "qty": 8.0,
+        "price_unit": 42.0,
+        "price_subtotal": 336.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 395,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "REMATES PUERTA HIERRO NEGRO",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 396,
+        "product": {
+          "id": 41,
+          "name": "LASER"
+        },
+        "description": "LASER\nCHAPA 2070 X 70 X 1,5",
+        "qty": 2.0,
+        "price_unit": 10.0,
+        "price_subtotal": 20.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 397,
+        "product": {
+          "id": 41,
+          "name": "LASER"
+        },
+        "description": "LASER\nCHAPA 1000 X 70 X 1,5",
+        "qty": 1.0,
+        "price_unit": 4.8,
+        "price_subtotal": 4.8,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 411,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "MONTAJE",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 412,
+        "product": {
+          "id": 1,
+          "name": "Horas Oficial"
+        },
+        "description": "Horas Oficial",
+        "qty": 6.0,
+        "price_unit": 25.0,
+        "price_subtotal": 150.0,
+        "discount": 0.0,
+        "taxes": []
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "name": "S00034",
+    "date_order": "2026-05-12 15:08:28",
+    "state": "draft",
+    "partner": {
+      "id": 57,
+      "name": "ARES CONSTRUCCIONES"
+    },
+    "amount_total": 2490.91,
+    "create_uid": "Navagost",
+    "lines": [
+      {
+        "id": 361,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "12.1 BARANDILLA PARA ESCALERA TRAMO 3000 MM",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 362,
+        "product": {
+          "id": 184,
+          "name": "CUADRADILLO MACIZO 16 X 16"
+        },
+        "description": "CUADRADILLO MACIZO 16 X 16",
+        "qty": 4.0,
+        "price_unit": 9.8,
+        "price_subtotal": 39.2,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 363,
+        "product": {
+          "id": 185,
+          "name": "CUADRADILLO MACIZO 12 X 12"
+        },
+        "description": "CUADRADILLO MACIZO 12 X 12",
+        "qty": 5.0,
+        "price_unit": 44.1,
+        "price_subtotal": 220.5,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 364,
+        "product": {
+          "id": 186,
+          "name": "PLT 40 X 8"
+        },
+        "description": "PLT 40 X 8",
+        "qty": 2.0,
+        "price_unit": 29.4,
+        "price_subtotal": 58.8,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 365,
+        "product": {
+          "id": 7,
+          "name": "Soldadura/Montaje"
+        },
+        "description": "Soldadura/Montaje\nCORTAR",
+        "qty": 1.0,
+        "price_unit": 42.0,
+        "price_subtotal": 42.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 366,
+        "product": {
+          "id": 7,
+          "name": "Soldadura/Montaje"
+        },
+        "description": "Soldadura/Montaje",
+        "qty": 6.0,
+        "price_unit": 42.0,
+        "price_subtotal": 252.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 367,
+        "product": {
+          "id": 178,
+          "name": "PINTURA HORNO"
+        },
+        "description": "PINTURA HORNO",
+        "qty": 3.0,
+        "price_unit": 30.0,
+        "price_subtotal": 90.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 368,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "12.1 BARANDILLA PARA ESCALERA TRAMO 2000 MM",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 369,
+        "product": {
+          "id": 184,
+          "name": "CUADRADILLO MACIZO 16 X 16"
+        },
+        "description": "CUADRADILLO MACIZO 16 X 16",
+        "qty": 2.0,
+        "price_unit": 9.8,
+        "price_subtotal": 19.6,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 370,
+        "product": {
+          "id": 185,
+          "name": "CUADRADILLO MACIZO 12 X 12"
+        },
+        "description": "CUADRADILLO MACIZO 12 X 12",
+        "qty": 3.0,
+        "price_unit": 44.1,
+        "price_subtotal": 132.3,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 371,
+        "product": {
+          "id": 186,
+          "name": "PLT 40 X 8"
+        },
+        "description": "PLT 40 X 8",
+        "qty": 1.0,
+        "price_unit": 29.4,
+        "price_subtotal": 29.4,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 372,
+        "product": {
+          "id": 7,
+          "name": "Soldadura/Montaje"
+        },
+        "description": "Soldadura/Montaje",
+        "qty": 1.0,
+        "price_unit": 42.0,
+        "price_subtotal": 42.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 373,
+        "product": {
+          "id": 7,
+          "name": "Soldadura/Montaje"
+        },
+        "description": "Soldadura/Montaje",
+        "qty": 6.0,
+        "price_unit": 42.0,
+        "price_subtotal": 252.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 374,
+        "product": {
+          "id": 178,
+          "name": "PINTURA HORNO"
+        },
+        "description": "PINTURA HORNO",
+        "qty": 2.0,
+        "price_unit": 30.0,
+        "price_subtotal": 60.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 375,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "11.5 REJA METALICA ------1 UND.",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 376,
+        "product": {
+          "id": 24,
+          "name": "CUADRADILLO MACIZO 14 X 14"
+        },
+        "description": "CUADRADILLO MACIZO 14 X 14",
+        "qty": 1.0,
+        "price_unit": 52.0,
+        "price_subtotal": 52.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 377,
+        "product": {
+          "id": 185,
+          "name": "CUADRADILLO MACIZO 12 X 12"
+        },
+        "description": "CUADRADILLO MACIZO 12 X 12",
+        "qty": 4.0,
+        "price_unit": 44.0,
+        "price_subtotal": 176.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 378,
+        "product": {
+          "id": 190,
+          "name": "PLT 40 X 5"
+        },
+        "description": "PLT 40 X 5",
+        "qty": 1.0,
+        "price_unit": 18.9,
+        "price_subtotal": 18.9,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 379,
+        "product": {
+          "id": 7,
+          "name": "Soldadura/Montaje"
+        },
+        "description": "Soldadura/Montaje\nCORTAR",
+        "qty": 0.5,
+        "price_unit": 42.0,
+        "price_subtotal": 21.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 380,
+        "product": {
+          "id": 7,
+          "name": "Soldadura/Montaje"
+        },
+        "description": "Soldadura/Montaje",
+        "qty": 2.0,
+        "price_unit": 42.0,
+        "price_subtotal": 84.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 381,
+        "product": {
+          "id": 178,
+          "name": "PINTURA HORNO"
+        },
+        "description": "PINTURA HORNO",
+        "qty": 1.5,
+        "price_unit": 30.0,
+        "price_subtotal": 45.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 382,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "11.6 BARANDILLA DE 100 CM ------1 UND.",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 383,
+        "product": {
+          "id": 184,
+          "name": "CUADRADILLO MACIZO 16 X 16"
+        },
+        "description": "CUADRADILLO MACIZO 16 X 16",
+        "qty": 1.0,
+        "price_unit": 58.8,
+        "price_subtotal": 58.8,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 384,
+        "product": {
+          "id": 185,
+          "name": "CUADRADILLO MACIZO 12 X 12"
+        },
+        "description": "CUADRADILLO MACIZO 12 X 12",
+        "qty": 2.0,
+        "price_unit": 44.1,
+        "price_subtotal": 88.2,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 385,
+        "product": {
+          "id": 190,
+          "name": "PLT 40 X 5"
+        },
+        "description": "PLT 40 X 5",
+        "qty": 1.0,
+        "price_unit": 18.9,
+        "price_subtotal": 18.9,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 386,
+        "product": {
+          "id": 7,
+          "name": "Soldadura/Montaje"
+        },
+        "description": "Soldadura/Montaje\nCORTAR",
+        "qty": 0.75,
+        "price_unit": 48.0,
+        "price_subtotal": 36.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 387,
+        "product": {
+          "id": 7,
+          "name": "Soldadura/Montaje"
+        },
+        "description": "Soldadura/Montaje",
+        "qty": 4.0,
+        "price_unit": 48.0,
+        "price_subtotal": 192.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 388,
+        "product": {
+          "id": 178,
+          "name": "PINTURA HORNO"
+        },
+        "description": "PINTURA HORNO",
+        "qty": 1.0,
+        "price_unit": 30.0,
+        "price_subtotal": 30.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "name": "S00033",
+    "date_order": "2026-05-12 05:27:07",
+    "state": "draft",
+    "partner": {
+      "id": 55,
+      "name": "CARPINTERIA COLLADO"
+    },
+    "amount_total": 240.39,
+    "create_uid": "Navagost",
+    "lines": [
+      {
+        "id": 354,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "PATAS SEGUN PLANO ------ 2 UND.",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 355,
+        "product": {
+          "id": 107,
+          "name": "TUBO 25 X 25 X 2"
+        },
+        "description": "TUBO 25 X 25 X 2",
+        "qty": 7.0,
+        "price_unit": 3.01,
+        "price_subtotal": 21.07,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 356,
+        "product": {
+          "id": 41,
+          "name": "LASER"
+        },
+        "description": "LASER",
+        "qty": 4.0,
+        "price_unit": 1.0,
+        "price_subtotal": 4.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 357,
+        "product": {
+          "id": 7,
+          "name": "Soldadura/Montaje"
+        },
+        "description": "Soldadura/Montaje\nCORTAR",
+        "qty": 1.0,
+        "price_unit": 42.0,
+        "price_subtotal": 42.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 358,
+        "product": {
+          "id": 7,
+          "name": "Soldadura/Montaje"
+        },
+        "description": "Soldadura/Montaje",
+        "qty": 2.3,
+        "price_unit": 42.0,
+        "price_subtotal": 96.6,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 359,
+        "product": {
+          "id": 105,
+          "name": "PINTURA NEGRA"
+        },
+        "description": "PINTURA NEGRA",
+        "qty": 1.0,
+        "price_unit": 15.0,
+        "price_subtotal": 15.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 360,
+        "product": {
+          "id": 30,
+          "name": "HORAS PINTAR"
+        },
+        "description": "HORAS PINTAR",
+        "qty": 0.5,
+        "price_unit": 40.0,
+        "price_subtotal": 20.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "name": "S00031",
+    "date_order": "2026-05-08 12:26:23",
+    "state": "draft",
+    "partner": {
+      "id": 34,
+      "name": "LB MASCERCA ESPAÑA SOCIEDAD LIMITADA."
+    },
+    "amount_total": 1867.03,
+    "create_uid": "Navagost",
+    "lines": [
+      {
+        "id": 343,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "INYECTOR OXIDOS INOX.",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 344,
+        "product": {
+          "id": 41,
+          "name": "LASER"
+        },
+        "description": "LASER",
+        "qty": 1.0,
+        "price_unit": 400.0,
+        "price_subtotal": 400.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 345,
+        "product": {
+          "id": 7,
+          "name": "Soldadura/Montaje"
+        },
+        "description": "Soldadura/Montaje",
+        "qty": 10.0,
+        "price_unit": 42.0,
+        "price_subtotal": 420.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 346,
+        "product": {
+          "id": 180,
+          "name": "SINFIN INOX."
+        },
+        "description": "SINFIN INOX.",
+        "qty": 1.0,
+        "price_unit": 625.0,
+        "price_subtotal": 625.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 347,
+        "product": {
+          "id": 54,
+          "name": "MECANIZADO"
+        },
+        "description": "MECANIZADO",
+        "qty": 1.0,
+        "price_unit": 50.0,
+        "price_subtotal": 50.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 348,
+        "product": {
+          "id": 182,
+          "name": "NIPEL 2 1/2 INOX."
+        },
+        "description": "NIPEL 2 1/2 INOX.",
+        "qty": 1.0,
+        "price_unit": 15.0,
+        "price_subtotal": 15.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 349,
+        "product": {
+          "id": 183,
+          "name": "BRIDA INOX."
+        },
+        "description": "BRIDA INOX.",
+        "qty": 1.0,
+        "price_unit": 33.0,
+        "price_subtotal": 33.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "name": "S00030",
+    "date_order": "2026-05-08 10:58:25",
+    "state": "draft",
+    "partner": {
+      "id": 37,
+      "name": "CONSTRUCCIONES Y ESTRUCTURAS ALEEA SOCIEDAD DE RESPONSABILIDAD LIMITADA"
+    },
+    "amount_total": 242.48,
+    "create_uid": "Navagost",
+    "lines": [
+      {
+        "id": 332,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "BARANDILLAS METRO/LINELA",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 333,
+        "product": {
+          "id": 176,
+          "name": "PLT 40 X 6"
+        },
+        "description": "PLT 40 X 6",
+        "qty": 3.0,
+        "price_unit": 3.0,
+        "price_subtotal": 9.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 334,
+        "product": {
+          "id": 9,
+          "name": "TUBO 40 X 40 X 2"
+        },
+        "description": "TUBO 40 X 40 X 2",
+        "qty": 2.0,
+        "price_unit": 4.35,
+        "price_subtotal": 8.7,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 335,
+        "product": {
+          "id": 177,
+          "name": "TUBO 20 X 20 X 2"
+        },
+        "description": "TUBO 20 X 20 X 2",
+        "qty": 8.0,
+        "price_unit": 1.7,
+        "price_subtotal": 13.6,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 336,
+        "product": {
+          "id": 178,
+          "name": "PINTURA HORNO"
+        },
+        "description": "PINTURA HORNO",
+        "qty": 1.0,
+        "price_unit": 28.0,
+        "price_subtotal": 28.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 337,
+        "product": {
+          "id": 7,
+          "name": "Soldadura/Montaje"
+        },
+        "description": "Soldadura/Montaje\nCORTAR MATERIAL",
+        "qty": 0.6,
+        "price_unit": 42.0,
+        "price_subtotal": 25.2,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 338,
+        "product": {
+          "id": 7,
+          "name": "Soldadura/Montaje"
+        },
+        "description": "Soldadura/Montaje\nSOLDAR",
+        "qty": 1.2,
+        "price_unit": 42.0,
+        "price_subtotal": 50.4,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 339,
+        "product": {
+          "id": 130,
+          "name": "TORNILLERIA"
+        },
+        "description": "TORNILLERIA",
+        "qty": 1.0,
+        "price_unit": 2.0,
+        "price_subtotal": 2.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 342,
+        "product": {
+          "id": 179,
+          "name": "HORAS DISEÑO"
+        },
+        "description": "HORAS DISEÑO",
+        "qty": 0.65,
+        "price_unit": 40.0,
+        "price_subtotal": 26.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 340,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "MONTAJE METRO/LINEAL",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 341,
+        "product": {
+          "id": 1,
+          "name": "Horas Oficial"
+        },
+        "description": "Horas Oficial",
+        "qty": 1.5,
+        "price_unit": 25.0,
+        "price_subtotal": 37.5,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "name": "S00028",
+    "date_order": "2026-05-06 12:55:36",
+    "state": "sale",
+    "partner": {
+      "id": 49,
+      "name": "CESAR SANCHEZ VALERO"
+    },
+    "amount_total": 2678.21,
+    "create_uid": "Navagost",
+    "lines": [
+      {
+        "id": 309,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "TECHADO TERRAZA",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 310,
+        "product": {
+          "id": 145,
+          "name": "TUBO 80 X 80 X 2"
+        },
+        "description": "TUBO 80 X 80 X 2",
+        "qty": 12.0,
+        "price_unit": 12.45,
+        "price_subtotal": 149.4,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 311,
+        "product": {
+          "id": 146,
+          "name": "TUBO 80 X 40 X 2"
+        },
+        "description": "TUBO 80 X 40 X 2",
+        "qty": 30.0,
+        "price_unit": 6.9,
+        "price_subtotal": 207.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 312,
+        "product": {
+          "id": 41,
+          "name": "LASER"
+        },
+        "description": "LASER\nPLACA 150 X 150 X 8",
+        "qty": 4.0,
+        "price_unit": 15.0,
+        "price_subtotal": 60.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 313,
+        "product": {
+          "id": 41,
+          "name": "LASER"
+        },
+        "description": "LASER\nPLACA 80 X 80 X 3",
+        "qty": 3.0,
+        "price_unit": 5.0,
+        "price_subtotal": 15.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 314,
+        "product": {
+          "id": 47,
+          "name": "PLACA"
+        },
+        "description": "PLACA\nPLACA 80 X 80 X 8",
+        "qty": 3.0,
+        "price_unit": 8.0,
+        "price_subtotal": 24.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 315,
+        "product": {
+          "id": 7,
+          "name": "Soldadura/Montaje"
+        },
+        "description": "Soldadura/Montaje",
+        "qty": 4.0,
+        "price_unit": 42.0,
+        "price_subtotal": 168.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 316,
+        "product": {
+          "id": 51,
+          "name": "PINTURA"
+        },
+        "description": "PINTURA",
+        "qty": 1.0,
+        "price_unit": 40.0,
+        "price_subtotal": 40.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 317,
+        "product": {
+          "id": 1,
+          "name": "Horas Oficial"
+        },
+        "description": "Horas Oficial",
+        "qty": 18.0,
+        "price_unit": 25.0,
+        "price_subtotal": 450.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 327,
+        "product": {
+          "id": 172,
+          "name": "PANEL SANDWICH ESP. 40"
+        },
+        "description": "PANEL SANDWICH ESP. 40",
+        "qty": 7.0,
+        "price_unit": 150.0,
+        "price_subtotal": 1050.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 328,
+        "product": {
+          "id": 175,
+          "name": "REMTAES"
+        },
+        "description": "REMTAES",
+        "qty": 1.0,
+        "price_unit": 50.0,
+        "price_subtotal": 50.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "name": "S00029",
+    "date_order": "2026-05-05 15:09:36",
+    "state": "draft",
+    "partner": {
+      "id": 48,
+      "name": "BECSA SOCIEDAD ANONIMA"
+    },
+    "amount_total": 10285.0,
+    "create_uid": "Navagost",
+    "lines": [
+      {
+        "id": 321,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "TECHADO 4,9 x 15 PANEL SANDWICH ",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 322,
+        "product": {
+          "id": 1,
+          "name": "Horas Oficial"
+        },
+        "description": "Horas Oficial",
+        "qty": 48.0,
+        "price_unit": 25.0,
+        "price_subtotal": 1200.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 323,
+        "product": {
+          "id": 172,
+          "name": "PANEL SANDWICH ESP. 40"
+        },
+        "description": "PANEL SANDWICH ESP. 40",
+        "qty": 17.0,
+        "price_unit": 180.0,
+        "price_subtotal": 3060.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 324,
+        "product": {
+          "id": 173,
+          "name": "MATERIALES VARIOS"
+        },
+        "description": "MATERIALES VARIOS",
+        "qty": 1.0,
+        "price_unit": 2000.0,
+        "price_subtotal": 2000.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 325,
+        "product": {
+          "id": 142,
+          "name": "PLATAFORMA ELEVADORA 12 METROS"
+        },
+        "description": "PLATAFORMA ELEVADORA 12 METROS",
+        "qty": 4.0,
+        "price_unit": 200.0,
+        "price_subtotal": 800.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 326,
+        "product": {
+          "id": 33,
+          "name": "GRUA"
+        },
+        "description": "GRUA",
+        "qty": 8.0,
+        "price_unit": 180.0,
+        "price_subtotal": 1440.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "name": "S00027",
+    "date_order": "2026-05-01 08:55:17",
+    "state": "draft",
+    "partner": {
+      "id": 48,
+      "name": "BECSA SOCIEDAD ANONIMA"
+    },
+    "amount_total": 43479.9,
+    "create_uid": "Navagost",
+    "lines": [
+      {
+        "id": 294,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "ESTRUCTURA 4,9 X 27 OROPESA",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 295,
+        "product": {
+          "id": 138,
+          "name": "IPE 220"
+        },
+        "description": "IPE 220",
+        "qty": 18.0,
+        "price_unit": 275.0,
+        "price_subtotal": 4950.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 296,
+        "product": {
+          "id": 139,
+          "name": "IPE 80"
+        },
+        "description": "IPE 80",
+        "qty": 11.0,
+        "price_unit": 80.0,
+        "price_subtotal": 880.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 297,
+        "product": {
+          "id": 41,
+          "name": "LASER"
+        },
+        "description": "LASER",
+        "qty": 1.0,
+        "price_unit": 1000.0,
+        "price_subtotal": 1000.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 298,
+        "product": {
+          "id": 140,
+          "name": "VARILLA CORRUGADA D14"
+        },
+        "description": "VARILLA CORRUGADA D14",
+        "qty": 7.0,
+        "price_unit": 22.4,
+        "price_subtotal": 156.8,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 299,
+        "product": {
+          "id": 7,
+          "name": "Soldadura/Montaje"
+        },
+        "description": "Soldadura/Montaje",
+        "qty": 90.0,
+        "price_unit": 42.0,
+        "price_subtotal": 3780.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 300,
+        "product": {
+          "id": 1,
+          "name": "Horas Oficial"
+        },
+        "description": "Horas Oficial",
+        "qty": 224.0,
+        "price_unit": 25.0,
+        "price_subtotal": 5600.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 301,
+        "product": {
+          "id": 134,
+          "name": "TACO QUIMICO 320 ML"
+        },
+        "description": "TACO QUIMICO 320 ML",
+        "qty": 30.0,
+        "price_unit": 15.0,
+        "price_subtotal": 450.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 302,
+        "product": {
+          "id": 141,
+          "name": "CORREA 250 X 4"
+        },
+        "description": "CORREA 250 X 4",
+        "qty": 17.0,
+        "price_unit": 63.0,
+        "price_subtotal": 1071.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 303,
+        "product": {
+          "id": 33,
+          "name": "GRUA"
+        },
+        "description": "GRUA",
+        "qty": 70.0,
+        "price_unit": 165.0,
+        "price_subtotal": 11550.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 304,
+        "product": {
+          "id": 142,
+          "name": "PLATAFORMA ELEVADORA 12 METROS"
+        },
+        "description": "PLATAFORMA ELEVADORA 12 METROS",
+        "qty": 10.0,
+        "price_unit": 180.0,
+        "price_subtotal": 1800.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 305,
+        "product": {
+          "id": 143,
+          "name": "CAJA ELECTRODOS"
+        },
+        "description": "CAJA ELECTRODOS",
+        "qty": 1.0,
+        "price_unit": 150.0,
+        "price_subtotal": 150.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 306,
+        "product": {
+          "id": 144,
+          "name": "CAJA HILO 1,2"
+        },
+        "description": "CAJA HILO 1,2",
+        "qty": 1.0,
+        "price_unit": 150.0,
+        "price_subtotal": 150.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 307,
+        "product": {
+          "id": 51,
+          "name": "PINTURA"
+        },
+        "description": "PINTURA",
+        "qty": 30.0,
+        "price_unit": 40.0,
+        "price_subtotal": 1200.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 308,
+        "product": {
+          "id": 25,
+          "name": "RAL 7032 IMPRIMACION"
+        },
+        "description": "RAL 7032 IMPRIMACION",
+        "qty": 20.0,
+        "price_unit": 15.0,
+        "price_subtotal": 300.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 319,
+        "product": {
+          "id": 170,
+          "name": "RAL 9016"
+        },
+        "description": "RAL 9016",
+        "qty": 20.0,
+        "price_unit": 20.0,
+        "price_subtotal": 400.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 320,
+        "product": {
+          "id": 171,
+          "name": "CHAPA TRAPEZOIDAL 0,6MM"
+        },
+        "description": "CHAPA TRAPEZOIDAL 0,6MM",
+        "qty": 32.0,
+        "price_unit": 78.0,
+        "price_subtotal": 2496.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "S00004",
+    "date_order": "2026-05-01 07:01:52",
+    "state": "sale",
+    "partner": {
+      "id": 19,
+      "name": "COMUNIDAD JARDINES DE TAXIDA"
+    },
+    "amount_total": 987.36,
+    "create_uid": "Navagost",
+    "lines": [
+      {
+        "id": 18,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "REPARACION PERSIANA 7D",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 19,
+        "product": {
+          "id": 1,
+          "name": "Horas Oficial"
+        },
+        "description": "Horas Oficial",
+        "qty": 20.0,
+        "price_unit": 30.5,
+        "price_subtotal": 610.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 6,
+            "name": "21% S"
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "product": {
+          "id": 18,
+          "name": "Medidas Seguridad ( Arneses, anclaje)"
+        },
+        "description": "Medidas Seguridad ( Arneses, anclaje)",
+        "qty": 1.0,
+        "price_unit": 165.0,
+        "price_subtotal": 165.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "product": {
+          "id": 15,
+          "name": "TOPE SEGURIDAD"
+        },
+        "description": "TOPE SEGURIDAD",
+        "qty": 1.0,
+        "price_unit": 20.0,
+        "price_subtotal": 20.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "product": {
+          "id": 19,
+          "name": "DESPLAZAMINETO"
+        },
+        "description": "DESPLAZAMINETO",
+        "qty": 60.0,
+        "price_unit": 0.35,
+        "price_subtotal": 21.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "name": "S00026",
+    "date_order": "2026-04-30 06:57:52",
+    "state": "draft",
+    "partner": {
+      "id": 33,
+      "name": "ATYCO CONSTRUCCION SL"
+    },
+    "amount_total": 54536.35,
+    "create_uid": "Navagost",
+    "lines": [
+      {
+        "id": 247,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "3.1 SUMINISTRO PLACA ANCLAJE",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 249,
+        "product": {
+          "id": 7,
+          "name": "Soldadura/Montaje"
+        },
+        "description": "Soldadura/Montaje",
+        "qty": 3.0,
+        "price_unit": 42.0,
+        "price_subtotal": 126.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 248,
+        "product": {
+          "id": 133,
+          "name": "VARILLA CORRUGADA D20"
+        },
+        "description": "VARILLA CORRUGADA D20",
+        "qty": 4.0,
+        "price_unit": 22.4,
+        "price_subtotal": 89.6,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 250,
+        "product": {
+          "id": 41,
+          "name": "LASER"
+        },
+        "description": "LASER",
+        "qty": 3.0,
+        "price_unit": 127.0,
+        "price_subtotal": 381.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 251,
+        "product": {
+          "id": 134,
+          "name": "TACO QUIMICO 320 ML"
+        },
+        "description": "TACO QUIMICO 320 ML",
+        "qty": 5.0,
+        "price_unit": 15.0,
+        "price_subtotal": 75.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 252,
+        "product": {
+          "id": 1,
+          "name": "Horas Oficial"
+        },
+        "description": "Horas Oficial",
+        "qty": 3.0,
+        "price_unit": 25.0,
+        "price_subtotal": 75.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 253,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "3.2 SUMINISTRO Y COLOCACION DE CONECTOR PARA LOSA",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 254,
+        "product": {
+          "id": 135,
+          "name": "VARILLA CORRUGADA D12"
+        },
+        "description": "VARILLA CORRUGADA D12",
+        "qty": 20.0,
+        "price_unit": 8.4,
+        "price_subtotal": 168.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 255,
+        "product": {
+          "id": 134,
+          "name": "TACO QUIMICO 320 ML"
+        },
+        "description": "TACO QUIMICO 320 ML",
+        "qty": 20.0,
+        "price_unit": 15.0,
+        "price_subtotal": 300.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 256,
+        "product": {
+          "id": 7,
+          "name": "Soldadura/Montaje"
+        },
+        "description": "Soldadura/Montaje",
+        "qty": 5.0,
+        "price_unit": 42.0,
+        "price_subtotal": 210.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 257,
+        "product": {
+          "id": 1,
+          "name": "Horas Oficial"
+        },
+        "description": "Horas Oficial",
+        "qty": 20.0,
+        "price_unit": 25.0,
+        "price_subtotal": 500.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 258,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "3.3 SUMINISTRO Y COLOCACION DE CONECTOR PARA LOSA",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 259,
+        "product": {
+          "id": 135,
+          "name": "VARILLA CORRUGADA D12"
+        },
+        "description": "VARILLA CORRUGADA D12",
+        "qty": 3.0,
+        "price_unit": 8.4,
+        "price_subtotal": 25.2,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 260,
+        "product": {
+          "id": 7,
+          "name": "Soldadura/Montaje"
+        },
+        "description": "Soldadura/Montaje",
+        "qty": 1.0,
+        "price_unit": 42.0,
+        "price_subtotal": 42.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 262,
+        "product": {
+          "id": 134,
+          "name": "TACO QUIMICO 320 ML"
+        },
+        "description": "TACO QUIMICO 320 ML",
+        "qty": 3.0,
+        "price_unit": 15.0,
+        "price_subtotal": 45.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 261,
+        "product": {
+          "id": 1,
+          "name": "Horas Oficial"
+        },
+        "description": "Horas Oficial",
+        "qty": 3.0,
+        "price_unit": 25.0,
+        "price_subtotal": 75.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 263,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "3.6 SUMINISTRO Y COLOCACION PLACA ANCLAJE 300 X 300",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 264,
+        "product": {
+          "id": 133,
+          "name": "VARILLA CORRUGADA D20"
+        },
+        "description": "VARILLA CORRUGADA D20",
+        "qty": 2.0,
+        "price_unit": 22.4,
+        "price_subtotal": 44.8,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 265,
+        "product": {
+          "id": 7,
+          "name": "Soldadura/Montaje"
+        },
+        "description": "Soldadura/Montaje",
+        "qty": 1.5,
+        "price_unit": 42.0,
+        "price_subtotal": 63.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 266,
+        "product": {
+          "id": 41,
+          "name": "LASER"
+        },
+        "description": "LASER",
+        "qty": 2.0,
+        "price_unit": 73.5,
+        "price_subtotal": 147.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 267,
+        "product": {
+          "id": 134,
+          "name": "TACO QUIMICO 320 ML"
+        },
+        "description": "TACO QUIMICO 320 ML",
+        "qty": 2.0,
+        "price_unit": 15.0,
+        "price_subtotal": 30.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 216,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "5.5 BARANDILLAS INOX AISI 304",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 217,
+        "product": {
+          "id": 7,
+          "name": "Soldadura/Montaje"
+        },
+        "description": "Soldadura/Montaje",
+        "qty": 20.0,
+        "price_unit": 42.0,
+        "price_subtotal": 840.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 218,
+        "product": {
+          "id": 126,
+          "name": "VIDRIO 5-5"
+        },
+        "description": "VIDRIO 5-5",
+        "qty": 10.0,
+        "price_unit": 302.4,
+        "price_subtotal": 3024.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 219,
+        "product": {
+          "id": 127,
+          "name": "ANCLAJE VIDRIO"
+        },
+        "description": "ANCLAJE VIDRIO",
+        "qty": 40.0,
+        "price_unit": 5.0,
+        "price_subtotal": 200.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 220,
+        "product": {
+          "id": 1,
+          "name": "Horas Oficial"
+        },
+        "description": "Horas Oficial",
+        "qty": 8.0,
+        "price_unit": 25.0,
+        "price_subtotal": 200.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 221,
+        "product": {
+          "id": 33,
+          "name": "GRUA"
+        },
+        "description": "GRUA",
+        "qty": 1.5,
+        "price_unit": 150.0,
+        "price_subtotal": 225.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 222,
+        "product": {
+          "id": 128,
+          "name": "TUBO DIAMETRO 40 INOX PULIDO"
+        },
+        "description": "TUBO DIAMETRO 40 INOX PULIDO",
+        "qty": 24.0,
+        "price_unit": 8.8,
+        "price_subtotal": 211.2,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 223,
+        "product": {
+          "id": 129,
+          "name": "PLT 40 X 10 INOX. PULIDO"
+        },
+        "description": "PLT 40 X 10 INOX. PULIDO",
+        "qty": 24.0,
+        "price_unit": 6.56,
+        "price_subtotal": 157.44,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 224,
+        "product": {
+          "id": 41,
+          "name": "LASER"
+        },
+        "description": "LASER",
+        "qty": 1.0,
+        "price_unit": 10.0,
+        "price_subtotal": 10.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 225,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "5.6 PASAMANOS INOX. AISI 304",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 226,
+        "product": {
+          "id": 7,
+          "name": "Soldadura/Montaje"
+        },
+        "description": "Soldadura/Montaje",
+        "qty": 20.0,
+        "price_unit": 42.0,
+        "price_subtotal": 840.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 227,
+        "product": {
+          "id": 1,
+          "name": "Horas Oficial"
+        },
+        "description": "Horas Oficial",
+        "qty": 8.0,
+        "price_unit": 25.0,
+        "price_subtotal": 200.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 228,
+        "product": {
+          "id": 33,
+          "name": "GRUA"
+        },
+        "description": "GRUA",
+        "qty": 1.5,
+        "price_unit": 150.0,
+        "price_subtotal": 225.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 229,
+        "product": {
+          "id": 130,
+          "name": "TORNILLERIA"
+        },
+        "description": "TORNILLERIA",
+        "qty": 1.0,
+        "price_unit": 50.0,
+        "price_subtotal": 50.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 230,
+        "product": {
+          "id": 131,
+          "name": "TUBO DIAMETRO 43 INOX. PULIDO"
+        },
+        "description": "TUBO DIAMETRO 43 INOX. PULIDO",
+        "qty": 54.0,
+        "price_unit": 9.08,
+        "price_subtotal": 490.32,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 231,
+        "product": {
+          "id": 132,
+          "name": "CODO 90º DIAMETRO 43 INOX. PULIDO"
+        },
+        "description": "CODO 90º DIAMETRO 43 INOX. PULIDO",
+        "qty": 10.0,
+        "price_unit": 8.8,
+        "price_subtotal": 88.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 232,
+        "product": {
+          "id": 41,
+          "name": "LASER"
+        },
+        "description": "LASER",
+        "qty": 1.0,
+        "price_unit": 100.0,
+        "price_subtotal": 100.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 233,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "5.7 PASAMANOS INOX. AISI 304",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 234,
+        "product": {
+          "id": 131,
+          "name": "TUBO DIAMETRO 43 INOX. PULIDO"
+        },
+        "description": "TUBO DIAMETRO 43 INOX. PULIDO",
+        "qty": 30.0,
+        "price_unit": 9.08,
+        "price_subtotal": 272.4,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 235,
+        "product": {
+          "id": 41,
+          "name": "LASER"
+        },
+        "description": "LASER",
+        "qty": 1.0,
+        "price_unit": 100.0,
+        "price_subtotal": 100.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 236,
+        "product": {
+          "id": 132,
+          "name": "CODO 90º DIAMETRO 43 INOX. PULIDO"
+        },
+        "description": "CODO 90º DIAMETRO 43 INOX. PULIDO",
+        "qty": 10.0,
+        "price_unit": 8.8,
+        "price_subtotal": 88.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 237,
+        "product": {
+          "id": 7,
+          "name": "Soldadura/Montaje"
+        },
+        "description": "Soldadura/Montaje",
+        "qty": 10.0,
+        "price_unit": 42.0,
+        "price_subtotal": 420.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 238,
+        "product": {
+          "id": 1,
+          "name": "Horas Oficial"
+        },
+        "description": "Horas Oficial",
+        "qty": 6.0,
+        "price_unit": 25.0,
+        "price_subtotal": 150.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 239,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "5.8 PUERTA DOBLE HOJA 900 X 3500",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 240,
+        "product": {
+          "id": 22,
+          "name": "MATERIAL COMPLETO"
+        },
+        "description": "MATERIAL COMPLETO",
+        "qty": 4.0,
+        "price_unit": 6250.0,
+        "price_subtotal": 25000.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 241,
+        "product": {
+          "id": 1,
+          "name": "Horas Oficial"
+        },
+        "description": "Horas Oficial",
+        "qty": 64.0,
+        "price_unit": 25.0,
+        "price_subtotal": 1600.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 242,
+        "product": {
+          "id": 33,
+          "name": "GRUA"
+        },
+        "description": "GRUA",
+        "qty": 8.0,
+        "price_unit": 150.0,
+        "price_subtotal": 1200.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 243,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "5.9 PUERTA 246 X 144",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 244,
+        "product": {
+          "id": 22,
+          "name": "MATERIAL COMPLETO"
+        },
+        "description": "MATERIAL COMPLETO",
+        "qty": 1.0,
+        "price_unit": 1400.0,
+        "price_subtotal": 1400.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 245,
+        "product": {
+          "id": 1,
+          "name": "Horas Oficial"
+        },
+        "description": "Horas Oficial",
+        "qty": 16.0,
+        "price_unit": 25.0,
+        "price_subtotal": 400.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 246,
+        "product": {
+          "id": 33,
+          "name": "GRUA"
+        },
+        "description": "GRUA",
+        "qty": 1.5,
+        "price_unit": 150.0,
+        "price_subtotal": 225.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 268,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "4.1 SUMINSITRO Y COLOCACION HEB 140 L2650",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 269,
+        "product": {
+          "id": 136,
+          "name": "HEB 140"
+        },
+        "description": "HEB 140",
+        "qty": 2.0,
+        "price_unit": 350.0,
+        "price_subtotal": 700.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 270,
+        "product": {
+          "id": 41,
+          "name": "LASER"
+        },
+        "description": "LASER",
+        "qty": 1.0,
+        "price_unit": 200.0,
+        "price_subtotal": 200.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 271,
+        "product": {
+          "id": 7,
+          "name": "Soldadura/Montaje"
+        },
+        "description": "Soldadura/Montaje",
+        "qty": 2.5,
+        "price_unit": 42.0,
+        "price_subtotal": 105.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 272,
+        "product": {
+          "id": 51,
+          "name": "PINTURA"
+        },
+        "description": "PINTURA",
+        "qty": 1.5,
+        "price_unit": 40.0,
+        "price_subtotal": 60.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 273,
+        "product": {
+          "id": 1,
+          "name": "Horas Oficial"
+        },
+        "description": "Horas Oficial",
+        "qty": 4.0,
+        "price_unit": 25.0,
+        "price_subtotal": 100.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 274,
+        "product": {
+          "id": 33,
+          "name": "GRUA"
+        },
+        "description": "GRUA",
+        "qty": 3.0,
+        "price_unit": 150.0,
+        "price_subtotal": 450.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 275,
+        "product": {
+          "id": 25,
+          "name": "RAL 7032 IMPRIMACION"
+        },
+        "description": "RAL 7032 IMPRIMACION",
+        "qty": 1.0,
+        "price_unit": 30.0,
+        "price_subtotal": 30.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 285,
+        "product": {
+          "id": 130,
+          "name": "TORNILLERIA"
+        },
+        "description": "TORNILLERIA",
+        "qty": 1.0,
+        "price_unit": 15.0,
+        "price_subtotal": 15.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 276,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "4.2 REFUERZO INFERIOR DE VIGA O VIGUETA IPE 300 L 6100",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 277,
+        "product": {
+          "id": 137,
+          "name": "IPE 300"
+        },
+        "description": "IPE 300",
+        "qty": 1.0,
+        "price_unit": 750.0,
+        "price_subtotal": 750.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 278,
+        "product": {
+          "id": 41,
+          "name": "LASER"
+        },
+        "description": "LASER",
+        "qty": 1.0,
+        "price_unit": 250.0,
+        "price_subtotal": 250.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 279,
+        "product": {
+          "id": 25,
+          "name": "RAL 7032 IMPRIMACION"
+        },
+        "description": "RAL 7032 IMPRIMACION",
+        "qty": 1.0,
+        "price_unit": 50.0,
+        "price_subtotal": 50.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 280,
+        "product": {
+          "id": 7,
+          "name": "Soldadura/Montaje"
+        },
+        "description": "Soldadura/Montaje",
+        "qty": 2.0,
+        "price_unit": 42.0,
+        "price_subtotal": 84.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 281,
+        "product": {
+          "id": 30,
+          "name": "HORAS PINTAR"
+        },
+        "description": "HORAS PINTAR",
+        "qty": 1.5,
+        "price_unit": 40.0,
+        "price_subtotal": 60.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 282,
+        "product": {
+          "id": 1,
+          "name": "Horas Oficial"
+        },
+        "description": "Horas Oficial",
+        "qty": 4.0,
+        "price_unit": 25.0,
+        "price_subtotal": 100.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 283,
+        "product": {
+          "id": 33,
+          "name": "GRUA"
+        },
+        "description": "GRUA",
+        "qty": 3.0,
+        "price_unit": 150.0,
+        "price_subtotal": 450.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 284,
+        "product": {
+          "id": 130,
+          "name": "TORNILLERIA"
+        },
+        "description": "TORNILLERIA",
+        "qty": 1.0,
+        "price_unit": 15.0,
+        "price_subtotal": 15.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 286,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "4.3 REFUERZO INTERIOR DE VIGA O VIGUETA IPE 220 L2150",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 287,
+        "product": {
+          "id": 138,
+          "name": "IPE 220"
+        },
+        "description": "IPE 220",
+        "qty": 1.0,
+        "price_unit": 553.4,
+        "price_subtotal": 553.4,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 288,
+        "product": {
+          "id": 7,
+          "name": "Soldadura/Montaje"
+        },
+        "description": "Soldadura/Montaje",
+        "qty": 3.0,
+        "price_unit": 42.0,
+        "price_subtotal": 126.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 289,
+        "product": {
+          "id": 30,
+          "name": "HORAS PINTAR"
+        },
+        "description": "HORAS PINTAR",
+        "qty": 2.0,
+        "price_unit": 40.0,
+        "price_subtotal": 80.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 290,
+        "product": {
+          "id": 41,
+          "name": "LASER"
+        },
+        "description": "LASER",
+        "qty": 1.0,
+        "price_unit": 200.0,
+        "price_subtotal": 200.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 291,
+        "product": {
+          "id": 25,
+          "name": "RAL 7032 IMPRIMACION"
+        },
+        "description": "RAL 7032 IMPRIMACION",
+        "qty": 1.0,
+        "price_unit": 30.0,
+        "price_subtotal": 30.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 292,
+        "product": {
+          "id": 1,
+          "name": "Horas Oficial"
+        },
+        "description": "Horas Oficial",
+        "qty": 4.0,
+        "price_unit": 25.0,
+        "price_subtotal": 100.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 293,
+        "product": {
+          "id": 33,
+          "name": "GRUA"
+        },
+        "description": "GRUA",
+        "qty": 3.0,
+        "price_unit": 150.0,
+        "price_subtotal": 450.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "name": "S00025",
+    "date_order": "2026-04-30 06:42:57",
+    "state": "sale",
+    "partner": {
+      "id": 47,
+      "name": "EL OLMO PAISAJISMO SL."
+    },
+    "amount_total": 740.52,
+    "create_uid": "Navagost",
+    "lines": [
+      {
+        "id": 212,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "CHAPA 100 LONGITUD 2 METROS ------------ 22 und.",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 213,
+        "product": {
+          "id": 22,
+          "name": "MATERIAL COMPLETO"
+        },
+        "description": "MATERIAL COMPLETO",
+        "qty": 22.0,
+        "price_unit": 22.25,
+        "price_subtotal": 489.5,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 214,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "ESQUINAS 100 X 100 ---------- 10 und.",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 215,
+        "product": {
+          "id": 22,
+          "name": "MATERIAL COMPLETO"
+        },
+        "description": "MATERIAL COMPLETO",
+        "qty": 10.0,
+        "price_unit": 12.25,
+        "price_subtotal": 122.5,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 413,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "ESQUINAS 1000 X 1000 -------- 4 UND.",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 414,
+        "product": {
+          "id": 22,
+          "name": "MATERIAL COMPLETO"
+        },
+        "description": "MATERIAL COMPLETO",
+        "qty": 4.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "S00017",
+    "date_order": "2026-04-29 10:36:59",
+    "state": "sale",
+    "partner": {
+      "id": 34,
+      "name": "LB MASCERCA ESPAÑA SOCIEDAD LIMITADA."
+    },
+    "amount_total": 587.82,
+    "create_uid": "Navagost",
+    "lines": [
+      {
+        "id": 132,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "TRAMOGGIA ASPIRAZIONE X18410009715 ------------ 2 UND.",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 133,
+        "product": {
+          "id": 41,
+          "name": "LASER"
+        },
+        "description": "LASER",
+        "qty": 2.0,
+        "price_unit": 61.0,
+        "price_subtotal": 122.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 134,
+        "product": {
+          "id": 7,
+          "name": "Soldadura/Montaje"
+        },
+        "description": "Soldadura/Montaje",
+        "qty": 1.0,
+        "price_unit": 42.0,
+        "price_subtotal": 42.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 139,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "RIDUZIONE Y 250-180 X18410009712 ------------------- 1 UND.",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 140,
+        "product": {
+          "id": 41,
+          "name": "LASER"
+        },
+        "description": "LASER",
+        "qty": 1.0,
+        "price_unit": 59.0,
+        "price_subtotal": 59.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 141,
+        "product": {
+          "id": 7,
+          "name": "Soldadura/Montaje"
+        },
+        "description": "Soldadura/Montaje",
+        "qty": 1.0,
+        "price_unit": 42.0,
+        "price_subtotal": 42.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 142,
+        "product": {
+          "id": 51,
+          "name": "PINTURA"
+        },
+        "description": "PINTURA",
+        "qty": 0.2,
+        "price_unit": 40.0,
+        "price_subtotal": 8.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 143,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "SERRANDA LATO CORTO X18410009713 ------------------ 2 UND.",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 144,
+        "product": {
+          "id": 41,
+          "name": "LASER"
+        },
+        "description": "LASER",
+        "qty": 2.0,
+        "price_unit": 15.0,
+        "price_subtotal": 30.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 145,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "SERRANDA LATO LUNGO X18410009714 --------------- 2 UND.",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 146,
+        "product": {
+          "id": 41,
+          "name": "LASER"
+        },
+        "description": "LASER",
+        "qty": 2.0,
+        "price_unit": 18.0,
+        "price_subtotal": 36.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 151,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "LAMIERA CHIUSURA LATO CORTO X18410009711 ------------------ 1 UND.",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 152,
+        "product": {
+          "id": 41,
+          "name": "LASER"
+        },
+        "description": "LASER",
+        "qty": 1.0,
+        "price_unit": 17.3,
+        "price_subtotal": 17.3,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 153,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "LAMIERA CHIUSURA LATO LUNGO X18410009717 ------------------ 1 UND.",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 154,
+        "product": {
+          "id": 41,
+          "name": "LASER"
+        },
+        "description": "LASER",
+        "qty": 1.0,
+        "price_unit": 24.9,
+        "price_subtotal": 24.9,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 204,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "PLANO X18410009721 --------------------------- 1 UND.",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 205,
+        "product": {
+          "id": 41,
+          "name": "LASER"
+        },
+        "description": "LASER",
+        "qty": 1.0,
+        "price_unit": 24.9,
+        "price_subtotal": 24.9,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 206,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "PLANO X18410009722 ------------------- 1 UND.",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 207,
+        "product": {
+          "id": 41,
+          "name": "LASER"
+        },
+        "description": "LASER",
+        "qty": 1.0,
+        "price_unit": 17.3,
+        "price_subtotal": 17.3,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 208,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "CHAPA INOX. 600 X 500 X 1,5 ----------------- 1 UND.",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 209,
+        "product": {
+          "id": 41,
+          "name": "LASER"
+        },
+        "description": "LASER",
+        "qty": 1.0,
+        "price_unit": 34.5,
+        "price_subtotal": 34.5,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 210,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "CHAPA INOX. 380 X 600 X 1,5 ------------------- 1 UND.",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 211,
+        "product": {
+          "id": 41,
+          "name": "LASER"
+        },
+        "description": "LASER",
+        "qty": 1.0,
+        "price_unit": 27.9,
+        "price_subtotal": 27.9,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "name": "S00023",
+    "date_order": "2026-04-27 13:45:58",
+    "state": "sale",
+    "partner": {
+      "id": 42,
+      "name": "ALFERVI VENTANAS Y CERRAMIENTOS SOCIEDAD LIMITADA."
+    },
+    "amount_total": 517.88,
+    "create_uid": "Navagost",
+    "lines": [
+      {
+        "id": 194,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "BARANDILLA PISCINA INOX.",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 195,
+        "product": {
+          "id": 41,
+          "name": "LASER"
+        },
+        "description": "LASER",
+        "qty": 2.0,
+        "price_unit": 8.0,
+        "price_subtotal": 16.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 196,
+        "product": {
+          "id": 41,
+          "name": "LASER"
+        },
+        "description": "LASER",
+        "qty": 2.0,
+        "price_unit": 3.0,
+        "price_subtotal": 6.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 197,
+        "product": {
+          "id": 110,
+          "name": "TUBO DIAMETRO 50,8 INOX PULIDO"
+        },
+        "description": "TUBO DIAMETRO 50,8 INOX PULIDO",
+        "qty": 6.0,
+        "price_unit": 30.0,
+        "price_subtotal": 180.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 198,
+        "product": {
+          "id": 111,
+          "name": "CODO 90º DIAMETRO 50,8 INOX PUL."
+        },
+        "description": "CODO 90º DIAMETRO 50,8 INOX PUL.",
+        "qty": 2.0,
+        "price_unit": 8.0,
+        "price_subtotal": 16.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 199,
+        "product": {
+          "id": 7,
+          "name": "Soldadura/Montaje"
+        },
+        "description": "Soldadura/Montaje",
+        "qty": 5.0,
+        "price_unit": 42.0,
+        "price_subtotal": 210.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "name": "S00024",
+    "date_order": "2026-04-27 09:56:37",
+    "state": "draft",
+    "partner": {
+      "id": 43,
+      "name": "PISCINAS POOLINESIA"
+    },
+    "amount_total": 607.42,
+    "create_uid": "Navagost",
+    "lines": [
+      {
+        "id": 200,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "BARANDILLA INOX. PISCINA BAJADA",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 201,
+        "product": {
+          "id": 22,
+          "name": "MATERIAL COMPLETO"
+        },
+        "description": "MATERIAL COMPLETO\nAFERINOX. PRES. 2600115",
+        "qty": 1.0,
+        "price_unit": 387.0,
+        "price_subtotal": 387.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 202,
+        "product": {
+          "id": 1,
+          "name": "Horas Oficial"
+        },
+        "description": "Horas Oficial",
+        "qty": 3.0,
+        "price_unit": 25.0,
+        "price_subtotal": 75.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 203,
+        "product": {
+          "id": 20,
+          "name": "MATERIAL"
+        },
+        "description": "MATERIAL\nTORNILLO DE ANCLAJEN IMPERMEABLES",
+        "qty": 1.0,
+        "price_unit": 40.0,
+        "price_subtotal": 40.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "name": "S00022",
+    "date_order": "2026-04-27 09:33:39",
+    "state": "sale",
+    "partner": {
+      "id": 23,
+      "name": "TALLERES A GUILLAMON SL"
+    },
+    "amount_total": 574.9,
+    "create_uid": "Navagost",
+    "lines": [
+      {
+        "id": 181,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "TAPAS CANAL TRANSFORMADORES",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 182,
+        "product": {
+          "id": 107,
+          "name": "TUBO 25 X 25 X 2"
+        },
+        "description": "TUBO 25 X 25 X 2",
+        "qty": 30.0,
+        "price_unit": 3.1,
+        "price_subtotal": 93.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 183,
+        "product": {
+          "id": 108,
+          "name": "CHAPA 2000 X 1000 X 2"
+        },
+        "description": "CHAPA 2000 X 1000 X 2",
+        "qty": 64.0,
+        "price_unit": 1.33,
+        "price_subtotal": 85.12,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 184,
+        "product": {
+          "id": 7,
+          "name": "Soldadura/Montaje"
+        },
+        "description": "Soldadura/Montaje",
+        "qty": 2.0,
+        "price_unit": 42.0,
+        "price_subtotal": 84.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 185,
+        "product": {
+          "id": 30,
+          "name": "HORAS PINTAR"
+        },
+        "description": "HORAS PINTAR",
+        "qty": 0.5,
+        "price_unit": 40.0,
+        "price_subtotal": 20.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 186,
+        "product": {
+          "id": 25,
+          "name": "RAL 7032 IMPRIMACION"
+        },
+        "description": "RAL 7032 IMPRIMACION",
+        "qty": 1.0,
+        "price_unit": 25.0,
+        "price_subtotal": 25.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 187,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "PROTECCION ABATIBLE ESCALERA DE GATO ------------- 2 UND.",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 188,
+        "product": {
+          "id": 41,
+          "name": "LASER"
+        },
+        "description": "LASER",
+        "qty": 2.0,
+        "price_unit": 25.0,
+        "price_subtotal": 50.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 189,
+        "product": {
+          "id": 69,
+          "name": "MALLA GRIS 2600 X 1000 (30X30X4)"
+        },
+        "description": "MALLA GRIS 2600 X 1000 (30X30X4)",
+        "qty": 2.0,
+        "price_unit": 20.0,
+        "price_subtotal": 40.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 190,
+        "product": {
+          "id": 39,
+          "name": "PERNIO TORNEADO 16 X 100"
+        },
+        "description": "PERNIO TORNEADO 16 X 100",
+        "qty": 1.0,
+        "price_unit": 8.0,
+        "price_subtotal": 8.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 191,
+        "product": {
+          "id": 7,
+          "name": "Soldadura/Montaje"
+        },
+        "description": "Soldadura/Montaje",
+        "qty": 1.0,
+        "price_unit": 42.0,
+        "price_subtotal": 42.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 192,
+        "product": {
+          "id": 25,
+          "name": "RAL 7032 IMPRIMACION"
+        },
+        "description": "RAL 7032 IMPRIMACION",
+        "qty": 1.0,
+        "price_unit": 8.0,
+        "price_subtotal": 8.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 193,
+        "product": {
+          "id": 30,
+          "name": "HORAS PINTAR"
+        },
+        "description": "HORAS PINTAR",
+        "qty": 0.5,
+        "price_unit": 40.0,
+        "price_subtotal": 20.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "name": "S00021",
+    "date_order": "2026-04-23 13:12:42",
+    "state": "draft",
+    "partner": {
+      "id": 29,
+      "name": "DURANTIA INFRAESTRUCTURAS SOCIEDAD ANONIMA."
+    },
+    "amount_total": 2079.24,
+    "create_uid": "Navagost",
+    "lines": [
+      {
+        "id": 172,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "BARANDILLA SUPLEMENTACION ",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 173,
+        "product": {
+          "id": 102,
+          "name": "TUBO DIAMETRO 40 X 2"
+        },
+        "description": "TUBO DIAMETRO 40 X 2",
+        "qty": 54.0,
+        "price_unit": 2.87,
+        "price_subtotal": 154.98,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 174,
+        "product": {
+          "id": 103,
+          "name": "REDONDO DIAMETRO 12"
+        },
+        "description": "REDONDO DIAMETRO 12",
+        "qty": 12.0,
+        "price_unit": 1.4,
+        "price_subtotal": 16.8,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 175,
+        "product": {
+          "id": 104,
+          "name": "TAPON NEGRO PLASTICO D40 X 2"
+        },
+        "description": "TAPON NEGRO PLASTICO D40 X 2",
+        "qty": 45.0,
+        "price_unit": 0.28,
+        "price_subtotal": 12.6,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 176,
+        "product": {
+          "id": 105,
+          "name": "PINTURA NEGRA"
+        },
+        "description": "PINTURA NEGRA",
+        "qty": 1.0,
+        "price_unit": 30.0,
+        "price_subtotal": 30.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 177,
+        "product": {
+          "id": 106,
+          "name": "TELA PROTECCION SOLDADURA"
+        },
+        "description": "TELA PROTECCION SOLDADURA",
+        "qty": 2.0,
+        "price_unit": 20.0,
+        "price_subtotal": 40.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 178,
+        "product": {
+          "id": 7,
+          "name": "Soldadura/Montaje"
+        },
+        "description": "Soldadura/Montaje",
+        "qty": 12.0,
+        "price_unit": 42.0,
+        "price_subtotal": 504.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 179,
+        "product": {
+          "id": 30,
+          "name": "HORAS PINTAR"
+        },
+        "description": "HORAS PINTAR",
+        "qty": 4.0,
+        "price_unit": 40.0,
+        "price_subtotal": 160.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 180,
+        "product": {
+          "id": 1,
+          "name": "Horas Oficial"
+        },
+        "description": "Horas Oficial",
+        "qty": 32.0,
+        "price_unit": 25.0,
+        "price_subtotal": 800.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "name": "S00020",
+    "date_order": "2026-04-23 05:47:08",
+    "state": "draft",
+    "partner": {
+      "id": 37,
+      "name": "CONSTRUCCIONES Y ESTRUCTURAS ALEEA SOCIEDAD DE RESPONSABILIDAD LIMITADA"
+    },
+    "amount_total": 150.28,
+    "create_uid": "Navagost",
+    "lines": [
+      {
+        "id": 165,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "BUZON A MEDIDA",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 166,
+        "product": {
+          "id": 41,
+          "name": "LASER"
+        },
+        "description": "LASER",
+        "qty": 1.0,
+        "price_unit": 50.0,
+        "price_subtotal": 50.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 167,
+        "product": {
+          "id": 7,
+          "name": "Soldadura/Montaje"
+        },
+        "description": "Soldadura/Montaje",
+        "qty": 1.0,
+        "price_unit": 42.0,
+        "price_subtotal": 42.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 168,
+        "product": {
+          "id": 100,
+          "name": "CERRADURA BUZON"
+        },
+        "description": "CERRADURA BUZON",
+        "qty": 1.0,
+        "price_unit": 4.2,
+        "price_subtotal": 4.2,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 169,
+        "product": {
+          "id": 40,
+          "name": "PERNIO TORNEADO 10 X 60"
+        },
+        "description": "PERNIO TORNEADO 10 X 60",
+        "qty": 3.0,
+        "price_unit": 1.0,
+        "price_subtotal": 3.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 170,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "MONTAJE",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 171,
+        "product": {
+          "id": 1,
+          "name": "Horas Oficial"
+        },
+        "description": "Horas Oficial",
+        "qty": 1.0,
+        "price_unit": 25.0,
+        "price_subtotal": 25.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "name": "S00019",
+    "date_order": "2026-04-23 05:46:46",
+    "state": "sale",
+    "partner": {
+      "id": 23,
+      "name": "TALLERES A GUILLAMON SL"
+    },
+    "amount_total": 271.52,
+    "create_uid": "Navagost",
+    "lines": [
+      {
+        "id": 161,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "TOBERA ASPIRACION IMPRESA 3D PLA NEGRO ------------ 4 UND.",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 163,
+        "product": {
+          "id": 97,
+          "name": "MATERIAL PLA"
+        },
+        "description": "MATERIAL PLA",
+        "qty": 680.0,
+        "price_unit": 0.08,
+        "price_subtotal": 54.4,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 164,
+        "product": {
+          "id": 96,
+          "name": "IMPRESORA 3D HORAS"
+        },
+        "description": "IMPRESORA 3D HORAS",
+        "qty": 85.0,
+        "price_unit": 2.0,
+        "price_subtotal": 170.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "S00012",
+    "date_order": "2026-04-22 15:48:27",
+    "state": "sale",
+    "partner": {
+      "id": 27,
+      "name": "BAÑOS 10 SL"
+    },
+    "amount_total": 276.49,
+    "create_uid": "Navagost",
+    "lines": [
+      {
+        "id": 104,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "CAMBIO MOTOR REGROSADORA",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 105,
+        "product": {
+          "id": 1,
+          "name": "Horas Oficial"
+        },
+        "description": "Horas Oficial",
+        "qty": 2.0,
+        "price_unit": 25.0,
+        "price_subtotal": 50.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 106,
+        "product": {
+          "id": 77,
+          "name": "MOTOR 261176 instema"
+        },
+        "description": "MOTOR 261176 instema",
+        "qty": 1.0,
+        "price_unit": 145.0,
+        "price_subtotal": 145.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 107,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "CAJA ELECTRICA REGROSADORA",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 108,
+        "product": {
+          "id": 1,
+          "name": "Horas Oficial"
+        },
+        "description": "Horas Oficial",
+        "qty": 0.5,
+        "price_unit": 25.0,
+        "price_subtotal": 12.5,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 109,
+        "product": {
+          "id": 57,
+          "name": "CAJA ELECTRICA"
+        },
+        "description": "CAJA ELECTRICA",
+        "qty": 1.0,
+        "price_unit": 21.0,
+        "price_subtotal": 21.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "S00018",
+    "date_order": "2026-04-20 13:00:54",
+    "state": "sale",
+    "partner": {
+      "id": 35,
+      "name": "Jesús Soto Henares"
+    },
+    "amount_total": 1034.07,
+    "create_uid": "Navagost",
+    "lines": [
+      {
+        "id": 159,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "REPARACION TECHADO",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 160,
+        "product": {
+          "id": 22,
+          "name": "MATERIAL COMPLETO"
+        },
+        "description": "MATERIAL COMPLETO",
+        "qty": 1.0,
+        "price_unit": 854.6,
+        "price_subtotal": 854.6,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "S00016",
+    "date_order": "2026-04-17 13:29:37",
+    "state": "draft",
+    "partner": {
+      "id": 33,
+      "name": "ATYCO CONSTRUCCION SL"
+    },
+    "amount_total": 212.96,
+    "create_uid": "Navagost",
+    "lines": [
+      {
+        "id": 128,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "TUBO VERTILCAL REPARACION OXIDADO -------------1 UND.",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 129,
+        "product": {
+          "id": 22,
+          "name": "MATERIAL COMPLETO"
+        },
+        "description": "MATERIAL COMPLETO",
+        "qty": 1.0,
+        "price_unit": 68.0,
+        "price_subtotal": 68.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 130,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "TUBO HORIZONTAL ENTRE REJAS --------------- 1 UND.",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 131,
+        "product": {
+          "id": 22,
+          "name": "MATERIAL COMPLETO"
+        },
+        "description": "MATERIAL COMPLETO",
+        "qty": 1.0,
+        "price_unit": 108.0,
+        "price_subtotal": 108.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "S00015",
+    "date_order": "2026-04-15 06:42:27",
+    "state": "draft",
+    "partner": {
+      "id": 31,
+      "name": "Pilar Decoradora"
+    },
+    "amount_total": 166.98,
+    "create_uid": "Navagost",
+    "lines": [
+      {
+        "id": 120,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "PATA COLOR NEGRO",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 121,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "PATAS CON MEDIDAS 90 X 90 CM FORMADO POR TUBO DE 10 X 2 CM ESP. 2MM",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 122,
+        "product": {
+          "id": 7,
+          "name": "Soldadura/Montaje"
+        },
+        "description": "Soldadura/Montaje",
+        "qty": 1.5,
+        "price_unit": 42.0,
+        "price_subtotal": 63.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 123,
+        "product": {
+          "id": 51,
+          "name": "PINTURA"
+        },
+        "description": "PINTURA",
+        "qty": 1.0,
+        "price_unit": 10.0,
+        "price_subtotal": 10.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 124,
+        "product": {
+          "id": 84,
+          "name": "TUBO 100 X 20 X 2"
+        },
+        "description": "TUBO 100 X 20 X 2",
+        "qty": 1.0,
+        "price_unit": 10.0,
+        "price_subtotal": 10.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 125,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "MONTAJE",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 126,
+        "product": {
+          "id": 1,
+          "name": "Horas Oficial"
+        },
+        "description": "Horas Oficial",
+        "qty": 2.0,
+        "price_unit": 25.0,
+        "price_subtotal": 50.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 127,
+        "product": {
+          "id": 62,
+          "name": "SILICONA MULTIUSOS 280 ML"
+        },
+        "description": "SILICONA MULTIUSOS 280 ML",
+        "qty": 1.0,
+        "price_unit": 5.0,
+        "price_subtotal": 5.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "S00013",
+    "date_order": "2026-04-14 10:51:52",
+    "state": "sale",
+    "partner": {
+      "id": 26,
+      "name": "MIELSO SA"
+    },
+    "amount_total": 204.49,
+    "create_uid": "Navagost",
+    "lines": [
+      {
+        "id": 112,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "REPARACION PISTON PRENSA 2",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 113,
+        "product": {
+          "id": 1,
+          "name": "Horas Oficial"
+        },
+        "description": "Horas Oficial",
+        "qty": 2.0,
+        "price_unit": 25.0,
+        "price_subtotal": 50.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 114,
+        "product": {
+          "id": 7,
+          "name": "Soldadura/Montaje"
+        },
+        "description": "Soldadura/Montaje",
+        "qty": 2.0,
+        "price_unit": 42.0,
+        "price_subtotal": 84.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 115,
+        "product": {
+          "id": 55,
+          "name": "RETEN"
+        },
+        "description": "RETEN",
+        "qty": 1.0,
+        "price_unit": 35.0,
+        "price_subtotal": 35.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 118,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "Anticipos",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 119,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "Anticipo (ref: REPARAR PISTON PRENSA1 el 14/04/2026)",
+        "qty": 0.0,
+        "price_unit": 169.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "S00014",
+    "date_order": "2026-04-14 08:40:59",
+    "state": "sale",
+    "partner": {
+      "id": 29,
+      "name": "DURANTIA INFRAESTRUCTURAS SOCIEDAD ANONIMA."
+    },
+    "amount_total": 646.44,
+    "create_uid": "Navagost",
+    "lines": [
+      {
+        "id": 116,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": " BARANDILLA MOVIL CEU",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 117,
+        "product": {
+          "id": 22,
+          "name": "MATERIAL COMPLETO"
+        },
+        "description": "MATERIAL COMPLETO",
+        "qty": 1.0,
+        "price_unit": 534.25,
+        "price_subtotal": 534.25,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "S00011",
+    "date_order": "2026-04-10 13:27:29",
+    "state": "sale",
+    "partner": {
+      "id": 26,
+      "name": "MIELSO SA"
+    },
+    "amount_total": 277.09,
+    "create_uid": "Navagost",
+    "lines": [
+      {
+        "id": 96,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "REPARACION PISTON PRENSA",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 97,
+        "product": {
+          "id": 1,
+          "name": "Horas Oficial"
+        },
+        "description": "Horas Oficial",
+        "qty": 2.0,
+        "price_unit": 25.0,
+        "price_subtotal": 50.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 98,
+        "product": {
+          "id": 7,
+          "name": "Soldadura/Montaje"
+        },
+        "description": "Soldadura/Montaje",
+        "qty": 2.0,
+        "price_unit": 42.0,
+        "price_subtotal": 84.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 99,
+        "product": {
+          "id": 54,
+          "name": "MECANIZADO"
+        },
+        "description": "MECANIZADO",
+        "qty": 1.0,
+        "price_unit": 65.0,
+        "price_subtotal": 65.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 100,
+        "product": {
+          "id": 55,
+          "name": "RETEN"
+        },
+        "description": "RETEN",
+        "qty": 1.0,
+        "price_unit": 30.0,
+        "price_subtotal": 30.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 101,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "Anticipos",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 103,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "Anticipo (ref: REPARAR PERSI1 el 10/04/2026)",
+        "qty": 0.0,
+        "price_unit": 229.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "S00010",
+    "date_order": "2026-04-10 06:34:28",
+    "state": "draft",
+    "partner": {
+      "id": 25,
+      "name": "PARTICULAR"
+    },
+    "amount_total": 2208.1,
+    "create_uid": "Navagost",
+    "lines": [
+      {
+        "id": 82,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "PUERTA CORREDERA MASET 4 X 1,8 METROS",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 83,
+        "product": {
+          "id": 45,
+          "name": "PERFIL 80 X 40 X 2"
+        },
+        "description": "PERFIL 80 X 40 X 2",
+        "qty": 36.0,
+        "price_unit": 5.33,
+        "price_subtotal": 191.88,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 84,
+        "product": {
+          "id": 46,
+          "name": "RUEDAS"
+        },
+        "description": "RUEDAS",
+        "qty": 1.0,
+        "price_unit": 40.0,
+        "price_subtotal": 40.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 85,
+        "product": {
+          "id": 47,
+          "name": "PLACA"
+        },
+        "description": "PLACA",
+        "qty": 1.0,
+        "price_unit": 20.0,
+        "price_subtotal": 20.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 86,
+        "product": {
+          "id": 48,
+          "name": "CHAPA AGUJERO CUADRADO 2000 X 1000"
+        },
+        "description": "CHAPA AGUJERO CUADRADO 2000 X 1000",
+        "qty": 4.0,
+        "price_unit": 50.0,
+        "price_subtotal": 200.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 87,
+        "product": {
+          "id": 39,
+          "name": "PERNIO TORNEADO 16 X 100"
+        },
+        "description": "PERNIO TORNEADO 16 X 100",
+        "qty": 2.0,
+        "price_unit": 3.0,
+        "price_subtotal": 6.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 88,
+        "product": {
+          "id": 49,
+          "name": "CERRADURA GRANDE"
+        },
+        "description": "CERRADURA GRANDE",
+        "qty": 1.0,
+        "price_unit": 50.0,
+        "price_subtotal": 50.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 89,
+        "product": {
+          "id": 50,
+          "name": "CERRADUIRA PEQUEÑA"
+        },
+        "description": "CERRADUIRA PEQUEÑA",
+        "qty": 1.0,
+        "price_unit": 45.0,
+        "price_subtotal": 45.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 90,
+        "product": {
+          "id": 41,
+          "name": "LASER"
+        },
+        "description": "LASER",
+        "qty": 1.0,
+        "price_unit": 20.0,
+        "price_subtotal": 20.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 91,
+        "product": {
+          "id": 51,
+          "name": "PINTURA"
+        },
+        "description": "PINTURA",
+        "qty": 1.0,
+        "price_unit": 100.0,
+        "price_subtotal": 100.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 92,
+        "product": {
+          "id": 52,
+          "name": "UPN 80"
+        },
+        "description": "UPN 80",
+        "qty": 2.0,
+        "price_unit": 64.0,
+        "price_subtotal": 128.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 93,
+        "product": {
+          "id": 53,
+          "name": "REDONDO DIAMETRO 16"
+        },
+        "description": "REDONDO DIAMETRO 16",
+        "qty": 2.0,
+        "price_unit": 17.0,
+        "price_subtotal": 34.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 94,
+        "product": {
+          "id": 7,
+          "name": "Soldadura/Montaje"
+        },
+        "description": "Soldadura/Montaje",
+        "qty": 20.0,
+        "price_unit": 42.0,
+        "price_subtotal": 840.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 95,
+        "product": {
+          "id": 1,
+          "name": "Horas Oficial"
+        },
+        "description": "Horas Oficial",
+        "qty": 6.0,
+        "price_unit": 25.0,
+        "price_subtotal": 150.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "S00009",
+    "date_order": "2026-04-09 06:36:59",
+    "state": "sale",
+    "partner": {
+      "id": 23,
+      "name": "TALLERES A GUILLAMON SL"
+    },
+    "amount_total": 868.68,
+    "create_uid": "Navagost",
+    "lines": [
+      {
+        "id": 63,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "BANDEJA ANCHO 310 LONG 1530 CON GUIA DE ANGULO ------------ 3 UND.",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 64,
+        "product": {
+          "id": 1,
+          "name": "Horas Oficial"
+        },
+        "description": "Horas Oficial",
+        "qty": 2.0,
+        "price_unit": 30.5,
+        "price_subtotal": 61.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 65,
+        "product": {
+          "id": 41,
+          "name": "LASER"
+        },
+        "description": "LASER",
+        "qty": 3.0,
+        "price_unit": 28.0,
+        "price_subtotal": 84.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 66,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "PRESUPUESTO 26-1777",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 67,
+        "product": {
+          "id": 42,
+          "name": "ANGULO 30"
+        },
+        "description": "ANGULO 30",
+        "qty": 2.0,
+        "price_unit": 28.0,
+        "price_subtotal": 56.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 68,
+        "product": {
+          "id": 7,
+          "name": "Soldadura/Montaje"
+        },
+        "description": "Soldadura/Montaje",
+        "qty": 1.0,
+        "price_unit": 47.0,
+        "price_subtotal": 47.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 69,
+        "product": {
+          "id": 25,
+          "name": "RAL 7032 IMPRIMACION"
+        },
+        "description": "RAL 7032 IMPRIMACION",
+        "qty": 1.0,
+        "price_unit": 20.0,
+        "price_subtotal": 20.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 70,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "PROTECCION LATERAL ---------------------- 3 UND.",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 71,
+        "product": {
+          "id": 1,
+          "name": "Horas Oficial"
+        },
+        "description": "Horas Oficial",
+        "qty": 2.0,
+        "price_unit": 30.5,
+        "price_subtotal": 61.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 72,
+        "product": {
+          "id": 41,
+          "name": "LASER"
+        },
+        "description": "LASER",
+        "qty": 3.0,
+        "price_unit": 15.0,
+        "price_subtotal": 45.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 73,
+        "product": {
+          "id": 43,
+          "name": "RAL 1016"
+        },
+        "description": "RAL 1016",
+        "qty": 1.0,
+        "price_unit": 20.0,
+        "price_subtotal": 20.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 74,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "BANDEJA ASPIRACION ANCHO 200 LARGO 1000 ------------- 3 UND.",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 75,
+        "product": {
+          "id": 1,
+          "name": "Horas Oficial"
+        },
+        "description": "Horas Oficial",
+        "qty": 2.0,
+        "price_unit": 30.5,
+        "price_subtotal": 61.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 76,
+        "product": {
+          "id": 41,
+          "name": "LASER"
+        },
+        "description": "LASER",
+        "qty": 3.0,
+        "price_unit": 26.0,
+        "price_subtotal": 78.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 77,
+        "product": {
+          "id": 44,
+          "name": "TUBO DIAMETRO 80 X 2"
+        },
+        "description": "TUBO DIAMETRO 80 X 2",
+        "qty": 3.0,
+        "price_unit": 15.0,
+        "price_subtotal": 45.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 78,
+        "product": {
+          "id": 7,
+          "name": "Soldadura/Montaje"
+        },
+        "description": "Soldadura/Montaje",
+        "qty": 1.5,
+        "price_unit": 47.0,
+        "price_subtotal": 70.5,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 79,
+        "product": {
+          "id": 25,
+          "name": "RAL 7032 IMPRIMACION"
+        },
+        "description": "RAL 7032 IMPRIMACION",
+        "qty": 1.0,
+        "price_unit": 20.0,
+        "price_subtotal": 20.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 80,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "PANTALON ASPIRACION EN PVC ----------------- 3 UND.",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 81,
+        "product": {
+          "id": 20,
+          "name": "MATERIAL"
+        },
+        "description": "MATERIAL",
+        "qty": 3.0,
+        "price_unit": 20.0,
+        "price_subtotal": 60.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "S00008",
+    "date_order": "2026-04-09 06:24:16",
+    "state": "sale",
+    "partner": {
+      "id": 24,
+      "name": "ANA MARIA TENA CAÑIZAL"
+    },
+    "amount_total": 150.0,
+    "create_uid": "Navagost",
+    "lines": [
+      {
+        "id": 59,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "REPARACION PUERTA EXTERIOR BENICASIM",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 60,
+        "product": {
+          "id": 22,
+          "name": "MATERIAL COMPLETO"
+        },
+        "description": "MATERIAL COMPLETO",
+        "qty": 1.0,
+        "price_unit": 92.0,
+        "price_subtotal": 92.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 61,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "TAPA HUECO GARAJE",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 62,
+        "product": {
+          "id": 22,
+          "name": "MATERIAL COMPLETO"
+        },
+        "description": "MATERIAL COMPLETO",
+        "qty": 1.0,
+        "price_unit": 31.97,
+        "price_subtotal": 31.97,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 157,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "Anticipos",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 158,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "Anticipo",
+        "qty": 0.0,
+        "price_unit": 123.97,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "S00007",
+    "date_order": "2026-04-08 11:23:45",
+    "state": "sale",
+    "partner": {
+      "id": 23,
+      "name": "TALLERES A GUILLAMON SL"
+    },
+    "amount_total": 1644.5,
+    "create_uid": "Navagost",
+    "lines": [
+      {
+        "id": 58,
+        "product": {
+          "id": 37,
+          "name": "TOLVA ASPIRACION GEOTILES"
+        },
+        "description": "TOLVA ASPIRACION GEOTILES",
+        "qty": 3.0,
+        "price_unit": 453.03,
+        "price_subtotal": 1359.09,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "S00006",
+    "date_order": "2026-04-07 13:34:21",
+    "state": "draft",
+    "partner": {
+      "id": 22,
+      "name": "Ricardo"
+    },
+    "amount_total": 54673.67,
+    "create_uid": "Navagost",
+    "lines": [
+      {
+        "id": 27,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "APARTADO 4.1.1 PLACAS ANCLAJE",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 28,
+        "product": {
+          "id": 22,
+          "name": "MATERIAL COMPLETO"
+        },
+        "description": "MATERIAL COMPLETO",
+        "qty": 1.0,
+        "price_unit": 1395.0,
+        "price_subtotal": 1395.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 29,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "APARTADO 4.1.2 PILARES Y VIGAS",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 30,
+        "product": {
+          "id": 22,
+          "name": "MATERIAL COMPLETO"
+        },
+        "description": "MATERIAL COMPLETO",
+        "qty": 1.0,
+        "price_unit": 34560.0,
+        "price_subtotal": 34560.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 31,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "APARTADO 4.1.3 ESCALERA",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 32,
+        "product": {
+          "id": 22,
+          "name": "MATERIAL COMPLETO"
+        },
+        "description": "MATERIAL COMPLETO",
+        "qty": 1.0,
+        "price_unit": 4250.0,
+        "price_subtotal": 4250.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 33,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "APARTADO 5.4.1 BARANDILLA TRAMO 15,5 METROS",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 34,
+        "product": {
+          "id": 23,
+          "name": "PLT 50 X 10"
+        },
+        "description": "PLT 50 X 10",
+        "qty": 175.0,
+        "price_unit": 1.33,
+        "price_subtotal": 232.75,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 35,
+        "product": {
+          "id": 24,
+          "name": "CUADRADILLO MACIZO 14 X 14"
+        },
+        "description": "CUADRADILLO MACIZO 14 X 14",
+        "qty": 280.0,
+        "price_unit": 1.47,
+        "price_subtotal": 411.6,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 36,
+        "product": {
+          "id": 25,
+          "name": "RAL 7032 IMPRIMACION"
+        },
+        "description": "RAL 7032 IMPRIMACION",
+        "qty": 2.0,
+        "price_unit": 35.0,
+        "price_subtotal": 70.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 37,
+        "product": {
+          "id": 7,
+          "name": "Soldadura/Montaje"
+        },
+        "description": "Soldadura/Montaje",
+        "qty": 20.0,
+        "price_unit": 42.0,
+        "price_subtotal": 840.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 38,
+        "product": {
+          "id": 26,
+          "name": "Horas Pintar"
+        },
+        "description": "Horas Pintar",
+        "qty": 3.0,
+        "price_unit": 35.0,
+        "price_subtotal": 105.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 39,
+        "product": {
+          "id": 27,
+          "name": "Horas Cortar"
+        },
+        "description": "Horas Cortar",
+        "qty": 8.0,
+        "price_unit": 40.0,
+        "price_subtotal": 320.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 55,
+        "product": {
+          "id": 1,
+          "name": "Horas Oficial"
+        },
+        "description": "Horas Oficial",
+        "qty": 16.0,
+        "price_unit": 25.0,
+        "price_subtotal": 400.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 56,
+        "product": {
+          "id": 33,
+          "name": "GRUA"
+        },
+        "description": "GRUA",
+        "qty": 8.0,
+        "price_unit": 110.0,
+        "price_subtotal": 880.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 40,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "6.2.1 PUERTA ABATIBLE 1 HOJA 2030 X 700MM RAL-------- 2 UND.",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 41,
+        "product": {
+          "id": 28,
+          "name": "PUERTA GALVA 2030 X 700"
+        },
+        "description": "PUERTA GALVA 2030 X 700",
+        "qty": 2.0,
+        "price_unit": 150.0,
+        "price_subtotal": 300.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 42,
+        "product": {
+          "id": 29,
+          "name": "RAL GENERICO"
+        },
+        "description": "RAL GENERICO",
+        "qty": 1.0,
+        "price_unit": 35.0,
+        "price_subtotal": 35.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 43,
+        "product": {
+          "id": 26,
+          "name": "Horas Pintar"
+        },
+        "description": "Horas Pintar",
+        "qty": 0.5,
+        "price_unit": 35.0,
+        "price_subtotal": 17.5,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 44,
+        "product": {
+          "id": 1,
+          "name": "Horas Oficial"
+        },
+        "description": "Horas Oficial",
+        "qty": 2.0,
+        "price_unit": 25.0,
+        "price_subtotal": 50.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 45,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "6.2.2 PUERTA ABATIBLE 1 HOJA 2030 X 800MM RAL---------- 3 UND.",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 46,
+        "product": {
+          "id": 31,
+          "name": "PUERTA GALVA 2030 X 800"
+        },
+        "description": "PUERTA GALVA 2030 X 800",
+        "qty": 3.0,
+        "price_unit": 170.0,
+        "price_subtotal": 510.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 47,
+        "product": {
+          "id": 29,
+          "name": "RAL GENERICO"
+        },
+        "description": "RAL GENERICO",
+        "qty": 1.0,
+        "price_unit": 45.0,
+        "price_subtotal": 45.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 48,
+        "product": {
+          "id": 26,
+          "name": "Horas Pintar"
+        },
+        "description": "Horas Pintar",
+        "qty": 0.8,
+        "price_unit": 35.0,
+        "price_subtotal": 28.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 49,
+        "product": {
+          "id": 1,
+          "name": "Horas Oficial"
+        },
+        "description": "Horas Oficial",
+        "qty": 3.0,
+        "price_unit": 25.0,
+        "price_subtotal": 75.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 50,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "6.2.3 PUERTA ABATIBLE 2 HOJAS 2030 X 1400 RAL ------------ 1 UND.",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 51,
+        "product": {
+          "id": 32,
+          "name": "PUERTA GALVA 2030 X 1400"
+        },
+        "description": "PUERTA GALVA 2030 X 1400",
+        "qty": 1.0,
+        "price_unit": 575.0,
+        "price_subtotal": 575.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 52,
+        "product": {
+          "id": 29,
+          "name": "RAL GENERICO"
+        },
+        "description": "RAL GENERICO",
+        "qty": 1.0,
+        "price_unit": 30.0,
+        "price_subtotal": 30.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 53,
+        "product": {
+          "id": 26,
+          "name": "Horas Pintar"
+        },
+        "description": "Horas Pintar",
+        "qty": 0.5,
+        "price_unit": 35.0,
+        "price_subtotal": 17.5,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 54,
+        "product": {
+          "id": 1,
+          "name": "Horas Oficial"
+        },
+        "description": "Horas Oficial",
+        "qty": 1.5,
+        "price_unit": 25.0,
+        "price_subtotal": 37.5,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "S00005",
+    "date_order": "2026-04-07 08:29:02",
+    "state": "draft",
+    "partner": {
+      "id": 22,
+      "name": "Ricardo"
+    },
+    "amount_total": 1954.15,
+    "create_uid": "Navagost",
+    "lines": [
+      {
+        "id": 23,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "BARANDILLA DE VIDRIO PERFIL CONTINUO U",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 24,
+        "product": {
+          "id": 1,
+          "name": "Horas Oficial"
+        },
+        "description": "Horas Oficial",
+        "qty": 16.0,
+        "price_unit": 25.0,
+        "price_subtotal": 400.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 26,
+        "product": {
+          "id": 21,
+          "name": "MASILLA TRANSPARENTE"
+        },
+        "description": "MASILLA TRANSPARENTE",
+        "qty": 1.0,
+        "price_unit": 15.0,
+        "price_subtotal": 15.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 57,
+        "product": {
+          "id": 35,
+          "name": "MATERIAL PRESUPUESTO COMAYCO Nº12601364"
+        },
+        "description": "MATERIAL PRESUPUESTO COMAYCO Nº12601364",
+        "qty": 1.0,
+        "price_unit": 1200.0,
+        "price_subtotal": 1200.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "S00003",
+    "date_order": "2026-04-02 07:05:38",
+    "state": "sale",
+    "partner": {
+      "id": 20,
+      "name": "LURDES (VILLA BENI)"
+    },
+    "amount_total": 2117.73,
+    "create_uid": "Navagost",
+    "lines": [
+      {
+        "id": 12,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "ESTRUCTURA JARDIN",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 13,
+        "product": {
+          "id": 17,
+          "name": "CONJUNTO"
+        },
+        "description": "CONJUNTO",
+        "qty": 1.0,
+        "price_unit": 468.09,
+        "price_subtotal": 468.09,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "PUERTA PARTE SUPERIOR",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 15,
+        "product": {
+          "id": 17,
+          "name": "CONJUNTO"
+        },
+        "description": "CONJUNTO",
+        "qty": 1.0,
+        "price_unit": 775.15,
+        "price_subtotal": 775.15,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "VENTANA PARTE SUPERIOR",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      },
+      {
+        "id": 17,
+        "product": {
+          "id": 17,
+          "name": "CONJUNTO"
+        },
+        "description": "CONJUNTO",
+        "qty": 1.0,
+        "price_unit": 506.95,
+        "price_subtotal": 506.95,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "S00002",
+    "date_order": "2026-04-02 05:52:07",
+    "state": "sale",
+    "partner": {
+      "id": 19,
+      "name": "COMUNIDAD JARDINES DE TAXIDA"
+    },
+    "amount_total": 987.36,
+    "create_uid": "Navagost",
+    "lines": [
+      {
+        "id": 5,
+        "product": {
+          "id": 1,
+          "name": "Horas Oficial"
+        },
+        "description": "Horas Oficial",
+        "qty": 20.0,
+        "price_unit": 30.5,
+        "price_subtotal": 610.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 6,
+            "name": "21% S"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "product": {
+          "id": 14,
+          "name": "MEDIDAS DE SEGURIDAD"
+        },
+        "description": "MEDIDAS DE SEGURIDAD",
+        "qty": 1.0,
+        "price_unit": 165.0,
+        "price_subtotal": 165.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "product": {
+          "id": 15,
+          "name": "TOPE SEGURIDAD"
+        },
+        "description": "TOPE SEGURIDAD",
+        "qty": 1.0,
+        "price_unit": 20.0,
+        "price_subtotal": 20.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "product": {
+          "id": 16,
+          "name": "DESPLAZAMIENTO"
+        },
+        "description": "DESPLAZAMIENTO",
+        "qty": 60.0,
+        "price_unit": 0.35,
+        "price_subtotal": 21.0,
+        "discount": 0.0,
+        "taxes": [
+          {
+            "id": 5,
+            "name": "21% G"
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "Anticipos",
+        "qty": 0.0,
+        "price_unit": 0.0,
+        "price_subtotal": 0.0,
+        "discount": 0.0,
+        "taxes": []
+      }
+    ]
+  }
+]

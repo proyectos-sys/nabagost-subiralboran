@@ -1,0 +1,580 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Navagost">
+  <meta name="theme-color" content="#1a3a5c">
+  <title>Asistente IA  Odoo</title>
+  <script src="https://cdn.jsdelivr.net/npm/marked@4/marked.min.js"></script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --navy:   #0f2744;
+      --navy2:  #1a3a5c;
+      --navy3:  #254d7a;
+      --accent: #3b9eda;
+      --accent2:#5bc8f5;
+      --bg:     #f4f6f9;
+      --white:  #ffffff;
+      --border: #e2e7f0;
+      --text:   #111827;
+      --muted:  #6b7a8d;
+      --green:  #166534;
+      --green-l:#dcfce7;
+      --red:    #991b1b;
+      --red-l:  #fee2e2;
+      --tool-bg:#eff8ff;
+      --tool-br:#93c5fd;
+      --tool-tx:#1d4ed8;
+      --shadow: 0 1px 3px rgba(0,0,0,.08), 0 4px 16px rgba(0,0,0,.06);
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: var(--bg);
+      height: 100dvh;
+      display: flex;
+      flex-direction: column;
+      color: var(--text);
+    }
+
+    /* ── HEADER ─────────────────────────────────────────────────── */
+    header {
+      background: linear-gradient(135deg, var(--navy) 0%, var(--navy2) 100%);
+      color: var(--white);
+      padding: 14px 24px;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      box-shadow: 0 2px 12px rgba(0,0,0,.35);
+      flex-shrink: 0;
+    }
+    .logo-icon {
+      width: 40px; height: 40px;
+      background: linear-gradient(135deg, var(--accent2), var(--accent));
+      border-radius: 12px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.25rem; font-weight: 900; color: var(--white);
+      flex-shrink: 0;
+      box-shadow: 0 2px 8px rgba(91,200,245,.4);
+    }
+    .logo-text { flex: 1; }
+    .logo-text .title { font-size: 1.08rem; font-weight: 700; letter-spacing: -.01em; }
+    .logo-text .subtitle { font-size: .73rem; color: var(--accent2); opacity: .9; margin-top: 1px; }
+    .status-badge {
+      font-size: .68rem; padding: 4px 12px; border-radius: 20px; white-space: nowrap;
+      font-weight: 600; letter-spacing: .02em;
+    }
+    .status-badge.ok   { background: var(--green-l); color: var(--green); }
+    .status-badge.warn { background: var(--red-l);   color: var(--red); }
+
+    /* ── MESSAGES ────────────────────────────────────────────────── */
+    #messages {
+      flex: 1; overflow-y: auto;
+      padding: 16px 12px;
+      display: flex; flex-direction: column; gap: 12px;
+      scroll-behavior: smooth;
+    }
+
+    .msg {
+      max-width: 84%; padding: 13px 17px;
+      border-radius: 20px; line-height: 1.65;
+      font-size: .9rem; animation: fadeIn .2s ease;
+    }
+    @keyframes fadeIn { from { opacity:0; transform:translateY(6px) } to { opacity:1; } }
+
+    .msg.user {
+      align-self: flex-end;
+      background: linear-gradient(135deg, var(--navy2), var(--navy3));
+      color: var(--white);
+      border-bottom-right-radius: 5px;
+      box-shadow: 0 2px 8px rgba(15,39,68,.25);
+    }
+    .msg.bot {
+      align-self: flex-start;
+      background: var(--white); color: var(--text);
+      border-bottom-left-radius: 5px;
+      box-shadow: var(--shadow);
+      border: 1px solid var(--border);
+    }
+    /* mensaje de bienvenida especial */
+    .msg.welcome {
+      max-width: 92%;
+      background: linear-gradient(135deg, #f0f7ff 0%, #ffffff 100%);
+      border: 1px solid #c8dff7;
+    }
+
+    /* ── PANEL DE CAPACIDADES (deslizante desde arriba) ──────────── */
+    #info-overlay {
+      display: none;
+      position: fixed; inset: 0; z-index: 100;
+      background: rgba(15,39,68,.45);
+      backdrop-filter: blur(2px);
+      animation: fadeOverlay .2s ease;
+    }
+    @keyframes fadeOverlay { from{opacity:0} to{opacity:1} }
+    #info-panel {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 101;
+      background: var(--white);
+      border-radius: 0 0 20px 20px;
+      padding: 20px 20px 24px;
+      box-shadow: 0 8px 32px rgba(0,0,0,.18);
+      transform: translateY(-110%);
+      transition: transform .3s cubic-bezier(.4,0,.2,1);
+      max-height: 85dvh; overflow-y: auto;
+    }
+    #info-panel.open { transform: translateY(0); }
+    .panel-header {
+      display: flex; align-items: center; justify-content: space-between;
+      margin-bottom: 16px;
+    }
+    .panel-header h2 { font-size: 1rem; font-weight: 700; color: var(--navy); }
+    .panel-close {
+      border: none; background: var(--bg); border-radius: 8px;
+      width: 32px; height: 32px; font-size: 1.1rem; cursor: pointer;
+      display: flex; align-items: center; justify-content: center;
+      color: var(--muted);
+    }
+    .panel-close:hover { background: var(--border); color: var(--text); }
+    .welcome-grid {
+      display: grid; grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+    .cap-card {
+      background: var(--bg); border: 1.5px solid var(--border);
+      border-radius: 14px; padding: 12px 13px;
+      display: flex; align-items: flex-start; gap: 10px;
+    }
+    .cap-icon { font-size: 1.3rem; flex-shrink: 0; line-height: 1.3; }
+    .cap-body .cap-title { font-weight: 700; font-size: .84rem; color: var(--navy2); }
+    .cap-body .cap-desc  { font-size: .76rem; color: var(--muted); margin-top: 3px; line-height: 1.35; }
+    .panel-tip {
+      margin-top: 14px; font-size: .8rem; color: var(--muted);
+      background: #f0f7ff; border-radius: 10px; padding: 10px 13px;
+      border: 1px solid #c8dff7; line-height: 1.4;
+    }
+    /* botón info en header */
+    .btn-info {
+      border: none; background: rgba(255,255,255,.15); color: var(--white);
+      border-radius: 10px; width: 36px; height: 36px;
+      font-size: 1rem; cursor: pointer; flex-shrink: 0;
+      display: flex; align-items: center; justify-content: center;
+      transition: background .15s;
+    }
+    .btn-info:hover { background: rgba(255,255,255,.28); }
+
+    /* markdown styles inside bot bubble */
+    .msg.bot .table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; margin: 8px 0; }
+    .msg.bot table { border-collapse: collapse; min-width: 100%; font-size:.83rem; white-space: nowrap; }
+    .msg.bot th, .msg.bot td { border: 1px solid var(--border); padding: 5px 10px; text-align: left; }
+    .msg.bot th { background: #f0f4ff; font-weight: 600; color: var(--navy); }
+    .msg.bot tr:nth-child(even) { background: #f9f9ff; }
+    .msg.bot p  { margin: 4px 0; }
+    .msg.bot ul, .msg.bot ol { padding-left: 18px; margin: 4px 0; }
+    .msg.bot li { margin: 2px 0; }
+    .msg.bot strong { color: var(--navy); }
+    .msg.bot h3 { font-size: .95rem; color: var(--navy); margin: 8px 0 4px; }
+    .msg.bot code {
+      background: var(--bg); padding: 1px 5px;
+      border-radius: 4px; font-size: .82em; font-family: "Fira Code", monospace;
+    }
+    .msg.bot blockquote {
+      border-left: 3px solid var(--accent); margin: 6px 0;
+      padding: 4px 12px; color: var(--muted); font-style: italic;
+    }
+    .msg.bot hr { border: none; border-top: 1px solid var(--border); margin: 10px 0; }
+
+    /* ── RATE LIMIT MESSAGE ──────────────────────────────────────── */
+    .msg.rate-limit {
+      display: flex; align-items: flex-start; gap: 12px;
+      background: #fffbeb; border: 1.5px solid #fcd34d;
+      border-radius: 16px; border-bottom-left-radius: 5px;
+      padding: 14px 16px; max-width: 92%;
+    }
+    .rl-icon { font-size: 1.4rem; flex-shrink: 0; line-height: 1; }
+    .rl-body { flex: 1; font-size: .88rem; color: #92400e; line-height: 1.5; }
+    .rl-body strong { color: #78350f; }
+    .rl-sub { font-size: .82rem; }
+    .rl-bar {
+      margin-top: 8px; height: 4px; background: #fde68a;
+      border-radius: 4px; overflow: hidden;
+    }
+    .rl-fill {
+      height: 100%; background: #f59e0b;
+      transition: width 1s linear; border-radius: 4px;
+    }
+
+    /* tool call badges */
+    .tools-row { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 10px; }
+    .tool-badge {
+      font-size: .68rem; background: var(--tool-bg); color: var(--tool-tx);
+      border: 1px solid var(--tool-br);
+      padding: 3px 10px; border-radius: 10px; display: inline-flex;
+      align-items: center; gap: 5px; font-weight: 600;
+    }
+    .tool-badge::before { content: "⚙ "; opacity: .7; }
+
+    /* typing indicator */
+    .typing {
+      align-self: flex-start; background: var(--white);
+      border-radius: 18px; border-bottom-left-radius: 4px;
+      padding: 14px 18px;
+      box-shadow: 0 1px 5px rgba(0,0,0,.09);
+    }
+    .typing span {
+      display: inline-block; width: 7px; height: 7px;
+      background: var(--muted); border-radius: 50%; margin: 0 2px;
+      animation: bounce .9s infinite;
+    }
+    .typing span:nth-child(2) { animation-delay: .2s; }
+    .typing span:nth-child(3) { animation-delay: .4s; }
+    @keyframes bounce { 0%,60%,100%{transform:translateY(0)} 30%{transform:translateY(-6px)} }
+
+    /* ── SUGGESTIONS ─────────────────────────────────────────────── */
+    #suggestions {
+      display: flex; flex-wrap: wrap; gap: 7px;
+      padding: 2px 16px 12px;
+    }
+    .sug {
+      background: var(--white); border: 1.5px solid var(--border);
+      border-radius: 20px; padding: 7px 15px;
+      font-size: .79rem; cursor: pointer; color: var(--navy2);
+      transition: all .15s; white-space: nowrap;
+      box-shadow: 0 1px 3px rgba(0,0,0,.06);
+      font-weight: 500;
+    }
+    .sug:hover { background: var(--navy2); color: var(--white); border-color: var(--navy2); box-shadow: 0 2px 8px rgba(15,39,68,.2); }
+
+    /* ── INPUT BAR ───────────────────────────────────────────────── */
+    #input-bar {
+      background: var(--white);
+      border-top: 1px solid var(--border);
+      padding: 10px 12px;
+      display: flex; gap: 8px; align-items: flex-end;
+      flex-shrink: 0;
+      box-shadow: 0 -2px 10px rgba(0,0,0,.05);
+    }
+    #prompt {
+      flex: 1; resize: none;
+      border: 1.5px solid var(--border); border-radius: 22px;
+      padding: 11px 16px; font-size: 1rem; font-family: inherit;
+      outline: none; max-height: 120px; line-height: 1.4;
+      transition: border-color .2s, box-shadow .2s; background: var(--bg);
+    }
+    #prompt:focus {
+      border-color: var(--accent);
+      background: var(--white);
+      box-shadow: 0 0 0 3px rgba(59,158,218,.12);
+    }
+
+    .btn { border: none; cursor: pointer; font-family: inherit; transition: all .2s; }
+
+    /* botón enviar: círculo */
+    #btn-send {
+      width: 44px; height: 44px; border-radius: 50%; flex-shrink: 0;
+      background: linear-gradient(135deg, var(--navy2), var(--accent));
+      color: var(--white); font-size: 1.1rem;
+      display: flex; align-items: center; justify-content: center;
+      box-shadow: 0 2px 8px rgba(59,158,218,.4);
+    }
+    #btn-send:hover:not(:disabled) { filter: brightness(1.12); box-shadow: 0 3px 12px rgba(59,158,218,.5); }
+    #btn-send:disabled { background: #c5d0dc; box-shadow: none; cursor: default; }
+    .btn { touch-action: manipulation; -webkit-tap-highlight-color: transparent; }
+    .sug { touch-action: manipulation; -webkit-tap-highlight-color: transparent; }
+
+    /* botón nueva conversación: solo icono */
+    #btn-reset {
+      width: 40px; height: 40px; border-radius: 50%; flex-shrink: 0;
+      background: transparent; color: var(--muted);
+      border: 1.5px solid var(--border);
+      font-size: 1rem;
+      display: flex; align-items: center; justify-content: center;
+    }
+    #btn-reset:hover { background: var(--bg); color: var(--navy2); border-color: var(--navy2); }
+
+    /* ── FOOTER ──────────────────────────────────────────────────── */
+    footer {
+      text-align: center; font-size: .66rem; color: var(--muted);
+      padding: 5px; flex-shrink: 0;
+      border-top: 1px solid var(--border);
+      background: var(--bg);
+    }
+
+    /* ── RESPONSIVE ──────────────────────────────────────────────── */
+    @media (max-width: 600px) {
+      .msg { max-width: 98%; font-size: .88rem; padding: 10px 13px; }
+      .logo-text .subtitle { display: none; }
+      .msg.bot table { font-size: .75rem; }
+      .msg.bot th, .msg.bot td { padding: 4px 7px; }
+      #input-bar { padding: 8px 10px calc(8px + env(safe-area-inset-bottom)); gap: 7px; }
+      #prompt { font-size: 1rem; padding: 10px 14px; }
+      header { padding: 10px 14px; }
+      .sug { font-size: .78rem; padding: 6px 12px; }
+      #suggestions { padding: 4px 10px 10px; gap: 6px; }
+      #messages { padding: 12px 10px; }
+      .welcome-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo-icon">N</div>
+  <div class="logo-text">
+    <div class="title"> Asistente IA Odoo</div>
+    <div class="subtitle">Datos en tiempo real · {{ model }}</div>
+  </div>
+  {% if gemini_ok %}
+    <div class="status-badge ok">● Conectado</div>
+  {% else %}
+    <div class="status-badge warn">⚠ Sin API key</div>
+  {% endif %}
+  <button class="btn-info" onclick="toggleInfo()" title="¿Qué puedo hacer?">ℹ️</button>
+</header>
+
+<!-- Panel de capacidades -->
+<div id="info-overlay" onclick="closeInfo()"></div>
+<div id="info-panel">
+  <div class="panel-header">
+    <h2>📚 ¿Qué puedo consultar?</h2>
+    <button class="panel-close" onclick="closeInfo()">&#x2715;</button>
+  </div>
+  <div class="welcome-grid">
+    <div class="cap-card">
+      <div class="cap-icon">📋</div>
+      <div class="cap-body">
+        <div class="cap-title">Presupuestos</div>
+        <div class="cap-desc">Listar todos o filtrar por cliente · Ver líneas de detalle con productos, precios y cantidades</div>
+      </div>
+    </div>
+    <div class="cap-card">
+      <div class="cap-icon">🧾</div>
+      <div class="cap-body">
+        <div class="cap-title">Facturas</div>
+        <div class="cap-desc">Todas las facturas de venta · Filtrar por cliente o estado (borrador / confirmada)</div>
+      </div>
+    </div>
+    <div class="cap-card">
+      <div class="cap-icon">🛒</div>
+      <div class="cap-body">
+        <div class="cap-title">Compras</div>
+        <div class="cap-desc">Todas las órdenes de compra · Filtrar por proveedor · Ver líneas de detalle</div>
+      </div>
+    </div>
+    <div class="cap-card">
+      <div class="cap-icon">🔍</div>
+      <div class="cap-body">
+        <div class="cap-title">Análisis</div>
+        <div class="cap-desc">Presupuestos sin factura · Tasa de conversión · Cruces de datos</div>
+      </div>
+    </div>
+  </div>
+  <div class="panel-tip">
+    💡 <strong>Ejemplos:</strong> <em>"dame las líneas del presupuesto S00034"</em> · <em>"compras de BECSA"</em> · <em>"facturas pendientes de mayo"</em>
+  </div>
+</div>
+
+<div id="messages">
+  <div class="msg bot welcome">
+    👋 Hola, soy tu asistente de <strong>Navagost</strong>.<br>
+    Puedo consultar presupuestos, facturas y compras directamente desde Odoo.<br><br>
+    Pulsa <strong>ℹ️</strong> arriba para ver todo lo que puedo hacer, o escríbeme directamente.
+  </div>
+</div>
+
+<div id="suggestions">
+  <span class="sug" onclick="sendSug(this)">📋 Presupuestos de este mes</span>
+  <span class="sug" onclick="sendSug(this)">🔍 Presupuestos sin factura</span>
+  <span class="sug" onclick="sendSug(this)">🧾 Facturas pendientes</span>
+  <span class="sug" onclick="sendSug(this)">📊 Tasa de conversión</span>
+  <span class="sug" onclick="sendSug(this)">🛒 Últimas compras</span>
+  <span class="sug" onclick="sendSug(this)">💶 Total facturado</span>
+</div>
+
+<div id="input-bar">
+  <button class="btn" id="btn-reset" onclick="resetChat()" title="Nueva conversación">&#x21BA;</button>
+  <textarea id="prompt" rows="1"
+    placeholder="Escribe tu pregunta…"
+    enterkeyhint="send"
+    inputmode="text"
+    autocomplete="off"
+    autocorrect="off"
+    autocapitalize="sentences"
+    spellcheck="false"></textarea>
+  <button class="btn" id="btn-send" onclick="sendMessage()" title="Enviar">&#x2191;</button>
+</div>
+
+<footer>Lectura/Escritura · Datos en tiempo real desde Odoo · navagost.odoo.com</footer>
+
+<script>
+  // Configurar marked para tablas GFM
+  marked.use({ gfm: true, breaks: true });
+
+  // ── Renderer que envuelve tablas en un div scrollable (esencial en móvil)
+  const renderer = new marked.Renderer();
+  renderer.table = (header, body) =>
+    `<div class="table-wrap"><table><thead>${header}</thead><tbody>${body}</tbody></table></div>`;
+  marked.use({ renderer });
+
+  const $msg    = document.getElementById("messages");
+  const $prompt = document.getElementById("prompt");
+  const $send   = document.getElementById("btn-send");
+  const $sugs   = document.getElementById("suggestions");
+
+  // Historial de conversación (viaja al servidor en cada petición)
+  let chatHistory = [];
+
+  // Auto-grow textarea
+  $prompt.addEventListener("input", () => {
+    $prompt.style.height = "auto";
+    $prompt.style.height = Math.min($prompt.scrollHeight, 130) + "px";
+  });
+  $prompt.addEventListener("keydown", e => {
+    if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); sendMessage(); }
+  });
+
+  function scrollDown() { $msg.scrollTop = $msg.scrollHeight; }
+
+  function addMsg(html, cls) {
+    const div = document.createElement("div");
+    div.className = "msg " + cls;
+    div.innerHTML = html;
+    $msg.appendChild(div);
+    scrollDown();
+    return div;
+  }
+
+  function showTyping() {
+    const div = document.createElement("div");
+    div.className = "typing"; div.id = "typing";
+    div.innerHTML = "<span></span><span></span><span></span>";
+    $msg.appendChild(div); scrollDown();
+  }
+  function hideTyping() { document.getElementById("typing")?.remove(); }
+
+  function sendSug(el) { $prompt.value = el.textContent; sendMessage(); }
+
+  async function sendMessage() {
+    const text = $prompt.value.trim();
+    if (!text || $send.disabled) return;
+
+    $sugs.style.display = "none";
+    addMsg(esc(text), "user");
+    $prompt.value = ""; $prompt.style.height = "auto";
+    $send.disabled = true;
+    showTyping();
+
+    try {
+      const resp = await fetch("/chat", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ message: text, history: chatHistory })
+      });
+      const data = await resp.json();
+      hideTyping();
+
+      if (data.error) {
+        if (data.retry_after) {
+          showRateLimit(data.retry_after);
+        } else {
+          addMsg(`<strong>⚠️ Error:</strong> ${esc(data.error)}`, "bot error-msg");
+        }
+      } else {
+        // actualizar historial con la versión devuelta por el servidor
+        chatHistory = data.history || chatHistory;
+
+        let html = "";
+        // badges de herramientas usadas
+        if (data.tool_calls && data.tool_calls.length) {
+          const badges = data.tool_calls.map(tc => {
+            const args = Object.entries(tc.args || {})
+              .map(([k,v]) => `${k}=${JSON.stringify(v)}`).join(", ");
+            return `<span class="tool-badge">${esc(tc.fn)}${args ? `(${esc(args)})` : ""}</span>`;
+          }).join("");
+          html += `<div class="tools-row">${badges}</div>`;
+        }
+        html += marked.parse(data.reply || "_(sin respuesta)_");
+        addMsg(html, "bot");
+      }
+    } catch (err) {
+      hideTyping();
+      addMsg(`<strong>⚠️ Error de red:</strong> ${esc(err.message)}`, "bot");
+    }
+
+    $send.disabled = false;
+    // No llamamos focus() en móvil para evitar reabrir el teclado
+    if (window.innerWidth > 640 && !('ontouchstart' in window)) $prompt.focus();
+  }
+
+  function showRateLimit(seconds) {
+    // eliminar aviso anterior si lo hay
+    document.getElementById("rate-limit-msg")?.remove();
+    const div = document.createElement("div");
+    div.id = "rate-limit-msg";
+    div.className = "msg bot rate-limit";
+    div.innerHTML = `
+      <div class="rl-icon">⏳</div>
+      <div class="rl-body">
+        <strong>Límite de consultas alcanzado</strong><br>
+        <span class="rl-sub">Puedes volver a preguntar en <span id="rl-countdown">${seconds}</span> segundos.</span>
+        <div class="rl-bar"><div class="rl-fill" id="rl-fill" style="width:100%"></div></div>
+      </div>`;
+    $msg.appendChild(div);
+    scrollDown();
+    // cuenta atrás
+    let remaining = seconds;
+    const total = seconds;
+    const interval = setInterval(() => {
+      remaining--;
+      const el = document.getElementById("rl-countdown");
+      const fill = document.getElementById("rl-fill");
+      if (!el) { clearInterval(interval); return; }
+      el.textContent = remaining;
+      if (fill) fill.style.width = (remaining / total * 100) + "%";
+      if (remaining <= 0) {
+        clearInterval(interval);
+        div.innerHTML = `<div class="rl-icon">✅</div><div class="rl-body"><strong>Ya puedes preguntar de nuevo</strong></div>`;
+        $send.disabled = false;
+      }
+    }, 1000);
+    // bloquear envío durante la espera
+    $send.disabled = true;
+    setTimeout(() => { $send.disabled = false; }, seconds * 1000);
+  }
+
+  function resetChat() {
+    chatHistory = [];
+    $msg.innerHTML = `<div class="msg bot welcome">👋 Hola, soy tu asistente de <strong>Navagost</strong>.<br>Puedo consultar presupuestos, facturas y compras directamente desde Odoo.<br><br>Pulsa <strong>ℹ️</strong> arriba para ver todo lo que puedo hacer, o escríbeme directamente.</div>`;
+    $sugs.style.display = "flex";
+  }
+
+  function toggleInfo() {
+    const panel = document.getElementById("info-panel");
+    const overlay = document.getElementById("info-overlay");
+    const isOpen = panel.classList.contains("open");
+    if (isOpen) { closeInfo(); } else {
+      overlay.style.display = "block";
+      requestAnimationFrame(() => panel.classList.add("open"));
+    }
+  }
+  function closeInfo() {
+    const panel = document.getElementById("info-panel");
+    const overlay = document.getElementById("info-overlay");
+    panel.classList.remove("open");
+    setTimeout(() => { overlay.style.display = "none"; }, 280);
+  }
+
+  function esc(s) {
+    return String(s)
+      .replace(/&/g,"&amp;").replace(/</g,"&lt;")
+      .replace(/>/g,"&gt;").replace(/"/g,"&quot;");
+  }
+</script>
+</body>
+</html>

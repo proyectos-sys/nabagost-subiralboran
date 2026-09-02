@@ -1,0 +1,3152 @@
+[
+  {
+    "id": 62,
+    "name": "P00062",
+    "date_order": "2026-05-20 15:58:04",
+    "state": "purchase",
+    "partner": {
+      "id": 51,
+      "name": "COSUMSE SL"
+    },
+    "amount_total": 75.2,
+    "lines": [
+      {
+        "id": 152,
+        "product": {
+          "id": 215,
+          "name": "DISCO LAMINAS 125 X 22 GRANO 40"
+        },
+        "description": "DISCO LAMINAS 125 X 22 GRANO 40",
+        "qty": 20.0,
+        "price_unit": 1.9,
+        "price_subtotal": 38.0,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      },
+      {
+        "id": 153,
+        "product": {
+          "id": 119,
+          "name": "GUANTE COND."
+        },
+        "description": "GUANTE COND.",
+        "qty": 2.0,
+        "price_unit": 2.45,
+        "price_subtotal": 4.9,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      },
+      {
+        "id": 154,
+        "product": {
+          "id": 216,
+          "name": "PANTALON WORKER"
+        },
+        "description": "PANTALON WORKER",
+        "qty": 1.0,
+        "price_unit": 19.25,
+        "price_subtotal": 19.25,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "name": "P00061",
+    "date_order": "2026-05-20 06:53:38",
+    "state": "purchase",
+    "partner": {
+      "id": 10,
+      "name": "HIMECAS"
+    },
+    "amount_total": 533.17,
+    "lines": [
+      {
+        "id": 148,
+        "product": {
+          "id": 212,
+          "name": "TUBO 40 X 20 X 2"
+        },
+        "description": "TUBO 40 X 20 X 2",
+        "qty": 120.0,
+        "price_unit": 2.1,
+        "price_subtotal": 252.0,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      },
+      {
+        "id": 149,
+        "product": {
+          "id": 214,
+          "name": "PLETINA 25 X 5"
+        },
+        "description": "PLETINA 25 X 5",
+        "qty": 18.0,
+        "price_unit": 1.39,
+        "price_subtotal": 25.02,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      },
+      {
+        "id": 150,
+        "product": {
+          "id": 212,
+          "name": "TUBO 40 X 20 X 2"
+        },
+        "description": "TUBO 40 X 20 X 2",
+        "qty": 66.0,
+        "price_unit": 2.1,
+        "price_subtotal": 138.6,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      },
+      {
+        "id": 151,
+        "product": {
+          "id": 214,
+          "name": "PLETINA 25 X 5"
+        },
+        "description": "PLETINA 25 X 5",
+        "qty": 18.0,
+        "price_unit": 1.39,
+        "price_subtotal": 25.02,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "name": "P00060",
+    "date_order": "2026-05-19 06:51:25",
+    "state": "purchase",
+    "partner": {
+      "id": 60,
+      "name": "MARKOIL SA"
+    },
+    "amount_total": 39.99,
+    "lines": [
+      {
+        "id": 147,
+        "product": {
+          "id": 211,
+          "name": "DIESEL"
+        },
+        "description": "DIESEL",
+        "qty": 23.05,
+        "price_unit": 1.735,
+        "price_subtotal": 39.99,
+        "taxes": []
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "name": "P00059",
+    "date_order": "2026-05-14 16:03:15",
+    "state": "purchase",
+    "partner": {
+      "id": 51,
+      "name": "COSUMSE SL"
+    },
+    "amount_total": 32.33,
+    "lines": [
+      {
+        "id": 145,
+        "product": {
+          "id": 189,
+          "name": "TAPON PLASTICO 20 X 40"
+        },
+        "description": "TAPON PLASTICO 20 X 40",
+        "qty": 21.0,
+        "price_unit": 0.1,
+        "price_subtotal": 2.1,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      },
+      {
+        "id": 146,
+        "product": {
+          "id": 205,
+          "name": "BOBINA PAPEL INDUSTRIAL"
+        },
+        "description": "BOBINA PAPEL INDUSTRIAL",
+        "qty": 2.0,
+        "price_unit": 12.31,
+        "price_subtotal": 24.62,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "name": "P00058",
+    "date_order": "2026-05-14 15:19:52",
+    "state": "purchase",
+    "partner": {
+      "id": 51,
+      "name": "COSUMSE SL"
+    },
+    "amount_total": 2.66,
+    "lines": [
+      {
+        "id": 144,
+        "product": {
+          "id": 189,
+          "name": "TAPON PLASTICO 20 X 40"
+        },
+        "description": "TAPON PLASTICO 20 X 40",
+        "qty": 22.0,
+        "price_unit": 0.1,
+        "price_subtotal": 2.2,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "name": "P00057",
+    "date_order": "2026-05-14 15:18:59",
+    "state": "purchase",
+    "partner": {
+      "id": 30,
+      "name": "DICOLASER SLU"
+    },
+    "amount_total": 52.93,
+    "lines": [
+      {
+        "id": 143,
+        "product": {
+          "id": 121,
+          "name": "CORTE DE PIEZA EN A.INOX"
+        },
+        "description": "CORTE DE PIEZA EN A.INOX",
+        "qty": 2.0,
+        "price_unit": 21.87,
+        "price_subtotal": 43.74,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "name": "P00056",
+    "date_order": "2026-05-14 15:13:34",
+    "state": "purchase",
+    "partner": {
+      "id": 32,
+      "name": "PROINCER GLOBAL PROYECTS SL."
+    },
+    "amount_total": 41.42,
+    "lines": [
+      {
+        "id": 142,
+        "product": {
+          "id": 204,
+          "name": "PLACA 80 X 150 X 10"
+        },
+        "description": "PLACA 80 X 150 X 10",
+        "qty": 6.0,
+        "price_unit": 5.705,
+        "price_subtotal": 34.23,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "name": "P00054",
+    "date_order": "2026-05-14 15:08:27",
+    "state": "purchase",
+    "partner": {
+      "id": 32,
+      "name": "PROINCER GLOBAL PROYECTS SL."
+    },
+    "amount_total": 179.77,
+    "lines": [
+      {
+        "id": 140,
+        "product": {
+          "id": 202,
+          "name": "CHAPA 100 X 20"
+        },
+        "description": "CHAPA 100 X 20",
+        "qty": 20.0,
+        "price_unit": 6.353,
+        "price_subtotal": 127.06,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      },
+      {
+        "id": 141,
+        "product": {
+          "id": 203,
+          "name": "CANTONERA 100 X 100"
+        },
+        "description": "CANTONERA 100 X 100",
+        "qty": 10.0,
+        "price_unit": 2.151,
+        "price_subtotal": 21.51,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "name": "P00053",
+    "date_order": "2026-05-12 16:53:35",
+    "state": "purchase",
+    "partner": {
+      "id": 51,
+      "name": "COSUMSE SL"
+    },
+    "amount_total": 122.69,
+    "lines": [
+      {
+        "id": 138,
+        "product": {
+          "id": 200,
+          "name": "BOLSA BASURA 90 X 115"
+        },
+        "description": "BOLSA BASURA 90 X 115",
+        "qty": 1.0,
+        "price_unit": 2.55,
+        "price_subtotal": 2.55,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      },
+      {
+        "id": 139,
+        "product": {
+          "id": 201,
+          "name": "PROLONGADOR 40 M 2,5"
+        },
+        "description": "PROLONGADOR 40 M 2,5",
+        "qty": 1.0,
+        "price_unit": 98.85,
+        "price_subtotal": 98.85,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "name": "P00052",
+    "date_order": "2026-05-12 16:52:45",
+    "state": "purchase",
+    "partner": {
+      "id": 51,
+      "name": "COSUMSE SL"
+    },
+    "amount_total": 7.26,
+    "lines": [
+      {
+        "id": 137,
+        "product": {
+          "id": 189,
+          "name": "TAPON PLASTICO 20 X 40"
+        },
+        "description": "TAPON PLASTICO 20 X 40",
+        "qty": 60.0,
+        "price_unit": 0.1,
+        "price_subtotal": 6.0,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "name": "P00051",
+    "date_order": "2026-05-12 16:51:45",
+    "state": "purchase",
+    "partner": {
+      "id": 51,
+      "name": "COSUMSE SL"
+    },
+    "amount_total": 9.44,
+    "lines": [
+      {
+        "id": 136,
+        "product": {
+          "id": 199,
+          "name": "MORDAZA APRIETE REVERSIBLE"
+        },
+        "description": "MORDAZA APRIETE REVERSIBLE\n300 MM",
+        "qty": 1.0,
+        "price_unit": 7.8,
+        "price_subtotal": 7.8,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "name": "P00050",
+    "date_order": "2026-05-12 16:42:49",
+    "state": "purchase",
+    "partner": {
+      "id": 51,
+      "name": "COSUMSE SL"
+    },
+    "amount_total": 144.84,
+    "lines": [
+      {
+        "id": 132,
+        "product": {
+          "id": 195,
+          "name": "ARNES CON CUERDA Y MOSQUETON"
+        },
+        "description": "ARNES CON CUERDA Y MOSQUETON",
+        "qty": 1.0,
+        "price_unit": 66.9,
+        "price_subtotal": 66.9,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      },
+      {
+        "id": 133,
+        "product": {
+          "id": 196,
+          "name": "CASCO EOLO"
+        },
+        "description": "CASCO EOLO",
+        "qty": 2.0,
+        "price_unit": 17.95,
+        "price_subtotal": 35.9,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      },
+      {
+        "id": 134,
+        "product": {
+          "id": 197,
+          "name": "GAFA DE SEGURIDAD"
+        },
+        "description": "GAFA DE SEGURIDAD",
+        "qty": 2.0,
+        "price_unit": 4.2,
+        "price_subtotal": 8.4,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      },
+      {
+        "id": 135,
+        "product": {
+          "id": 198,
+          "name": "CHALECO ALTA VISIBILIDAD"
+        },
+        "description": "CHALECO ALTA VISIBILIDAD",
+        "qty": 2.0,
+        "price_unit": 4.25,
+        "price_subtotal": 8.5,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "name": "P00049",
+    "date_order": "2026-05-12 16:38:27",
+    "state": "purchase",
+    "partner": {
+      "id": 51,
+      "name": "COSUMSE SL"
+    },
+    "amount_total": 79.75,
+    "lines": [
+      {
+        "id": 129,
+        "product": {
+          "id": 192,
+          "name": "FALSA ESCUADRA DIGITAL"
+        },
+        "description": "FALSA ESCUADRA DIGITAL\n400 MM",
+        "qty": 1.0,
+        "price_unit": 60.21,
+        "price_subtotal": 60.21,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      },
+      {
+        "id": 130,
+        "product": {
+          "id": 193,
+          "name": "TAPON PLASTICO 40 X 80"
+        },
+        "description": "TAPON PLASTICO 40 X 80",
+        "qty": 14.0,
+        "price_unit": 0.29,
+        "price_subtotal": 4.06,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      },
+      {
+        "id": 131,
+        "product": {
+          "id": 194,
+          "name": "HILO POLIPROPILENO 1,70 MM"
+        },
+        "description": "HILO POLIPROPILENO 1,70 MM\n1,70 MM",
+        "qty": 1.0,
+        "price_unit": 1.64,
+        "price_subtotal": 1.64,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "name": "P00048",
+    "date_order": "2026-05-12 15:54:51",
+    "state": "draft",
+    "partner": {
+      "id": 10,
+      "name": "HIMECAS"
+    },
+    "amount_total": 573.9,
+    "lines": [
+      {
+        "id": 125,
+        "product": {
+          "id": 191,
+          "name": "TUBO 40 X 20"
+        },
+        "description": "TUBO 40 X 20",
+        "qty": 120.0,
+        "price_unit": 2.1,
+        "price_subtotal": 252.0,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      },
+      {
+        "id": 126,
+        "product": {
+          "id": 145,
+          "name": "TUBO 80 X 80 X 2"
+        },
+        "description": "TUBO 80 X 80 X 2",
+        "qty": 12.0,
+        "price_unit": 6.15,
+        "price_subtotal": 73.8,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      },
+      {
+        "id": 127,
+        "product": {
+          "id": 146,
+          "name": "TUBO 80 X 40 X 2"
+        },
+        "description": "TUBO 80 X 40 X 2",
+        "qty": 30.0,
+        "price_unit": 4.45,
+        "price_subtotal": 133.5,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      },
+      {
+        "id": 128,
+        "product": {
+          "id": 71,
+          "name": "SERVICIO LOGISTICO"
+        },
+        "description": "SERVICIO LOGISTICO",
+        "qty": 1.0,
+        "price_unit": 15.0,
+        "price_subtotal": 15.0,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "name": "P00047",
+    "date_order": "2026-05-12 15:53:25",
+    "state": "purchase",
+    "partner": {
+      "id": 51,
+      "name": "COSUMSE SL"
+    },
+    "amount_total": 9.68,
+    "lines": [
+      {
+        "id": 124,
+        "product": {
+          "id": 189,
+          "name": "TAPON PLASTICO 20 X 40"
+        },
+        "description": "TAPON PLASTICO 20 X 40",
+        "qty": 80.0,
+        "price_unit": 0.1,
+        "price_subtotal": 8.0,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "name": "P00046",
+    "date_order": "2026-05-12 15:52:17",
+    "state": "purchase",
+    "partner": {
+      "id": 51,
+      "name": "COSUMSE SL"
+    },
+    "amount_total": 152.45,
+    "lines": [
+      {
+        "id": 122,
+        "product": {
+          "id": 187,
+          "name": "PANTALLA OPTECH ELECTRONICA"
+        },
+        "description": "PANTALLA OPTECH ELECTRONICA",
+        "qty": 1.0,
+        "price_unit": 52.2,
+        "price_subtotal": 52.2,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      },
+      {
+        "id": 123,
+        "product": {
+          "id": 188,
+          "name": "PROLONGADOR ELECTRICO 50 M"
+        },
+        "description": "PROLONGADOR ELECTRICO 50 M",
+        "qty": 1.0,
+        "price_unit": 73.7857,
+        "price_subtotal": 73.79,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "name": "P00045",
+    "date_order": "2026-05-12 15:50:49",
+    "state": "purchase",
+    "partner": {
+      "id": 51,
+      "name": "COSUMSE SL"
+    },
+    "amount_total": 63.16,
+    "lines": [
+      {
+        "id": 121,
+        "product": {
+          "id": 187,
+          "name": "PANTALLA OPTECH ELECTRONICA"
+        },
+        "description": "PANTALLA OPTECH ELECTRONICA",
+        "qty": 1.0,
+        "price_unit": 52.2,
+        "price_subtotal": 52.2,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "name": "P00044",
+    "date_order": "2026-05-12 15:45:11",
+    "state": "purchase",
+    "partner": {
+      "id": 30,
+      "name": "DICOLASER SLU"
+    },
+    "amount_total": 50.31,
+    "lines": [
+      {
+        "id": 120,
+        "product": {
+          "id": 41,
+          "name": "LASER"
+        },
+        "description": "LASER\nCORTE DE PIEZA PLACA SUJECCION 228405",
+        "qty": 6.0,
+        "price_unit": 6.93,
+        "price_subtotal": 41.58,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "name": "P00043",
+    "date_order": "2026-05-06 10:45:58",
+    "state": "purchase",
+    "partner": {
+      "id": 53,
+      "name": "MEDIA MARKT SATURN SAU"
+    },
+    "amount_total": 13.99,
+    "lines": [
+      {
+        "id": 119,
+        "product": {
+          "id": 174,
+          "name": "HP CARTUCHOS IT"
+        },
+        "description": "HP CARTUCHOS IT",
+        "qty": 1.0,
+        "price_unit": 11.56,
+        "price_subtotal": 11.56,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "name": "P00042",
+    "date_order": "2026-05-05 12:31:54",
+    "state": "purchase",
+    "partner": {
+      "id": 51,
+      "name": "COSUMSE SL"
+    },
+    "amount_total": 6.61,
+    "lines": [
+      {
+        "id": 117,
+        "product": {
+          "id": 168,
+          "name": "BISAGRA LIBRO 80"
+        },
+        "description": "BISAGRA LIBRO 80",
+        "qty": 2.0,
+        "price_unit": 2.31,
+        "price_subtotal": 4.62,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      },
+      {
+        "id": 118,
+        "product": {
+          "id": 169,
+          "name": "PERNIO TORNEADO 8 x 50"
+        },
+        "description": "PERNIO TORNEADO 8 x 50",
+        "qty": 2.0,
+        "price_unit": 0.42,
+        "price_subtotal": 0.84,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "name": "P00041",
+    "date_order": "2026-05-05 12:23:41",
+    "state": "purchase",
+    "partner": {
+      "id": 51,
+      "name": "COSUMSE SL"
+    },
+    "amount_total": 341.35,
+    "lines": [
+      {
+        "id": 106,
+        "product": {
+          "id": 160,
+          "name": "TUNGSTENO LILA 2x175"
+        },
+        "description": "TUNGSTENO LILA 2x175",
+        "qty": 10.0,
+        "price_unit": 2.06,
+        "price_subtotal": 20.6,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      },
+      {
+        "id": 107,
+        "product": {
+          "id": 161,
+          "name": "DISCO ST VELCRO 115"
+        },
+        "description": "DISCO ST VELCRO 115\nGrano A 16",
+        "qty": 1.0,
+        "price_unit": 2.05,
+        "price_subtotal": 2.05,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      },
+      {
+        "id": 108,
+        "product": {
+          "id": 161,
+          "name": "DISCO ST VELCRO 115"
+        },
+        "description": "DISCO ST VELCRO 115\nGrano A 65",
+        "qty": 1.0,
+        "price_unit": 2.05,
+        "price_subtotal": 2.05,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      },
+      {
+        "id": 109,
+        "product": {
+          "id": 161,
+          "name": "DISCO ST VELCRO 115"
+        },
+        "description": "DISCO ST VELCRO 115\nGrano A 30",
+        "qty": 1.0,
+        "price_unit": 2.05,
+        "price_subtotal": 2.05,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      },
+      {
+        "id": 110,
+        "product": {
+          "id": 161,
+          "name": "DISCO ST VELCRO 115"
+        },
+        "description": "DISCO ST VELCRO 115\nGrano A 100",
+        "qty": 1.0,
+        "price_unit": 2.05,
+        "price_subtotal": 2.05,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      },
+      {
+        "id": 111,
+        "product": {
+          "id": 162,
+          "name": "PLATO VELCRO 115"
+        },
+        "description": "PLATO VELCRO 115\nM 14",
+        "qty": 1.0,
+        "price_unit": 12.0,
+        "price_subtotal": 12.0,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      },
+      {
+        "id": 112,
+        "product": {
+          "id": 163,
+          "name": "BARRA PASTA BLANCA REPULIDO"
+        },
+        "description": "BARRA PASTA BLANCA REPULIDO",
+        "qty": 1.0,
+        "price_unit": 5.21,
+        "price_subtotal": 5.21,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      },
+      {
+        "id": 113,
+        "product": {
+          "id": 164,
+          "name": "DISCO MAGIC-NP"
+        },
+        "description": "DISCO MAGIC-NP",
+        "qty": 1.0,
+        "price_unit": 16.7,
+        "price_subtotal": 16.7,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      },
+      {
+        "id": 114,
+        "product": {
+          "id": 165,
+          "name": "VARILLA TIG INOZ 308"
+        },
+        "description": "VARILLA TIG INOZ 308",
+        "qty": 5.0,
+        "price_unit": 7.28,
+        "price_subtotal": 36.4,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      },
+      {
+        "id": 115,
+        "product": {
+          "id": 166,
+          "name": "CAUDALIMETRO ARGON /CO2"
+        },
+        "description": "CAUDALIMETRO ARGON /CO2",
+        "qty": 1.0,
+        "price_unit": 63.0,
+        "price_subtotal": 63.0,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      },
+      {
+        "id": 116,
+        "product": {
+          "id": 167,
+          "name": "MINIAMOLADORA 125 MM"
+        },
+        "description": "MINIAMOLADORA 125 MM",
+        "qty": 1.0,
+        "price_unit": 120.0,
+        "price_subtotal": 120.0,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "name": "P00040",
+    "date_order": "2026-05-05 12:15:30",
+    "state": "purchase",
+    "partner": {
+      "id": 52,
+      "name": "AFER INOXIDABLES SL"
+    },
+    "amount_total": 374.4,
+    "lines": [
+      {
+        "id": 105,
+        "product": {
+          "id": 159,
+          "name": "FABRICAR SOPORTE TUBULAR ACERO INOXIDABLE"
+        },
+        "description": "FABRICAR SOPORTE TUBULAR ACERO INOXIDABLE",
+        "qty": 1.0,
+        "price_unit": 309.42,
+        "price_subtotal": 309.42,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "name": "P00039",
+    "date_order": "2026-05-05 12:11:03",
+    "state": "purchase",
+    "partner": {
+      "id": 51,
+      "name": "COSUMSE SL"
+    },
+    "amount_total": 4.19,
+    "lines": [
+      {
+        "id": 103,
+        "product": {
+          "id": 157,
+          "name": "TAPONES PLASTICO TUBO 50"
+        },
+        "description": "TAPONES PLASTICO TUBO 50",
+        "qty": 2.0,
+        "price_unit": 0.29,
+        "price_subtotal": 0.58,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      },
+      {
+        "id": 104,
+        "product": {
+          "id": 158,
+          "name": "ROLLO PAPEL HIGIENICO DOMESTICO"
+        },
+        "description": "ROLLO PAPEL HIGIENICO DOMESTICO",
+        "qty": 12.0,
+        "price_unit": 0.24,
+        "price_subtotal": 2.88,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "name": "P00038",
+    "date_order": "2026-05-05 12:06:34",
+    "state": "purchase",
+    "partner": {
+      "id": 50,
+      "name": "COSUMSE SL"
+    },
+    "amount_total": 1.4,
+    "lines": [
+      {
+        "id": 100,
+        "product": {
+          "id": 154,
+          "name": "TORNILLO DIN 912 8 x 10"
+        },
+        "description": "TORNILLO DIN 912 8 x 10",
+        "qty": 2.0,
+        "price_unit": 0.11,
+        "price_subtotal": 0.22,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      },
+      {
+        "id": 101,
+        "product": {
+          "id": 155,
+          "name": "TORNILLO DIN 912 10 x 20"
+        },
+        "description": "TORNILLO DIN 912 10 x 20",
+        "qty": 4.0,
+        "price_unit": 0.16,
+        "price_subtotal": 0.64,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      },
+      {
+        "id": 102,
+        "product": {
+          "id": 156,
+          "name": "TAPON PLASTICO PARA TUBO 40"
+        },
+        "description": "TAPON PLASTICO PARA TUBO 40",
+        "qty": 2.0,
+        "price_unit": 0.15,
+        "price_subtotal": 0.3,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "name": "P00037",
+    "date_order": "2026-05-05 12:03:21",
+    "state": "purchase",
+    "partner": {
+      "id": 28,
+      "name": "MAYENCOLORS SL."
+    },
+    "amount_total": 34.81,
+    "lines": [
+      {
+        "id": 96,
+        "product": {
+          "id": 149,
+          "name": "REC. CUBETA MINI TRANSP"
+        },
+        "description": "REC. CUBETA MINI TRANSP",
+        "qty": 1.0,
+        "price_unit": 1.25,
+        "price_subtotal": 1.25,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      },
+      {
+        "id": 97,
+        "product": {
+          "id": 150,
+          "name": "VARILLAS CORTAS"
+        },
+        "description": "VARILLAS CORTAS",
+        "qty": 1.0,
+        "price_unit": 0.76,
+        "price_subtotal": 0.76,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      },
+      {
+        "id": 98,
+        "product": {
+          "id": 151,
+          "name": "ACTIVADOR DE OXIDO CORTEN RUST"
+        },
+        "description": "ACTIVADOR DE OXIDO CORTEN RUST",
+        "qty": 1.0,
+        "price_unit": 25.9,
+        "price_subtotal": 25.9,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      },
+      {
+        "id": 99,
+        "product": {
+          "id": 152,
+          "name": "REC. MINI MULTICOLOR 10 cm"
+        },
+        "description": "REC. MINI MULTICOLOR 10 cm",
+        "qty": 1.0,
+        "price_unit": 0.86,
+        "price_subtotal": 0.86,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "name": "P00036",
+    "date_order": "2026-05-05 11:57:09",
+    "state": "purchase",
+    "partner": {
+      "id": 28,
+      "name": "MAYENCOLORS SL."
+    },
+    "amount_total": 17.77,
+    "lines": [
+      {
+        "id": 94,
+        "product": {
+          "id": 147,
+          "name": "BROCHA PRENSADA DECORA COLGADOR"
+        },
+        "description": "BROCHA PRENSADA DECORA COLGADOR",
+        "qty": 1.0,
+        "price_unit": 8.6,
+        "price_subtotal": 8.6,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      },
+      {
+        "id": 95,
+        "product": {
+          "id": 148,
+          "name": "M-1000 0,75ML"
+        },
+        "description": "M-1000 0,75ML",
+        "qty": 1.0,
+        "price_unit": 6.09,
+        "price_subtotal": 6.09,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "name": "P00035",
+    "date_order": "2026-05-01 07:21:20",
+    "state": "purchase",
+    "partner": {
+      "id": 30,
+      "name": "DICOLASER SLU"
+    },
+    "amount_total": 315.37,
+    "lines": [
+      {
+        "id": 85,
+        "product": {
+          "id": 41,
+          "name": "LASER"
+        },
+        "description": "LASER\nA.INOX",
+        "qty": 1.0,
+        "price_unit": 12.34,
+        "price_subtotal": 12.34,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      },
+      {
+        "id": 86,
+        "product": {
+          "id": 41,
+          "name": "LASER"
+        },
+        "description": "LASER\nCORTE DE PIEZA",
+        "qty": 1.0,
+        "price_unit": 20.56,
+        "price_subtotal": 20.56,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      },
+      {
+        "id": 87,
+        "product": {
+          "id": 41,
+          "name": "LASER"
+        },
+        "description": "LASER\nCORTE DE PIEZA",
+        "qty": 2.0,
+        "price_unit": 10.56,
+        "price_subtotal": 21.12,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      },
+      {
+        "id": 88,
+        "product": {
+          "id": 41,
+          "name": "LASER"
+        },
+        "description": "LASER\nCORTE DE PIEZA",
+        "qty": 2.0,
+        "price_unit": 13.45,
+        "price_subtotal": 26.9,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      },
+      {
+        "id": 89,
+        "product": {
+          "id": 41,
+          "name": "LASER"
+        },
+        "description": "LASER\nA.INOX",
+        "qty": 2.0,
+        "price_unit": 43.7,
+        "price_subtotal": 87.4,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      },
+      {
+        "id": 90,
+        "product": {
+          "id": 41,
+          "name": "LASER"
+        },
+        "description": "LASER\nA.INOX",
+        "qty": 2.0,
+        "price_unit": 17.72,
+        "price_subtotal": 35.44,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      },
+      {
+        "id": 91,
+        "product": {
+          "id": 41,
+          "name": "LASER"
+        },
+        "description": "LASER\nA.INOX",
+        "qty": 1.0,
+        "price_unit": 12.34,
+        "price_subtotal": 12.34,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      },
+      {
+        "id": 92,
+        "product": {
+          "id": 41,
+          "name": "LASER"
+        },
+        "description": "LASER\nA.INOX",
+        "qty": 1.0,
+        "price_unit": 24.63,
+        "price_subtotal": 24.63,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      },
+      {
+        "id": 93,
+        "product": {
+          "id": 41,
+          "name": "LASER"
+        },
+        "description": "LASER\nA.INOX",
+        "qty": 1.0,
+        "price_unit": 19.91,
+        "price_subtotal": 19.91,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "name": "P00034",
+    "date_order": "2026-04-28 13:29:12",
+    "state": "purchase",
+    "partner": {
+      "id": 46,
+      "name": "HIERROS Y METALES CASTELLON SL."
+    },
+    "amount_total": 397.49,
+    "lines": [
+      {
+        "id": 83,
+        "product": {
+          "id": 124,
+          "name": "CHAPA TRAPEZ POLICARB CRISTAL"
+        },
+        "description": "CHAPA TRAPEZ POLICARB CRISTAL",
+        "qty": 22.4,
+        "price_unit": 13.5,
+        "price_subtotal": 302.4,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      },
+      {
+        "id": 84,
+        "product": {
+          "id": 125,
+          "name": "REMATE ANGULO BLANCO"
+        },
+        "description": "REMATE ANGULO BLANCO",
+        "qty": 9.0,
+        "price_unit": 2.9,
+        "price_subtotal": 26.1,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "name": "P00033",
+    "date_order": "2026-04-28 13:26:16",
+    "state": "purchase",
+    "partner": {
+      "id": 45,
+      "name": "ASUCER ACEROS Y SUMINISTROS SLL"
+    },
+    "amount_total": 87.97,
+    "lines": [
+      {
+        "id": 80,
+        "product": {
+          "id": 122,
+          "name": "TUBO 50,8 X 1,5"
+        },
+        "description": "TUBO 50,8 X 1,5\nTUBO REDONDO PULIDO",
+        "qty": 6.0,
+        "price_unit": 7.95,
+        "price_subtotal": 47.7,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      },
+      {
+        "id": 81,
+        "product": {
+          "id": 111,
+          "name": "CODO 90º DIAMETRO 50,8 INOX PUL."
+        },
+        "description": "CODO 90º DIAMETRO 50,8 INOX PUL.",
+        "qty": 2.0,
+        "price_unit": 7.5,
+        "price_subtotal": 15.0,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      },
+      {
+        "id": 82,
+        "product": {
+          "id": 123,
+          "name": "PORTES"
+        },
+        "description": "PORTES",
+        "qty": 1.0,
+        "price_unit": 10.0,
+        "price_subtotal": 10.0,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "name": "P00032",
+    "date_order": "2026-04-28 13:24:13",
+    "state": "purchase",
+    "partner": {
+      "id": 30,
+      "name": "DICOLASER SLU"
+    },
+    "amount_total": 32.28,
+    "lines": [
+      {
+        "id": 79,
+        "product": {
+          "id": 121,
+          "name": "CORTE DE PIEZA EN A.INOX"
+        },
+        "description": "CORTE DE PIEZA EN A.INOX\nPlaca Anclaje",
+        "qty": 2.0,
+        "price_unit": 13.34,
+        "price_subtotal": 26.68,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "name": "P00031",
+    "date_order": "2026-04-28 13:18:14",
+    "state": "purchase",
+    "partner": {
+      "id": 44,
+      "name": "INSTALACIONES TEMA SL"
+    },
+    "amount_total": 107.69,
+    "lines": [
+      {
+        "id": 78,
+        "product": {
+          "id": 120,
+          "name": "MOTOR ALREN 1,5CV"
+        },
+        "description": "MOTOR ALREN 1,5CV\n1,1 KW 1500 B5 230/400",
+        "qty": 1.0,
+        "price_unit": 89.0,
+        "price_subtotal": 89.0,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "name": "P00030",
+    "date_order": "2026-04-28 13:15:15",
+    "state": "purchase",
+    "partner": {
+      "id": 21,
+      "name": "COSUMSE SL"
+    },
+    "amount_total": 25.74,
+    "lines": [
+      {
+        "id": 76,
+        "product": {
+          "id": 118,
+          "name": "GARRAFA PASTA DETELCREM LIMON 5 KG"
+        },
+        "description": "GARRAFA PASTA DETELCREM LIMON 5 KG",
+        "qty": 1.0,
+        "price_unit": 19.42,
+        "price_subtotal": 19.42,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      },
+      {
+        "id": 77,
+        "product": {
+          "id": 119,
+          "name": "GUANTE COND."
+        },
+        "description": "GUANTE COND.\nFLOR VAC. GRIS T-9",
+        "qty": 1.0,
+        "price_unit": 1.85,
+        "price_subtotal": 1.85,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "name": "P00029",
+    "date_order": "2026-04-25 11:37:03",
+    "state": "purchase",
+    "partner": {
+      "id": 28,
+      "name": "MAYENCOLORS SL."
+    },
+    "amount_total": 18.89,
+    "lines": [
+      {
+        "id": 74,
+        "product": {
+          "id": 115,
+          "name": "GRIS 100 IMPRIMACION ALCIDICA 750 ML"
+        },
+        "description": "GRIS 100 IMPRIMACION ALCIDICA 750 ML",
+        "qty": 1.0,
+        "price_unit": 7.36,
+        "price_subtotal": 7.36,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      },
+      {
+        "id": 75,
+        "product": {
+          "id": 116,
+          "name": "BASE TR ESMALTE S/R BRILLO 750"
+        },
+        "description": "BASE TR ESMALTE S/R BRILLO 750",
+        "qty": 1.0,
+        "price_unit": 8.25,
+        "price_subtotal": 8.25,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "name": "P00028",
+    "date_order": "2026-04-25 11:22:48",
+    "state": "purchase",
+    "partner": {
+      "id": 21,
+      "name": "COSUMSE SL"
+    },
+    "amount_total": 62.51,
+    "lines": [
+      {
+        "id": 71,
+        "product": {
+          "id": 112,
+          "name": "TORNILLO DIN 7504K 4,8 X 25"
+        },
+        "description": "TORNILLO DIN 7504K 4,8 X 25",
+        "qty": 500.0,
+        "price_unit": 0.055,
+        "price_subtotal": 27.5,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      },
+      {
+        "id": 72,
+        "product": {
+          "id": 113,
+          "name": "MASILLA POLIURETANO BLANCA 310"
+        },
+        "description": "MASILLA POLIURETANO BLANCA 310",
+        "qty": 2.0,
+        "price_unit": 4.83,
+        "price_subtotal": 9.66,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      },
+      {
+        "id": 73,
+        "product": {
+          "id": 114,
+          "name": "SPRAY ACERO INOXIDABLE 400 ML"
+        },
+        "description": "SPRAY ACERO INOXIDABLE 400 ML",
+        "qty": 2.0,
+        "price_unit": 7.25,
+        "price_subtotal": 14.5,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "name": "P00027",
+    "date_order": "2026-04-23 13:40:46",
+    "state": "purchase",
+    "partner": {
+      "id": 21,
+      "name": "COSUMSE SL"
+    },
+    "amount_total": 8.71,
+    "lines": [
+      {
+        "id": 70,
+        "product": {
+          "id": 109,
+          "name": "SPRAY ANTIADHERENTE 500 ML"
+        },
+        "description": "SPRAY ANTIADHERENTE 500 ML",
+        "qty": 2.0,
+        "price_unit": 3.6,
+        "price_subtotal": 7.2,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "name": "P00026",
+    "date_order": "2026-04-23 11:30:06",
+    "state": "purchase",
+    "partner": {
+      "id": 30,
+      "name": "DICOLASER SLU"
+    },
+    "amount_total": 235.71,
+    "lines": [
+      {
+        "id": 64,
+        "product": {
+          "id": 41,
+          "name": "LASER"
+        },
+        "description": "LASER\nPLACA SUJECCION",
+        "qty": 6.0,
+        "price_unit": 3.63,
+        "price_subtotal": 21.78,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      },
+      {
+        "id": 65,
+        "product": {
+          "id": 41,
+          "name": "LASER"
+        },
+        "description": "LASER\nPLACA SUJECCION TOLVA",
+        "qty": 6.0,
+        "price_unit": 1.75,
+        "price_subtotal": 10.5,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      },
+      {
+        "id": 66,
+        "product": {
+          "id": 41,
+          "name": "LASER"
+        },
+        "description": "LASER\nLATERAL TOLVA",
+        "qty": 6.0,
+        "price_unit": 1.8,
+        "price_subtotal": 10.8,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      },
+      {
+        "id": 67,
+        "product": {
+          "id": 41,
+          "name": "LASER"
+        },
+        "description": "LASER\nCUERPO TOLVA",
+        "qty": 6.0,
+        "price_unit": 11.62,
+        "price_subtotal": 69.72,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      },
+      {
+        "id": 68,
+        "product": {
+          "id": 41,
+          "name": "LASER"
+        },
+        "description": "LASER\nPROTECCION LATERALES",
+        "qty": 2.0,
+        "price_unit": 12.8,
+        "price_subtotal": 25.6,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      },
+      {
+        "id": 69,
+        "product": {
+          "id": 41,
+          "name": "LASER"
+        },
+        "description": "LASER\nBANDEJA 310*40",
+        "qty": 3.0,
+        "price_unit": 18.8,
+        "price_subtotal": 56.4,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "name": "P00025",
+    "date_order": "2026-04-23 11:27:25",
+    "state": "purchase",
+    "partner": {
+      "id": 38,
+      "name": "UNI-ROL CASTELLON SA"
+    },
+    "amount_total": 18.3,
+    "lines": [
+      {
+        "id": 63,
+        "product": {
+          "id": 101,
+          "name": "RASCADOR DRS"
+        },
+        "description": "RASCADOR DRS",
+        "qty": 1.0,
+        "price_unit": 15.12,
+        "price_subtotal": 15.12,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "name": "P00024",
+    "date_order": "2026-04-20 08:43:53",
+    "state": "purchase",
+    "partner": {
+      "id": 36,
+      "name": "COOLMOD INFORMATICA SL"
+    },
+    "amount_total": 16.95,
+    "lines": [
+      {
+        "id": 62,
+        "product": {
+          "id": 99,
+          "name": "BOBINA NEGRA PLA KG"
+        },
+        "description": "BOBINA NEGRA PLA KG",
+        "qty": 1.0,
+        "price_unit": 14.008,
+        "price_subtotal": 14.01,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "name": "P00023",
+    "date_order": "2026-04-20 08:39:33",
+    "state": "purchase",
+    "partner": {
+      "id": 28,
+      "name": "MAYENCOLORS SL."
+    },
+    "amount_total": 49.49,
+    "lines": [
+      {
+        "id": 61,
+        "product": {
+          "id": 98,
+          "name": "DISOLVENTE UNIVERSAL 25 L"
+        },
+        "description": "DISOLVENTE UNIVERSAL 25 L",
+        "qty": 1.0,
+        "price_unit": 40.9,
+        "price_subtotal": 40.9,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "name": "P00021",
+    "date_order": "2026-04-16 05:41:55",
+    "state": "purchase",
+    "partner": {
+      "id": 21,
+      "name": "COSUMSE SL"
+    },
+    "amount_total": 10.19,
+    "lines": [
+      {
+        "id": 58,
+        "product": {
+          "id": 95,
+          "name": "BROCA REDUCIDA DIAMETRO 12"
+        },
+        "description": "BROCA REDUCIDA DIAMETRO 12",
+        "qty": 1.0,
+        "price_unit": 8.42,
+        "price_subtotal": 8.42,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "name": "P00020",
+    "date_order": "2026-04-16 05:39:34",
+    "state": "purchase",
+    "partner": {
+      "id": 21,
+      "name": "COSUMSE SL"
+    },
+    "amount_total": 6.42,
+    "lines": [
+      {
+        "id": 54,
+        "product": {
+          "id": 91,
+          "name": "TACO 12 X 60"
+        },
+        "description": "TACO 12 X 60",
+        "qty": 15.0,
+        "price_unit": 0.16,
+        "price_subtotal": 2.4,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      },
+      {
+        "id": 55,
+        "product": {
+          "id": 92,
+          "name": "TORNILLO BARRAQUERO M8 X 60"
+        },
+        "description": "TORNILLO BARRAQUERO M8 X 60",
+        "qty": 15.0,
+        "price_unit": 0.07,
+        "price_subtotal": 1.05,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      },
+      {
+        "id": 56,
+        "product": {
+          "id": 93,
+          "name": "ARANDELA ANCHA M8"
+        },
+        "description": "ARANDELA ANCHA M8",
+        "qty": 15.0,
+        "price_unit": 0.025,
+        "price_subtotal": 0.38,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      },
+      {
+        "id": 57,
+        "product": {
+          "id": 94,
+          "name": "TORNILLO ALLEN NEGRO M8 X 10"
+        },
+        "description": "TORNILLO ALLEN NEGRO M8 X 10",
+        "qty": 20.0,
+        "price_unit": 0.074,
+        "price_subtotal": 1.48,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "name": "P00019",
+    "date_order": "2026-04-15 05:47:02",
+    "state": "purchase",
+    "partner": {
+      "id": 21,
+      "name": "COSUMSE SL"
+    },
+    "amount_total": 31.1,
+    "lines": [
+      {
+        "id": 52,
+        "product": {
+          "id": 90,
+          "name": "PISTOLA PINTURA"
+        },
+        "description": "PISTOLA PINTURA",
+        "qty": 1.0,
+        "price_unit": 24.95,
+        "price_subtotal": 24.95,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      },
+      {
+        "id": 53,
+        "product": {
+          "id": 40,
+          "name": "PERNIO TORNEADO 10 X 60"
+        },
+        "description": "PERNIO TORNEADO 10 X 60",
+        "qty": 1.0,
+        "price_unit": 0.75,
+        "price_subtotal": 0.75,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "P00018",
+    "date_order": "2026-04-15 12:52:06",
+    "state": "purchase",
+    "partner": {
+      "id": 32,
+      "name": "PROINCER GLOBAL PROYECTS SL."
+    },
+    "amount_total": 112.11,
+    "lines": [
+      {
+        "id": 47,
+        "product": {
+          "id": 41,
+          "name": "LASER"
+        },
+        "description": "LASER\nCHAPA PUERTA",
+        "qty": 2.0,
+        "price_unit": 21.239,
+        "price_subtotal": 42.48,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      },
+      {
+        "id": 48,
+        "product": {
+          "id": 41,
+          "name": "LASER"
+        },
+        "description": "LASER\nPLACA SUPERIOR",
+        "qty": 3.0,
+        "price_unit": 2.564,
+        "price_subtotal": 7.69,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      },
+      {
+        "id": 49,
+        "product": {
+          "id": 41,
+          "name": "LASER"
+        },
+        "description": "LASER\nPLACA TRAVESERO A",
+        "qty": 8.0,
+        "price_unit": 0.831,
+        "price_subtotal": 6.65,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      },
+      {
+        "id": 50,
+        "product": {
+          "id": 41,
+          "name": "LASER"
+        },
+        "description": "LASER\nPLACA TRAVESERO B",
+        "qty": 8.0,
+        "price_unit": 0.821,
+        "price_subtotal": 6.57,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      },
+      {
+        "id": 51,
+        "product": {
+          "id": 41,
+          "name": "LASER"
+        },
+        "description": "LASER\nPLANCHA VENTANA",
+        "qty": 4.0,
+        "price_unit": 7.315,
+        "price_subtotal": 29.26,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "P00017",
+    "date_order": "2026-04-15 12:48:48",
+    "state": "purchase",
+    "partner": {
+      "id": 32,
+      "name": "PROINCER GLOBAL PROYECTS SL."
+    },
+    "amount_total": 25.35,
+    "lines": [
+      {
+        "id": 46,
+        "product": {
+          "id": 41,
+          "name": "LASER"
+        },
+        "description": "LASER\nCHAPA 685 X 1810 X 1,5",
+        "qty": 1.0,
+        "price_unit": 20.947,
+        "price_subtotal": 20.95,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "P00016",
+    "date_order": "2026-04-15 12:46:39",
+    "state": "purchase",
+    "partner": {
+      "id": 21,
+      "name": "COSUMSE SL"
+    },
+    "amount_total": 12.69,
+    "lines": [
+      {
+        "id": 45,
+        "product": {
+          "id": 87,
+          "name": "MACHO M8 X 1,25"
+        },
+        "description": "MACHO M8 X 1,25",
+        "qty": 1.0,
+        "price_unit": 10.49,
+        "price_subtotal": 10.49,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "P00015",
+    "date_order": "2026-04-15 12:44:22",
+    "state": "purchase",
+    "partner": {
+      "id": 21,
+      "name": "COSUMSE SL"
+    },
+    "amount_total": 70.01,
+    "lines": [
+      {
+        "id": 44,
+        "product": {
+          "id": 89,
+          "name": "CABALLETE PLEGABLE 100"
+        },
+        "description": "CABALLETE PLEGABLE 100",
+        "qty": 2.0,
+        "price_unit": 28.93,
+        "price_subtotal": 57.86,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "P00014",
+    "date_order": "2026-04-15 12:40:59",
+    "state": "purchase",
+    "partner": {
+      "id": 21,
+      "name": "COSUMSE SL"
+    },
+    "amount_total": 54.73,
+    "lines": [
+      {
+        "id": 41,
+        "product": {
+          "id": 86,
+          "name": "TAPON PLASTICO 40 X 40"
+        },
+        "description": "TAPON PLASTICO 40 X 40",
+        "qty": 1.0,
+        "price_unit": 0.1,
+        "price_subtotal": 0.1,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      },
+      {
+        "id": 42,
+        "product": {
+          "id": 87,
+          "name": "MACHO M8 X 1,25"
+        },
+        "description": "MACHO M8 X 1,25",
+        "qty": 2.0,
+        "price_unit": 10.49,
+        "price_subtotal": 20.98,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      },
+      {
+        "id": 43,
+        "product": {
+          "id": 88,
+          "name": "ACEITE ROSCAR"
+        },
+        "description": "ACEITE ROSCAR",
+        "qty": 1.0,
+        "price_unit": 24.15,
+        "price_subtotal": 24.15,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "P00013",
+    "date_order": "2026-04-14 06:27:08",
+    "state": "purchase",
+    "partner": {
+      "id": 21,
+      "name": "COSUMSE SL"
+    },
+    "amount_total": 104.48,
+    "lines": [
+      {
+        "id": 35,
+        "product": {
+          "id": 78,
+          "name": "ENCHUFE ESPIGA 10MM"
+        },
+        "description": "ENCHUFE ESPIGA 10MM",
+        "qty": 1.0,
+        "price_unit": 8.94,
+        "price_subtotal": 8.94,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      },
+      {
+        "id": 36,
+        "product": {
+          "id": 79,
+          "name": "MANGUERA AIRE AZUL D10 X 16"
+        },
+        "description": "MANGUERA AIRE AZUL D10 X 16",
+        "qty": 15.0,
+        "price_unit": 1.24,
+        "price_subtotal": 18.6,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      },
+      {
+        "id": 37,
+        "product": {
+          "id": 80,
+          "name": "BROCA MANGO REDUCIDO DIAMETRO 18"
+        },
+        "description": "BROCA MANGO REDUCIDO DIAMETRO 18",
+        "qty": 1.0,
+        "price_unit": 22.53,
+        "price_subtotal": 22.53,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      },
+      {
+        "id": 38,
+        "product": {
+          "id": 81,
+          "name": "BROCA MANGO REDUCIDO DIAMETRO 20"
+        },
+        "description": "BROCA MANGO REDUCIDO DIAMETRO 20",
+        "qty": 1.0,
+        "price_unit": 32.28,
+        "price_subtotal": 32.28,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      },
+      {
+        "id": 39,
+        "product": {
+          "id": 82,
+          "name": "ABRAZADERA SIN-FIN 8-16"
+        },
+        "description": "ABRAZADERA SIN-FIN 8-16",
+        "qty": 2.0,
+        "price_unit": 0.3,
+        "price_subtotal": 0.6,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      },
+      {
+        "id": 40,
+        "product": {
+          "id": 83,
+          "name": "RACORD MACHO ESPIGA MANGUERA DE 10"
+        },
+        "description": "RACORD MACHO ESPIGA MANGUERA DE 10",
+        "qty": 1.0,
+        "price_unit": 3.4,
+        "price_subtotal": 3.4,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "P00012",
+    "date_order": "2026-04-15 06:14:17",
+    "state": "purchase",
+    "partner": {
+      "id": 30,
+      "name": "DICOLASER SLU"
+    },
+    "amount_total": 188.83,
+    "lines": [
+      {
+        "id": 31,
+        "product": {
+          "id": 41,
+          "name": "LASER"
+        },
+        "description": "LASER\nPLACA SUJECCION",
+        "qty": 6.0,
+        "price_unit": 3.63,
+        "price_subtotal": 21.78,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      },
+      {
+        "id": 32,
+        "product": {
+          "id": 41,
+          "name": "LASER"
+        },
+        "description": "LASER\nPLACA SUJECCION TOLVA",
+        "qty": 6.0,
+        "price_unit": 1.75,
+        "price_subtotal": 10.5,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      },
+      {
+        "id": 33,
+        "product": {
+          "id": 41,
+          "name": "LASER"
+        },
+        "description": "LASER\nLATERAL TOLVA",
+        "qty": 6.0,
+        "price_unit": 1.8,
+        "price_subtotal": 10.8,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      },
+      {
+        "id": 34,
+        "product": {
+          "id": 41,
+          "name": "LASER"
+        },
+        "description": "LASER\nCUERPO TOLVA",
+        "qty": 6.0,
+        "price_unit": 18.83,
+        "price_subtotal": 112.98,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "P00011",
+    "date_order": "2026-04-13 14:02:26",
+    "state": "purchase",
+    "partner": {
+      "id": 10,
+      "name": "HIMECAS"
+    },
+    "amount_total": 35.55,
+    "lines": [
+      {
+        "id": 30,
+        "product": {
+          "id": 69,
+          "name": "MALLA GRIS 2600 X 1000 (30X30X4)"
+        },
+        "description": "MALLA GRIS 2600 X 1000 (30X30X4)",
+        "qty": 2.6,
+        "price_unit": 11.3,
+        "price_subtotal": 29.38,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "P00010",
+    "date_order": "2026-04-07 13:50:31",
+    "state": "purchase",
+    "partner": {
+      "id": 10,
+      "name": "HIMECAS"
+    },
+    "amount_total": 124.87,
+    "lines": [
+      {
+        "id": 24,
+        "product": {
+          "id": 72,
+          "name": "TUBO DIAMETRO 40 X 1,5"
+        },
+        "description": "TUBO DIAMETRO 40 X 1,5",
+        "qty": 12.0,
+        "price_unit": 1.69,
+        "price_subtotal": 20.28,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "product": {
+          "id": 73,
+          "name": "TUBO 40 X 40 X 1,5"
+        },
+        "description": "TUBO 40 X 40 X 1,5",
+        "qty": 6.0,
+        "price_unit": 1.99,
+        "price_subtotal": 11.94,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      },
+      {
+        "id": 26,
+        "product": {
+          "id": 74,
+          "name": "TUBO 30 X 30 X 1,5"
+        },
+        "description": "TUBO 30 X 30 X 1,5",
+        "qty": 12.0,
+        "price_unit": 1.59,
+        "price_subtotal": 19.08,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      },
+      {
+        "id": 27,
+        "product": {
+          "id": 75,
+          "name": "TUBO 30 X 30 X 2"
+        },
+        "description": "TUBO 30 X 30 X 2",
+        "qty": 6.0,
+        "price_unit": 1.99,
+        "price_subtotal": 11.94,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      },
+      {
+        "id": 28,
+        "product": {
+          "id": 76,
+          "name": "ANGULO NEGRO 35"
+        },
+        "description": "ANGULO NEGRO 35",
+        "qty": 26.0,
+        "price_unit": 0.96,
+        "price_subtotal": 24.96,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      },
+      {
+        "id": 29,
+        "product": {
+          "id": 71,
+          "name": "SERVICIO LOGISTICO"
+        },
+        "description": "SERVICIO LOGISTICO",
+        "qty": 1.0,
+        "price_unit": 15.0,
+        "price_subtotal": 15.0,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "P00009",
+    "date_order": "2026-04-10 08:46:41",
+    "state": "purchase",
+    "partner": {
+      "id": 10,
+      "name": "HIMECAS"
+    },
+    "amount_total": 115.92,
+    "lines": [
+      {
+        "id": 20,
+        "product": {
+          "id": 70,
+          "name": "ANGULO NEGRO 30"
+        },
+        "description": "ANGULO NEGRO 30",
+        "qty": 20.0,
+        "price_unit": 0.95,
+        "price_subtotal": 19.0,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "product": {
+          "id": 44,
+          "name": "TUBO DIAMETRO 80 X 2"
+        },
+        "description": "TUBO DIAMETRO 80 X 2",
+        "qty": 12.0,
+        "price_unit": 5.15,
+        "price_subtotal": 61.8,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "product": {
+          "id": 71,
+          "name": "SERVICIO LOGISTICO"
+        },
+        "description": "SERVICIO LOGISTICO",
+        "qty": 1.0,
+        "price_unit": 15.0,
+        "price_subtotal": 15.0,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "P00008",
+    "date_order": "2026-04-08 08:44:10",
+    "state": "purchase",
+    "partner": {
+      "id": 10,
+      "name": "HIMECAS"
+    },
+    "amount_total": 91.09,
+    "lines": [
+      {
+        "id": 18,
+        "product": {
+          "id": 69,
+          "name": "MALLA GRIS 2600 X 1000 (30X30X4)"
+        },
+        "description": "MALLA GRIS 2600 X 1000 (30X30X4)",
+        "qty": 2.6,
+        "price_unit": 11.3,
+        "price_subtotal": 29.38,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "product": {
+          "id": 44,
+          "name": "TUBO DIAMETRO 80 X 2"
+        },
+        "description": "TUBO DIAMETRO 80 X 2",
+        "qty": 6.0,
+        "price_unit": 5.15,
+        "price_subtotal": 30.9,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "product": {
+          "id": 71,
+          "name": "SERVICIO LOGISTICO"
+        },
+        "description": "SERVICIO LOGISTICO",
+        "qty": 1.0,
+        "price_unit": 15.0,
+        "price_subtotal": 15.0,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "P00007",
+    "date_order": "2026-04-13 13:23:46",
+    "state": "purchase",
+    "partner": {
+      "id": 28,
+      "name": "MAYENCOLORS SL."
+    },
+    "amount_total": 55.51,
+    "lines": [
+      {
+        "id": 14,
+        "product": {
+          "id": 66,
+          "name": "ROLLO CINTA CARROCERO"
+        },
+        "description": "ROLLO CINTA CARROCERO",
+        "qty": 2.0,
+        "price_unit": 1.23,
+        "price_subtotal": 1.72,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "product": {
+          "id": 67,
+          "name": "PALETINA DOBLE N21"
+        },
+        "description": "PALETINA DOBLE N21",
+        "qty": 2.0,
+        "price_unit": 2.07,
+        "price_subtotal": 2.9,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "product": {
+          "id": 25,
+          "name": "RAL 7032 IMPRIMACION"
+        },
+        "description": "RAL 7032 IMPRIMACION",
+        "qty": 1.0,
+        "price_unit": 58.29,
+        "price_subtotal": 29.15,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "product": {
+          "id": 68,
+          "name": "RAL 1016 750 ML"
+        },
+        "description": "RAL 1016 750 ML",
+        "qty": 1.0,
+        "price_unit": 17.3,
+        "price_subtotal": 12.11,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "P00006",
+    "date_order": "2026-04-02 08:20:49",
+    "state": "purchase",
+    "partner": {
+      "id": 28,
+      "name": "MAYENCOLORS SL."
+    },
+    "amount_total": 108.28,
+    "lines": [
+      {
+        "id": 11,
+        "product": {
+          "id": 64,
+          "name": "DISOLVENTE UNIVERSAL"
+        },
+        "description": "DISOLVENTE UNIVERSAL",
+        "qty": 1.0,
+        "price_unit": 15.3,
+        "price_subtotal": 10.71,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "product": {
+          "id": 25,
+          "name": "RAL 7032 IMPRIMACION"
+        },
+        "description": "RAL 7032 IMPRIMACION",
+        "qty": 1.0,
+        "price_unit": 58.29,
+        "price_subtotal": 29.15,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "product": {
+          "id": 65,
+          "name": "RAL 8008 POLIURETANO"
+        },
+        "description": "RAL 8008 POLIURETANO",
+        "qty": 1.0,
+        "price_unit": 70.91,
+        "price_subtotal": 49.64,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "P00005",
+    "date_order": "2026-04-13 13:18:07",
+    "state": "purchase",
+    "partner": {
+      "id": 21,
+      "name": "COSUMSE SL"
+    },
+    "amount_total": 24.32,
+    "lines": [
+      {
+        "id": 9,
+        "product": {
+          "id": 62,
+          "name": "SILICONA MULTIUSOS 280 ML"
+        },
+        "description": "SILICONA MULTIUSOS 280 ML",
+        "qty": 3.0,
+        "price_unit": 2.25,
+        "price_subtotal": 6.75,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "product": {
+          "id": 63,
+          "name": "PSITOLA CH-PRO 300"
+        },
+        "description": "PSITOLA CH-PRO 300",
+        "qty": 1.0,
+        "price_unit": 13.35,
+        "price_subtotal": 13.35,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "P00004",
+    "date_order": "2026-03-31 06:00:40",
+    "state": "purchase",
+    "partner": {
+      "id": 21,
+      "name": "COSUMSE SL"
+    },
+    "amount_total": 300.69,
+    "lines": [
+      {
+        "id": 5,
+        "product": {
+          "id": 58,
+          "name": "TALADRO COMBINADO 18V DHP 482 RME"
+        },
+        "description": "TALADRO COMBINADO 18V DHP 482 RME",
+        "qty": 1.0,
+        "price_unit": 211.98,
+        "price_subtotal": 211.98,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "product": {
+          "id": 59,
+          "name": "TORNILLO DIN 7504P 3,9 X 19"
+        },
+        "description": "TORNILLO DIN 7504P 3,9 X 19",
+        "qty": 10.0,
+        "price_unit": 0.015,
+        "price_subtotal": 0.15,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "product": {
+          "id": 60,
+          "name": "TORNILLO DIN 7982 ZC 4,8 X 19"
+        },
+        "description": "TORNILLO DIN 7982 ZC 4,8 X 19",
+        "qty": 10.0,
+        "price_unit": 0.0121,
+        "price_subtotal": 0.12,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "product": {
+          "id": 61,
+          "name": "ARNES MIRA 16 X CUERDA 100EA 2 MOSQ. M50"
+        },
+        "description": "ARNES MIRA 16 X CUERDA 100EA 2 MOSQ. M50",
+        "qty": 1.0,
+        "price_unit": 36.25,
+        "price_subtotal": 36.25,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "P00003",
+    "date_order": "2026-04-02 06:58:35",
+    "state": "purchase",
+    "partner": {
+      "id": 21,
+      "name": "COSUMSE SL"
+    },
+    "amount_total": 6.17,
+    "lines": [
+      {
+        "id": 3,
+        "product": {
+          "id": 39,
+          "name": "PERNIO TORNEADO 16 X 100"
+        },
+        "description": "PERNIO TORNEADO 16 X 100",
+        "qty": 2.0,
+        "price_unit": 1.05,
+        "price_subtotal": 2.1,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "product": {
+          "id": 40,
+          "name": "PERNIO TORNEADO 10 X 60"
+        },
+        "description": "PERNIO TORNEADO 10 X 60",
+        "qty": 4.0,
+        "price_unit": 0.75,
+        "price_subtotal": 3.0,
+        "taxes": [
+          {
+            "id": 7
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,186 @@
+[
+  {
+    "order_name": "S00002",
+    "date_order": "2026-04-02",
+    "partner": "COMUNIDAD JARDINES DE TAXIDA",
+    "amount_total": 987.36,
+    "order_state": "sale",
+    "invoice_status": "to invoice"
+  },
+  {
+    "order_name": "S00025",
+    "date_order": "2026-04-30",
+    "partner": "EL OLMO PAISAJISMO SL.",
+    "amount_total": 740.52,
+    "order_state": "sale",
+    "invoice_status": "to invoice"
+  },
+  {
+    "order_name": "S00023",
+    "date_order": "2026-04-27",
+    "partner": "ALFERVI VENTANAS Y CERRAMIENTOS SOCIEDAD LIMITADA.",
+    "amount_total": 517.88,
+    "order_state": "sale",
+    "invoice_status": "to invoice"
+  },
+  {
+    "order_name": "S00006",
+    "date_order": "2026-04-07",
+    "partner": "Ricardo",
+    "amount_total": 54673.67,
+    "order_state": "draft",
+    "invoice_status": "no"
+  },
+  {
+    "order_name": "S00026",
+    "date_order": "2026-04-30",
+    "partner": "ATYCO CONSTRUCCION SL",
+    "amount_total": 54536.35,
+    "order_state": "draft",
+    "invoice_status": "no"
+  },
+  {
+    "order_name": "S00027",
+    "date_order": "2026-05-01",
+    "partner": "BECSA SOCIEDAD ANONIMA",
+    "amount_total": 43479.9,
+    "order_state": "draft",
+    "invoice_status": "no"
+  },
+  {
+    "order_name": "S00038",
+    "date_order": "2026-05-21",
+    "partner": "GEOTILES SLU",
+    "amount_total": 29819.48,
+    "order_state": "draft",
+    "invoice_status": "no"
+  },
+  {
+    "order_name": "S00029",
+    "date_order": "2026-05-05",
+    "partner": "BECSA SOCIEDAD ANONIMA",
+    "amount_total": 10285.0,
+    "order_state": "draft",
+    "invoice_status": "no"
+  },
+  {
+    "order_name": "S00039",
+    "date_order": "2026-05-22",
+    "partner": "ATYCO CONSTRUCCION SL",
+    "amount_total": 7289.86,
+    "order_state": "draft",
+    "invoice_status": "no"
+  },
+  {
+    "order_name": "S00034",
+    "date_order": "2026-05-12",
+    "partner": "ARES CONSTRUCCIONES",
+    "amount_total": 2490.91,
+    "order_state": "draft",
+    "invoice_status": "no"
+  },
+  {
+    "order_name": "S00010",
+    "date_order": "2026-04-10",
+    "partner": "PARTICULAR",
+    "amount_total": 2208.1,
+    "order_state": "draft",
+    "invoice_status": "no"
+  },
+  {
+    "order_name": "S00021",
+    "date_order": "2026-04-23",
+    "partner": "DURANTIA INFRAESTRUCTURAS SOCIEDAD ANONIMA.",
+    "amount_total": 2079.24,
+    "order_state": "draft",
+    "invoice_status": "no"
+  },
+  {
+    "order_name": "S00005",
+    "date_order": "2026-04-07",
+    "partner": "Ricardo",
+    "amount_total": 1954.15,
+    "order_state": "draft",
+    "invoice_status": "no"
+  },
+  {
+    "order_name": "S00031",
+    "date_order": "2026-05-08",
+    "partner": "LB MASCERCA ESPAÑA SOCIEDAD LIMITADA.",
+    "amount_total": 1867.03,
+    "order_state": "draft",
+    "invoice_status": "no"
+  },
+  {
+    "order_name": "Presupuesto_Maset_OK",
+    "date_order": "2026-05-23",
+    "partner": "Hasan",
+    "amount_total": 1742.42,
+    "order_state": "draft",
+    "invoice_status": "no"
+  },
+  {
+    "order_name": "S00035",
+    "date_order": "2026-05-14",
+    "partner": "DCSI DESARROLLO DE PROYECTOS DE CONSTRUCCION Y REFORMA SOCIEDAD LIMITADA.",
+    "amount_total": 919.25,
+    "order_state": "draft",
+    "invoice_status": "no"
+  },
+  {
+    "order_name": "S00024",
+    "date_order": "2026-04-27",
+    "partner": "PISCINAS POOLINESIA",
+    "amount_total": 607.42,
+    "order_state": "draft",
+    "invoice_status": "no"
+  },
+  {
+    "order_name": "S00036",
+    "date_order": "2026-05-18",
+    "partner": "Javier Tarrega",
+    "amount_total": 279.51,
+    "order_state": "draft",
+    "invoice_status": "no"
+  },
+  {
+    "order_name": "S00030",
+    "date_order": "2026-05-08",
+    "partner": "CONSTRUCCIONES Y ESTRUCTURAS ALEEA SOCIEDAD DE RESPONSABILIDAD LIMITADA",
+    "amount_total": 242.48,
+    "order_state": "draft",
+    "invoice_status": "no"
+  },
+  {
+    "order_name": "S00033",
+    "date_order": "2026-05-12",
+    "partner": "CARPINTERIA COLLADO",
+    "amount_total": 240.39,
+    "order_state": "draft",
+    "invoice_status": "no"
+  },
+  {
+    "order_name": "S00016",
+    "date_order": "2026-04-17",
+    "partner": "ATYCO CONSTRUCCION SL",
+    "amount_total": 212.96,
+    "order_state": "draft",
+    "invoice_status": "no"
+  },
+  {
+    "order_name": "S00015",
+    "date_order": "2026-04-15",
+    "partner": "Pilar Decoradora",
+    "amount_total": 166.98,
+    "order_state": "draft",
+    "invoice_status": "no"
+  },
+  {
+    "order_name": "S00020",
+    "date_order": "2026-04-23",
+    "partner": "CONSTRUCCIONES Y ESTRUCTURAS ALEEA SOCIEDAD DE RESPONSABILIDAD LIMITADA",
+    "amount_total": 150.28,
+    "order_state": "draft",
+    "invoice_status": "no"
+  }
+]

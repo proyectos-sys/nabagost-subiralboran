@@ -1,0 +1,837 @@
+[
+  {
+    "file": "WhatsApp Image 2026-07-21 at 14.16.36 (1).jpeg",
+    "proveedor": {
+      "id": 88,
+      "name": "HIERROS Y METALES CASTELLON S.L.",
+      "source": "vat"
+    },
+    "fecha": "2026-07-20",
+    "referencia": "AV26/5513",
+    "vendorName": "HIMECAS HIERROS Y METALES CASTELLON",
+    "vendorVat": "B12836466",
+    "total": 1094.96,
+    "totalLineas": 1094.96,
+    "lineas": [
+      {
+        "descripcion": "PLETINA CALIBRADA 100X6",
+        "cantidad": 120,
+        "precio": 2.09,
+        "subtotal": 250.8,
+        "producto": {
+          "id": 393,
+          "name": "PLETINA 100 X 6",
+          "uomPoId": 1,
+          "source": "match"
+        }
+      },
+      {
+        "descripcion": "PLETINA CALIBRADA 120X6",
+        "cantidad": 144,
+        "precio": 2.39,
+        "subtotal": 344.16,
+        "producto": {
+          "id": 392,
+          "name": "PLETINA 120 X 6",
+          "uomPoId": 1,
+          "source": "match"
+        }
+      },
+      {
+        "descripcion": "SERVICIO LOGISTICO",
+        "cantidad": 1000,
+        "precio": 0.5,
+        "subtotal": 500,
+        "producto": {
+          "id": 71,
+          "name": "SERVICIO LOGISTICO",
+          "uomPoId": 1,
+          "source": "match"
+        }
+      }
+    ],
+    "avisos": [
+      "Producto generico creado/reutilizable: \"PLETINA 120 X 6\". La descripcion original queda en la linea.",
+      "Producto generico creado/reutilizable: \"PLETINA 100 X 6\". La descripcion original queda en la linea."
+    ]
+  },
+  {
+    "file": "WhatsApp Image 2026-07-21 at 14.16.36 (2).jpeg",
+    "proveedor": {
+      "id": 88,
+      "name": "HIERROS Y METALES CASTELLON S.L.",
+      "source": "vat"
+    },
+    "fecha": "2026-07-16",
+    "referencia": "AV26/5441",
+    "vendorName": "HIMECAS HIERROS Y METALES CASTELLON",
+    "vendorVat": "B12836466",
+    "total": 71.88,
+    "totalLineas": 71.88,
+    "lineas": [
+      {
+        "descripcion": "ANGULO NEGRO 40",
+        "cantidad": 32,
+        "precio": 0.99,
+        "subtotal": 31.68,
+        "producto": {
+          "id": 395,
+          "name": "ANGULO NEGRO 40",
+          "source": "match"
+        }
+      },
+      {
+        "descripcion": "PLETINA NEGRA 40X6",
+        "cantidad": 24,
+        "precio": 1.05,
+        "subtotal": 25.2,
+        "producto": {
+          "id": 394,
+          "name": "PLETINA 40 X 6",
+          "uomPoId": 1,
+          "source": "match"
+        }
+      },
+      {
+        "descripcion": "SERVICIO LOGISTICO",
+        "cantidad": 1,
+        "precio": 15,
+        "subtotal": 15,
+        "producto": {
+          "id": 71,
+          "name": "SERVICIO LOGISTICO",
+          "uomPoId": 1,
+          "source": "match"
+        }
+      }
+    ],
+    "avisos": [
+      "Producto generico creado/reutilizable: \"PLETINA 40 X 6\". La descripcion original queda en la linea.",
+      "Producto reutilizable creado: \"ANGULO NEGRO 40\". La referencia del proveedor solo queda en la descripcion de la linea."
+    ]
+  },
+  {
+    "file": "WhatsApp Image 2026-07-21 at 14.16.36 (3).jpeg",
+    "fecha": "2026-07-08",
+    "referencia": "3921-26",
+    "vendorName": "LASERTAS",
+    "vendorVat": "",
+    "total": 2024.72,
+    "totalLineas": 1673.32,
+    "lineas": [
+      {
+        "descripcion": "BRIDA DIAMETRO 750 ESP. 5MM",
+        "cantidad": 9,
+        "precio": 41.46,
+        "subtotal": 373.14,
+        "producto": {
+          "id": 360,
+          "name": "CORTE LASER",
+          "uomPoId": 1,
+          "source": "match"
+        }
+      },
+      {
+        "descripcion": "Desarrollo D750 L1000",
+        "cantidad": 16,
+        "precio": 74.04,
+        "subtotal": 1184.64,
+        "producto": {
+          "id": 396,
+          "name": "DESARROLLO",
+          "source": "match"
+        }
+      },
+      {
+        "descripcion": "Desarrollo codo 90º D750",
+        "cantidad": 1,
+        "precio": 103.74,
+        "subtotal": 103.74,
+        "producto": {
+          "id": 397,
+          "name": "DESARROLLO",
+          "source": "match"
+        }
+      },
+      {
+        "descripcion": "Chapa 500x350x2",
+        "cantidad": 2,
+        "precio": 5.9,
+        "subtotal": 11.8,
+        "producto": {
+          "id": 360,
+          "name": "CORTE LASER",
+          "uomPoId": 1,
+          "source": "match"
+        }
+      }
+    ],
+    "avisos": [
+      "No se encontro proveedor para \"LASERTAS\".",
+      "Producto reutilizable creado: \"DESARROLLO\". La referencia del proveedor solo queda en la descripcion de la linea."
+    ]
+  },
+  {
+    "file": "WhatsApp Image 2026-07-21 at 14.16.36.jpeg",
+    "proveedor": {
+      "id": 88,
+      "name": "HIERROS Y METALES CASTELLON S.L.",
+      "source": "vat"
+    },
+    "fecha": "2026-07-20",
+    "referencia": "AV26/5531",
+    "vendorName": "HIERROS Y METALES CASTELLON, S.L.",
+    "vendorVat": "B12836466",
+    "total": 35.76,
+    "totalLineas": 35.76,
+    "lineas": [
+      {
+        "descripcion": "TUBO GALVA 30X30X2 SUS MEDIOS",
+        "cantidad": 12,
+        "precio": 2.98,
+        "subtotal": 35.76,
+        "producto": {
+          "id": 75,
+          "name": "TUBO 30 X 30 X 2",
+          "uomPoId": 1,
+          "source": "match"
+        }
+      }
+    ],
+    "avisos": []
+  },
+  {
+    "file": "WhatsApp Image 2026-07-21 at 14.16.37 (1).jpeg",
+    "proveedor": {
+      "id": 88,
+      "name": "HIERROS Y METALES CASTELLON S.L.",
+      "source": "vat"
+    },
+    "fecha": "2026-07-08",
+    "referencia": "AV26/5197",
+    "vendorName": "HIERROS Y METALES CASTELLON, S.L.",
+    "vendorVat": "B12836466",
+    "total": 305.02,
+    "totalLineas": 233.08,
+    "lineas": [
+      {
+        "descripcion": "TRAMEX GALVA 1000X1000 30X2",
+        "cantidad": 1,
+        "precio": 38,
+        "subtotal": 38,
+        "producto": {
+          "id": 398,
+          "name": "TRAMEX GALVA 1000X1000 30X2",
+          "source": "match"
+        }
+      },
+      {
+        "descripcion": "TRAMEX GALVA 2000X1000 30X2",
+        "cantidad": 2,
+        "precio": 65,
+        "subtotal": 130,
+        "producto": {
+          "id": 399,
+          "name": "TRAMEX GALVA 2000X1000 30X2",
+          "source": "match"
+        }
+      },
+      {
+        "descripcion": "CHAPA NEGRA 2000X1000X2",
+        "cantidad": 32,
+        "precio": 1.07,
+        "subtotal": 34.24,
+        "producto": {
+          "id": 108,
+          "name": "CHAPA 2000 X 1000 X 2",
+          "uomPoId": 1,
+          "source": "match"
+        }
+      },
+      {
+        "descripcion": "ANGULO NEGRO 40",
+        "cantidad": 16,
+        "precio": 0.99,
+        "subtotal": 15.84,
+        "producto": {
+          "id": 395,
+          "name": "ANGULO NEGRO 40",
+          "uomPoId": 1,
+          "source": "match"
+        }
+      },
+      {
+        "descripcion": "SERVICIO LOGISTICO",
+        "cantidad": 1,
+        "precio": 15,
+        "subtotal": 15,
+        "producto": {
+          "id": 71,
+          "name": "SERVICIO LOGISTICO",
+          "uomPoId": 1,
+          "source": "match"
+        }
+      }
+    ],
+    "avisos": [
+      "Producto reutilizable creado: \"TRAMEX GALVA 1000X1000 30X2\". La referencia del proveedor solo queda en la descripcion de la linea.",
+      "Producto reutilizable creado: \"TRAMEX GALVA 2000X1000 30X2\". La referencia del proveedor solo queda en la descripcion de la linea.",
+      "El total extraido (305.02) no cuadra con lineas sin IVA (233.08) ni con IVA (282.03)."
+    ]
+  },
+  {
+    "file": "WhatsApp Image 2026-07-21 at 14.16.37 (2).jpeg",
+    "proveedor": {
+      "id": 21,
+      "name": "COSUMSE SL",
+      "source": "name"
+    },
+    "fecha": "2026-07-08",
+    "referencia": "ALV/140902",
+    "vendorName": "COSUMSE SL",
+    "vendorVat": "B12810333",
+    "total": 22.55,
+    "totalLineas": 18.64,
+    "lineas": [
+      {
+        "descripcion": "TORNILLO DIN 571 ZC 6 X 70",
+        "cantidad": 100,
+        "precio": 0.04,
+        "subtotal": 4,
+        "producto": {
+          "id": 401,
+          "name": "TORNILLO DIN 571 ZC 6 X 70",
+          "source": "match"
+        }
+      },
+      {
+        "descripcion": "ARANDELA DIN 9021 M- 6 ZINCADO",
+        "cantidad": 20,
+        "precio": 0.009,
+        "subtotal": 0.18,
+        "producto": {
+          "id": 403,
+          "name": "ARANDELA DIN 9021 M- 6 ZINCADO",
+          "source": "match"
+        }
+      },
+      {
+        "descripcion": "ROTULADOR EDDING BLANCO",
+        "cantidad": 2,
+        "precio": 4.49,
+        "subtotal": 8.98,
+        "producto": {
+          "id": 400,
+          "name": "ROTULADOR EDDING BLANCO",
+          "source": "match"
+        }
+      },
+      {
+        "descripcion": "ROTULADOR EDDING 3000 NEGRO",
+        "cantidad": 2,
+        "precio": 2.74,
+        "subtotal": 5.48,
+        "producto": {
+          "id": 402,
+          "name": "ROTULADOR EDDING 3000 NEGRO",
+          "source": "match"
+        }
+      }
+    ],
+    "avisos": [
+      "Producto reutilizable creado: \"ROTULADOR EDDING BLANCO\". La referencia del proveedor solo queda en la descripcion de la linea.",
+      "Producto reutilizable creado: \"TORNILLO DIN 571 ZC 6 X 70\". La referencia del proveedor solo queda en la descripcion de la linea.",
+      "Producto reutilizable creado: \"ROTULADOR EDDING 3000 NEGRO\". La referencia del proveedor solo queda en la descripcion de la linea.",
+      "Producto reutilizable creado: \"ARANDELA DIN 9021 M- 6 ZINCADO\". La referencia del proveedor solo queda en la descripcion de la linea."
+    ]
+  },
+  {
+    "file": "WhatsApp Image 2026-07-21 at 14.16.37 (3).jpeg",
+    "proveedor": {
+      "id": 21,
+      "name": "COSUMSE SL",
+      "source": "name"
+    },
+    "fecha": "2026-07-07",
+    "referencia": "ALV/140801",
+    "vendorName": "COSUMSE SL",
+    "vendorVat": "B12810333",
+    "total": 9.14,
+    "totalLineas": 7.55,
+    "lineas": [
+      {
+        "descripcion": "BROCA HSS DIAM 12.25",
+        "cantidad": 1,
+        "precio": 7.55,
+        "subtotal": 7.55,
+        "producto": {
+          "id": 404,
+          "name": "BROCA HSS DIAM 12.25",
+          "source": "match"
+        }
+      }
+    ],
+    "avisos": [
+      "Producto reutilizable creado: \"BROCA HSS DIAM 12.25\". La referencia del proveedor solo queda en la descripcion de la linea."
+    ]
+  },
+  {
+    "file": "WhatsApp Image 2026-07-21 at 14.16.37 (4).jpeg",
+    "proveedor": {
+      "id": 21,
+      "name": "COSUMSE SL",
+      "source": "vat"
+    },
+    "fecha": "2026-07-06",
+    "referencia": "ALV/140726",
+    "vendorName": "COSUMSE SL",
+    "vendorVat": "B12610333",
+    "total": 144.96,
+    "totalLineas": 119.8,
+    "lineas": [
+      {
+        "descripcion": "RUEDA INOX DIAM 80",
+        "cantidad": 2,
+        "precio": 26.95,
+        "subtotal": 53.9,
+        "producto": {
+          "id": 406,
+          "name": "RUEDA INOX DIAM 80",
+          "source": "match"
+        }
+      },
+      {
+        "descripcion": "RUEDA INOX DIAM 80 FRENO",
+        "cantidad": 2,
+        "precio": 32.95,
+        "subtotal": 65.9,
+        "producto": {
+          "id": 405,
+          "name": "RUEDA INOX DIAM 80 FRENO",
+          "source": "match"
+        }
+      }
+    ],
+    "avisos": [
+      "Producto reutilizable creado: \"RUEDA INOX DIAM 80 FRENO\". La referencia del proveedor solo queda en la descripcion de la linea.",
+      "Producto reutilizable creado: \"RUEDA INOX DIAM 80\". La referencia del proveedor solo queda en la descripcion de la linea."
+    ]
+  },
+  {
+    "file": "WhatsApp Image 2026-07-21 at 14.16.37.jpeg",
+    "proveedor": {
+      "id": 88,
+      "name": "HIERROS Y METALES CASTELLON S.L.",
+      "source": "vat"
+    },
+    "fecha": "2026-07-09",
+    "referencia": "AV26/5245",
+    "vendorName": "HIERROS Y METALES CASTELLON S.L.",
+    "vendorVat": "B12836466",
+    "total": 177.87,
+    "totalLineas": 147,
+    "lineas": [
+      {
+        "descripcion": "TUBO CUADRADO 60X60X2",
+        "cantidad": 30,
+        "precio": 4.4,
+        "subtotal": 132,
+        "producto": {
+          "id": 250,
+          "name": "TUBO 60 X 60 X 2",
+          "uomPoId": 1,
+          "source": "match"
+        }
+      },
+      {
+        "descripcion": "SERVICIO LOGISTICO",
+        "cantidad": 1,
+        "precio": 15,
+        "subtotal": 15,
+        "producto": {
+          "id": 71,
+          "name": "SERVICIO LOGISTICO",
+          "uomPoId": 1,
+          "source": "match"
+        }
+      }
+    ],
+    "avisos": []
+  },
+  {
+    "file": "WhatsApp Image 2026-07-21 at 14.16.38 (1).jpeg",
+    "proveedor": {
+      "id": 21,
+      "name": "COSUMSE SL",
+      "source": "vat"
+    },
+    "fecha": "2026-07-03",
+    "referencia": "ALV/140659",
+    "vendorName": "COSUMSE SL",
+    "vendorVat": "B12610333",
+    "total": 16.75,
+    "totalLineas": 13.84,
+    "lineas": [
+      {
+        "descripcion": "TACO LARGO MQL-ST 10 X 120",
+        "cantidad": 7,
+        "precio": 0.95,
+        "subtotal": 6.65,
+        "producto": {
+          "id": 407,
+          "name": "TACO LARGO MQL-ST 10 X 120",
+          "source": "match"
+        }
+      },
+      {
+        "descripcion": "TORNILLO DIN 7504-N M-4,2 X 32",
+        "cantidad": 10,
+        "precio": 0.05,
+        "subtotal": 0.5,
+        "producto": {
+          "id": 409,
+          "name": "TORNILLO DIN 7504-N M-4,2 X 32",
+          "source": "match"
+        }
+      },
+      {
+        "descripcion": "TORNILLO INVIOLABLE M7X70",
+        "cantidad": 10,
+        "precio": 0.1993,
+        "subtotal": 1.99,
+        "producto": {
+          "id": 318,
+          "name": "[DE1240022] TORNILLO INVIOLABLE M7X70",
+          "uomPoId": 1,
+          "source": "match"
+        }
+      },
+      {
+        "descripcion": "BROCA PARED PROFESIONAL DIAM 10 X 200 MM",
+        "cantidad": 1,
+        "precio": 4.7,
+        "subtotal": 4.7,
+        "producto": {
+          "id": 408,
+          "name": "BROCA PARED PROFESIONAL DIAM 10 X 200 MM",
+          "source": "match"
+        }
+      }
+    ],
+    "avisos": [
+      "Producto reutilizable creado: \"TACO LARGO MQL-ST 10 X 120\". La referencia del proveedor solo queda en la descripcion de la linea.",
+      "Producto reutilizable creado: \"BROCA PARED PROFESIONAL DIAM 10 X 200 MM\". La referencia del proveedor solo queda en la descripcion de la linea.",
+      "Producto reutilizable creado: \"TORNILLO DIN 7504-N M-4,2 X 32\". La referencia del proveedor solo queda en la descripcion de la linea."
+    ]
+  },
+  {
+    "file": "WhatsApp Image 2026-07-21 at 14.16.38 (2).jpeg",
+    "proveedor": {
+      "id": 21,
+      "name": "COSUMSE SL",
+      "source": "vat"
+    },
+    "fecha": "2026-07-01",
+    "referencia": "ALV/140575",
+    "vendorName": "COSUMSE SL",
+    "vendorVat": "B12610333",
+    "total": 282.73,
+    "totalLineas": 233.66,
+    "lineas": [
+      {
+        "descripcion": "DISCO LAMINAR CERAMICO 125 X 22,23 GR 60 INOX",
+        "cantidad": 20,
+        "precio": 11.683,
+        "subtotal": 233.66,
+        "producto": {
+          "id": 410,
+          "name": "DISCO LAMINAR CERAMICO 125 X 22,23 GR 60 INOX",
+          "source": "match"
+        }
+      }
+    ],
+    "avisos": [
+      "Producto reutilizable creado: \"DISCO LAMINAR CERAMICO 125 X 22,23 GR 60 INOX\". La referencia del proveedor solo queda en la descripcion de la linea."
+    ]
+  },
+  {
+    "file": "WhatsApp Image 2026-07-21 at 14.16.38 (3).jpeg",
+    "fecha": "2026-07-02",
+    "referencia": "4385-010-512201",
+    "vendorName": "MERCADONNA, S.A.",
+    "vendorVat": "A-46103834",
+    "total": 7.2,
+    "totalLineas": 6.55,
+    "lineas": [
+      {
+        "descripcion": "AGUA MINERAL 1L P-6",
+        "cantidad": 3,
+        "precio": 2.1833,
+        "subtotal": 6.55,
+        "producto": {
+          "id": 411,
+          "name": "AGUA MINERAL 1L P-6",
+          "source": "match"
+        }
+      }
+    ],
+    "avisos": [
+      "No se encontro proveedor para \"MERCADONNA, S.A.\".",
+      "Producto reutilizable creado: \"AGUA MINERAL 1L P-6\". La referencia del proveedor solo queda en la descripcion de la linea."
+    ]
+  },
+  {
+    "file": "WhatsApp Image 2026-07-21 at 14.16.38 (4).jpeg",
+    "error": "[\n  {\n    \"code\": \"too_small\",\n    \"minimum\": 0,\n    \"type\": \"number\",\n    \"inclusive\": true,\n    \"exact\": false,\n    \"message\": \"Number must be greater than or equal to 0\",\n    \"path\": [\n      \"lines\",\n      1,\n      \"unitPrice\"\n    ]\n  }\n]"
+  },
+  {
+    "file": "WhatsApp Image 2026-07-21 at 14.16.38.jpeg",
+    "error": "Odoo product.product/fields_get respondio 429: <html>\n<head>\n    <title>Rate limit exceeded</title>\n    <link href='//fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic' rel='stylesheet' type='text/css'>\n    <link href='/static/http_error.css' rel='stylesheet' type='text/css'>\n</head>\n<body>\n    <div id=\"http_error\">\n        <div class=\"message\">\n            <a href='http://www.odoo.com'><img src='/static/logo_oe_white_t.png' alt='Odoo: Open Source Business Apps' ></a>\n            <h2>Keep calm and breathe deeply :-)</h2>\n            <p>We have detected an unusually high number of requests coming from your internet address</p>\n            <p>Please try again in a few minutes... </p>\n        </div>\n        <a class=\"twitter-timeline\" href=\"https://twitter.com/OdooStatus\" data-widget-id=\"401400371626520576\">Tweets by @OdooStatus</a>\n        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+\"://platform.twitter.com/widgets.js\";fjs.parentNode.insertBefore(js,fjs);}}(document,\"script\",\"twitter-wjs\");</script>\n    </div>\n</body>\n</html>\n"
+  },
+  {
+    "file": "WhatsApp Image 2026-07-21 at 14.16.39 (1).jpeg",
+    "fecha": "2026-07-08",
+    "referencia": "03126FI031000000872",
+    "vendorName": "GRUPO MAICAS PEIRO SLU",
+    "vendorVat": "B12819017",
+    "total": 59.1,
+    "totalLineas": 48.85,
+    "lineas": [
+      {
+        "descripcion": "COCA COLA LATA 33 CL",
+        "cantidad": 1,
+        "precio": 1.5289256198347108,
+        "subtotal": 1.53,
+        "producto": {
+          "id": 415,
+          "name": "COCA COLA LATA 33 CL",
+          "source": "match"
+        }
+      },
+      {
+        "descripcion": "COCA COLA LATA 33 CL",
+        "cantidad": 1,
+        "precio": 1.5289256198347108,
+        "subtotal": 1.53,
+        "producto": {
+          "id": 415,
+          "name": "COCA COLA LATA 33 CL",
+          "uomPoId": 1,
+          "source": "match"
+        }
+      },
+      {
+        "descripcion": "WINSTON SELECCION 100s",
+        "cantidad": 1,
+        "precio": 4.462809917355372,
+        "subtotal": 4.46,
+        "producto": {
+          "id": 416,
+          "name": "WINSTON SELECCION 100s",
+          "source": "match"
+        }
+      },
+      {
+        "descripcion": "Diesel ACTIVE",
+        "cantidad": 31.47,
+        "precio": 1.3132231404958676,
+        "subtotal": 41.33,
+        "producto": {
+          "id": 417,
+          "name": "Diesel ACTIVE",
+          "source": "match"
+        }
+      }
+    ],
+    "avisos": [
+      "No se encontro proveedor para \"GRUPO MAICAS PEIRO SLU\".",
+      "Producto reutilizable creado: \"COCA COLA LATA 33 CL\". La referencia del proveedor solo queda en la descripcion de la linea.",
+      "Producto reutilizable creado: \"WINSTON SELECCION 100s\". La referencia del proveedor solo queda en la descripcion de la linea.",
+      "Producto reutilizable creado: \"Diesel ACTIVE\". La referencia del proveedor solo queda en la descripcion de la linea."
+    ]
+  },
+  {
+    "file": "WhatsApp Image 2026-07-21 at 14.16.39 (2).jpeg",
+    "fecha": "2017-07-26",
+    "referencia": "03126FI031000000916",
+    "vendorName": "GRUPO MAICAS PEIRO SLU",
+    "vendorVat": "B12819017",
+    "total": 50,
+    "totalLineas": 41.32,
+    "lineas": [
+      {
+        "descripcion": "Diesel ACTIVE",
+        "cantidad": 29.26,
+        "precio": 1.412,
+        "subtotal": 41.32,
+        "producto": {
+          "id": 417,
+          "name": "Diesel ACTIVE",
+          "uomPoId": 1,
+          "source": "match"
+        }
+      }
+    ],
+    "avisos": [
+      "No se encontro proveedor para \"GRUPO MAICAS PEIRO SLU\"."
+    ]
+  },
+  {
+    "file": "WhatsApp Image 2026-07-21 at 14.16.39 (3).jpeg",
+    "proveedor": {
+      "id": 21,
+      "name": "COSUMSE SL",
+      "source": "vat"
+    },
+    "fecha": "2026-07-21",
+    "referencia": "ALV/141433",
+    "vendorName": "COSUMSE SL",
+    "vendorVat": "B12610333",
+    "total": 182.35,
+    "totalLineas": 150.7,
+    "lineas": [
+      {
+        "descripcion": "ARANDELA DIN 9021 M- 8 ZINCADO",
+        "cantidad": 2000,
+        "precio": 0.025,
+        "subtotal": 50,
+        "producto": {
+          "id": 418,
+          "name": "ARANDELA DIN 9021 M- 8 ZINCADO",
+          "source": "match"
+        }
+      },
+      {
+        "descripcion": "TORNILLO DIN 933 M 8 X 30 ZINC",
+        "cantidad": 1000,
+        "precio": 0.0877,
+        "subtotal": 87.7,
+        "producto": {
+          "id": 420,
+          "name": "TORNILLO DIN 933 M 8 X 30 ZINC",
+          "source": "match"
+        }
+      },
+      {
+        "descripcion": "TUERCA DIN 934 M08 ZINCADO",
+        "cantidad": 1000,
+        "precio": 0.013,
+        "subtotal": 13,
+        "producto": {
+          "id": 419,
+          "name": "TUERCA DIN 934 M08 ZINCADO",
+          "source": "match"
+        }
+      }
+    ],
+    "avisos": [
+      "Producto reutilizable creado: \"ARANDELA DIN 9021 M- 8 ZINCADO\". La referencia del proveedor solo queda en la descripcion de la linea.",
+      "Producto reutilizable creado: \"TUERCA DIN 934 M08 ZINCADO\". La referencia del proveedor solo queda en la descripcion de la linea.",
+      "Producto reutilizable creado: \"TORNILLO DIN 933 M 8 X 30 ZINC\". La referencia del proveedor solo queda en la descripcion de la linea."
+    ]
+  },
+  {
+    "file": "WhatsApp Image 2026-07-21 at 14.16.39 (4).jpeg",
+    "error": "Odoo product.product/fields_get respondio 429: <html>\n<head>\n    <title>Rate limit exceeded</title>\n    <link href='//fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic' rel='stylesheet' type='text/css'>\n    <link href='/static/http_error.css' rel='stylesheet' type='text/css'>\n</head>\n<body>\n    <div id=\"http_error\">\n        <div class=\"message\">\n            <a href='http://www.odoo.com'><img src='/static/logo_oe_white_t.png' alt='Odoo: Open Source Business Apps' ></a>\n            <h2>Keep calm and breathe deeply :-)</h2>\n            <p>We have detected an unusually high number of requests coming from your internet address</p>\n            <p>Please try again in a few minutes... </p>\n        </div>\n        <a class=\"twitter-timeline\" href=\"https://twitter.com/OdooStatus\" data-widget-id=\"401400371626520576\">Tweets by @OdooStatus</a>\n        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+\"://platform.twitter.com/widgets.js\";fjs.parentNode.insertBefore(js,fjs);}}(document,\"script\",\"twitter-wjs\");</script>\n    </div>\n</body>\n</html>\n"
+  },
+  {
+    "file": "WhatsApp Image 2026-07-21 at 14.16.39 (5).jpeg",
+    "proveedor": {
+      "id": 32,
+      "name": "PROINCER GLOBAL PROYECTS SL.",
+      "source": "vat"
+    },
+    "fecha": "2026-07-20",
+    "referencia": "4154-26",
+    "vendorName": "PROINCER GLOBAL PROYECTS S.L.",
+    "vendorVat": "B12950895",
+    "total": 891.5,
+    "totalLineas": 736.78,
+    "lineas": [
+      {
+        "descripcion": "BRIDA D856-d756",
+        "cantidad": 2,
+        "precio": 38.56,
+        "subtotal": 77.12,
+        "producto": {
+          "id": 427,
+          "name": "BRIDA D856-d756",
+          "source": "match"
+        }
+      },
+      {
+        "descripcion": "BRIDA D804-d704",
+        "cantidad": 10,
+        "precio": 32.57,
+        "subtotal": 325.7,
+        "producto": {
+          "id": 426,
+          "name": "BRIDA D804-d704",
+          "source": "match"
+        }
+      },
+      {
+        "descripcion": "BRIDA D684-d584",
+        "cantidad": 12,
+        "precio": 27.83,
+        "subtotal": 333.96,
+        "producto": {
+          "id": 428,
+          "name": "BRIDA D684-d584",
+          "source": "match"
+        }
+      }
+    ],
+    "avisos": [
+      "Producto reutilizable creado: \"BRIDA D804-d704\". La referencia del proveedor solo queda en la descripcion de la linea.",
+      "Producto reutilizable creado: \"BRIDA D856-d756\". La referencia del proveedor solo queda en la descripcion de la linea.",
+      "Producto reutilizable creado: \"BRIDA D684-d584\". La referencia del proveedor solo queda en la descripcion de la linea."
+    ]
+  },
+  {
+    "file": "WhatsApp Image 2026-07-21 at 14.16.39.jpeg",
+    "proveedor": {
+      "id": 28,
+      "name": "MAYENCOLORS SL.",
+      "source": "vat"
+    },
+    "fecha": "2026-07-09",
+    "referencia": "T26.0001741",
+    "vendorName": "MAYENCOLORS S.L.",
+    "vendorVat": "B12871281",
+    "total": 5.34,
+    "totalLineas": 4.41,
+    "lineas": [
+      {
+        "descripcion": "PINTYPLUS EVOLUTION 520CC RAL 9005 MATT JET BLACK",
+        "cantidad": 1,
+        "precio": 4.41,
+        "subtotal": 4.41,
+        "producto": {
+          "id": 429,
+          "name": "PINTYPLUS EVOLUTION 520CC RAL 9005 MATT JET BLACK",
+          "source": "match"
+        }
+      }
+    ],
+    "avisos": [
+      "Producto reutilizable creado: \"PINTYPLUS EVOLUTION 520CC RAL 9005 MATT JET BLACK\". La referencia del proveedor solo queda en la descripcion de la linea."
+    ]
+  },
+  {
+    "file": "WhatsApp Image 2026-07-21 at 14.16.40 (1).jpeg",
+    "error": "Gemini no pudo leer la imagen: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 37.575059804s."
+  },
+  {
+    "file": "WhatsApp Image 2026-07-21 at 14.16.40 (2).jpeg",
+    "error": "Gemini no pudo leer la imagen: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 37.38543443s."
+  },
+  {
+    "file": "WhatsApp Image 2026-07-21 at 14.16.40 (3).jpeg",
+    "error": "Gemini no pudo leer la imagen: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 37.200941416s."
+  },
+  {
+    "file": "WhatsApp Image 2026-07-21 at 14.16.40.jpeg",
+    "error": "Gemini no pudo leer la imagen: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 37.025141593s."
+  }
+]

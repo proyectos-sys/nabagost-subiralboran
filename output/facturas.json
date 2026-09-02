@@ -1,0 +1,2078 @@
+[
+  {
+    "id": 90,
+    "name": "FRA-00021",
+    "invoice_date": "2026-05-21",
+    "due_date": "2026-05-21",
+    "state": "posted",
+    "partner": {
+      "id": 61,
+      "name": "U.T.E REHABILITACION RAFALAFENA"
+    },
+    "amount_untaxed": 10630.25,
+    "amount_tax": 2232.35,
+    "amount_total": 12862.6,
+    "lines": [
+      {
+        "id": 361,
+        "product": {
+          "id": 22,
+          "name": "MATERIAL COMPLETO"
+        },
+        "description": "MATERIAL COMPLETO",
+        "qty": 29.0,
+        "price_unit": 68.0,
+        "price_subtotal": 1972.0,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 363,
+        "product": {
+          "id": 22,
+          "name": "MATERIAL COMPLETO"
+        },
+        "description": "MATERIAL COMPLETO",
+        "qty": 68.0,
+        "price_unit": 108.0,
+        "price_subtotal": 7344.0,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 365,
+        "product": {
+          "id": 1,
+          "name": "Horas Oficial"
+        },
+        "description": "Horas Oficial",
+        "qty": 3.0,
+        "price_unit": 25.0,
+        "price_subtotal": 75.0,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 366,
+        "product": {
+          "id": 208,
+          "name": "ELECTRODO UND."
+        },
+        "description": "ELECTRODO UND.",
+        "qty": 5.0,
+        "price_unit": 0.25,
+        "price_subtotal": 1.25,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 367,
+        "product": {
+          "id": 207,
+          "name": "Discos Milhojas"
+        },
+        "description": "Discos Milhojas",
+        "qty": 2.0,
+        "price_unit": 0.5,
+        "price_subtotal": 1.0,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 369,
+        "product": {
+          "id": 1,
+          "name": "Horas Oficial"
+        },
+        "description": "Horas Oficial",
+        "qty": 7.0,
+        "price_unit": 25.0,
+        "price_subtotal": 175.0,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 370,
+        "product": {
+          "id": 208,
+          "name": "ELECTRODO UND."
+        },
+        "description": "ELECTRODO UND.",
+        "qty": 10.0,
+        "price_unit": 0.25,
+        "price_subtotal": 2.5,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 371,
+        "product": {
+          "id": 207,
+          "name": "Discos Milhojas"
+        },
+        "description": "Discos Milhojas",
+        "qty": 2.0,
+        "price_unit": 0.5,
+        "price_subtotal": 1.0,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 373,
+        "product": {
+          "id": 1,
+          "name": "Horas Oficial"
+        },
+        "description": "Horas Oficial",
+        "qty": 0.5,
+        "price_unit": 25.0,
+        "price_subtotal": 12.5,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 374,
+        "product": {
+          "id": 208,
+          "name": "ELECTRODO UND."
+        },
+        "description": "ELECTRODO UND.",
+        "qty": 1.0,
+        "price_unit": 0.25,
+        "price_subtotal": 0.25,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 375,
+        "product": {
+          "id": 209,
+          "name": "PLT. REJA NUEVA"
+        },
+        "description": "PLT. REJA NUEVA",
+        "qty": 1.0,
+        "price_unit": 18.0,
+        "price_subtotal": 18.0,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 377,
+        "product": {
+          "id": 1,
+          "name": "Horas Oficial"
+        },
+        "description": "Horas Oficial",
+        "qty": 5.5,
+        "price_unit": 25.0,
+        "price_subtotal": 137.5,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 378,
+        "product": {
+          "id": 208,
+          "name": "ELECTRODO UND."
+        },
+        "description": "ELECTRODO UND.",
+        "qty": 11.0,
+        "price_unit": 0.25,
+        "price_subtotal": 2.75,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 379,
+        "product": {
+          "id": 207,
+          "name": "Discos Milhojas"
+        },
+        "description": "Discos Milhojas",
+        "qty": 2.0,
+        "price_unit": 0.5,
+        "price_subtotal": 1.0,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 381,
+        "product": {
+          "id": 1,
+          "name": "Horas Oficial"
+        },
+        "description": "Horas Oficial",
+        "qty": 0.5,
+        "price_unit": 25.0,
+        "price_subtotal": 12.5,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 382,
+        "product": {
+          "id": 208,
+          "name": "ELECTRODO UND."
+        },
+        "description": "ELECTRODO UND.",
+        "qty": 1.0,
+        "price_unit": 0.25,
+        "price_subtotal": 0.25,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 383,
+        "product": {
+          "id": 209,
+          "name": "PLT. REJA NUEVA"
+        },
+        "description": "PLT. REJA NUEVA",
+        "qty": 2.0,
+        "price_unit": 18.0,
+        "price_subtotal": 36.0,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 385,
+        "product": {
+          "id": 1,
+          "name": "Horas Oficial"
+        },
+        "description": "Horas Oficial",
+        "qty": 5.0,
+        "price_unit": 25.0,
+        "price_subtotal": 125.0,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 386,
+        "product": {
+          "id": 208,
+          "name": "ELECTRODO UND."
+        },
+        "description": "ELECTRODO UND.",
+        "qty": 10.0,
+        "price_unit": 0.25,
+        "price_subtotal": 2.5,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 387,
+        "product": {
+          "id": 209,
+          "name": "PLT. REJA NUEVA"
+        },
+        "description": "PLT. REJA NUEVA",
+        "qty": 6.0,
+        "price_unit": 18.0,
+        "price_subtotal": 108.0,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 388,
+        "product": {
+          "id": 207,
+          "name": "Discos Milhojas"
+        },
+        "description": "Discos Milhojas",
+        "qty": 2.0,
+        "price_unit": 0.5,
+        "price_subtotal": 1.0,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 390,
+        "product": {
+          "id": 1,
+          "name": "Horas Oficial"
+        },
+        "description": "Horas Oficial",
+        "qty": 1.0,
+        "price_unit": 25.0,
+        "price_subtotal": 25.0,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 391,
+        "product": {
+          "id": 208,
+          "name": "ELECTRODO UND."
+        },
+        "description": "ELECTRODO UND.",
+        "qty": 2.0,
+        "price_unit": 0.25,
+        "price_subtotal": 0.5,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 392,
+        "product": {
+          "id": 207,
+          "name": "Discos Milhojas"
+        },
+        "description": "Discos Milhojas",
+        "qty": 1.0,
+        "price_unit": 0.5,
+        "price_subtotal": 0.5,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 394,
+        "product": {
+          "id": 1,
+          "name": "Horas Oficial"
+        },
+        "description": "Horas Oficial",
+        "qty": 5.5,
+        "price_unit": 25.0,
+        "price_subtotal": 137.5,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 395,
+        "product": {
+          "id": 208,
+          "name": "ELECTRODO UND."
+        },
+        "description": "ELECTRODO UND.",
+        "qty": 6.0,
+        "price_unit": 0.25,
+        "price_subtotal": 1.5,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 396,
+        "product": {
+          "id": 207,
+          "name": "Discos Milhojas"
+        },
+        "description": "Discos Milhojas",
+        "qty": 1.0,
+        "price_unit": 0.5,
+        "price_subtotal": 0.5,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 398,
+        "product": {
+          "id": 1,
+          "name": "Horas Oficial"
+        },
+        "description": "Horas Oficial",
+        "qty": 0.5,
+        "price_unit": 25.0,
+        "price_subtotal": 12.5,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 399,
+        "product": {
+          "id": 208,
+          "name": "ELECTRODO UND."
+        },
+        "description": "ELECTRODO UND.",
+        "qty": 1.0,
+        "price_unit": 0.25,
+        "price_subtotal": 0.25,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 401,
+        "product": {
+          "id": 1,
+          "name": "Horas Oficial"
+        },
+        "description": "Horas Oficial",
+        "qty": 2.5,
+        "price_unit": 25.0,
+        "price_subtotal": 62.5,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 402,
+        "product": {
+          "id": 208,
+          "name": "ELECTRODO UND."
+        },
+        "description": "ELECTRODO UND.",
+        "qty": 3.0,
+        "price_unit": 0.25,
+        "price_subtotal": 0.75,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 403,
+        "product": {
+          "id": 207,
+          "name": "Discos Milhojas"
+        },
+        "description": "Discos Milhojas",
+        "qty": 1.0,
+        "price_unit": 0.5,
+        "price_subtotal": 0.5,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 405,
+        "product": {
+          "id": 1,
+          "name": "Horas Oficial"
+        },
+        "description": "Horas Oficial",
+        "qty": 4.0,
+        "price_unit": 25.0,
+        "price_subtotal": 100.0,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 406,
+        "product": {
+          "id": 208,
+          "name": "ELECTRODO UND."
+        },
+        "description": "ELECTRODO UND.",
+        "qty": 8.0,
+        "price_unit": 0.25,
+        "price_subtotal": 2.0,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 407,
+        "product": {
+          "id": 207,
+          "name": "Discos Milhojas"
+        },
+        "description": "Discos Milhojas",
+        "qty": 1.0,
+        "price_unit": 0.5,
+        "price_subtotal": 0.5,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 409,
+        "product": {
+          "id": 1,
+          "name": "Horas Oficial"
+        },
+        "description": "Horas Oficial",
+        "qty": 5.0,
+        "price_unit": 25.0,
+        "price_subtotal": 125.0,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 410,
+        "product": {
+          "id": 208,
+          "name": "ELECTRODO UND."
+        },
+        "description": "ELECTRODO UND.",
+        "qty": 15.0,
+        "price_unit": 0.25,
+        "price_subtotal": 3.75,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 411,
+        "product": {
+          "id": 207,
+          "name": "Discos Milhojas"
+        },
+        "description": "Discos Milhojas",
+        "qty": 2.0,
+        "price_unit": 0.5,
+        "price_subtotal": 1.0,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 413,
+        "product": {
+          "id": 1,
+          "name": "Horas Oficial"
+        },
+        "description": "Horas Oficial",
+        "qty": 5.0,
+        "price_unit": 25.0,
+        "price_subtotal": 125.0,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 414,
+        "product": {
+          "id": 208,
+          "name": "ELECTRODO UND."
+        },
+        "description": "ELECTRODO UND.",
+        "qty": 6.0,
+        "price_unit": 0.25,
+        "price_subtotal": 1.5,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 415,
+        "product": {
+          "id": 207,
+          "name": "Discos Milhojas"
+        },
+        "description": "Discos Milhojas",
+        "qty": 1.0,
+        "price_unit": 0.5,
+        "price_subtotal": 0.5,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "name": "FRA-00020",
+    "invoice_date": "2026-05-15",
+    "due_date": "2026-05-15",
+    "state": "posted",
+    "partner": {
+      "id": 35,
+      "name": "Jesús Soto Henares"
+    },
+    "amount_untaxed": 854.6,
+    "amount_tax": 179.47,
+    "amount_total": 1034.07,
+    "lines": [
+      {
+        "id": 353,
+        "product": {
+          "id": 22,
+          "name": "MATERIAL COMPLETO"
+        },
+        "description": "MATERIAL COMPLETO",
+        "qty": 1.0,
+        "price_unit": 854.6,
+        "price_subtotal": 854.6,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "name": "FRA-00019",
+    "invoice_date": "2026-05-15",
+    "due_date": "2026-05-15",
+    "state": "posted",
+    "partner": {
+      "id": 24,
+      "name": "ANA MARIA TENA CAÑIZAL"
+    },
+    "amount_untaxed": 123.97,
+    "amount_tax": 26.03,
+    "amount_total": 150.0,
+    "lines": [
+      {
+        "id": 344,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "Anticipo de 100,00%",
+        "qty": 1.0,
+        "price_unit": 123.97,
+        "price_subtotal": 123.97,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "name": "FRA-00018",
+    "invoice_date": "2026-05-12",
+    "due_date": "2026-05-12",
+    "state": "posted",
+    "partner": {
+      "id": 23,
+      "name": "TALLERES A GUILLAMON SL"
+    },
+    "amount_untaxed": 475.12,
+    "amount_tax": 99.78,
+    "amount_total": 574.9,
+    "lines": [
+      {
+        "id": 321,
+        "product": {
+          "id": 107,
+          "name": "TUBO 25 X 25 X 2"
+        },
+        "description": "TUBO 25 X 25 X 2",
+        "qty": 30.0,
+        "price_unit": 3.1,
+        "price_subtotal": 93.0,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 322,
+        "product": {
+          "id": 108,
+          "name": "CHAPA 2000 X 1000 X 2"
+        },
+        "description": "CHAPA 2000 X 1000 X 2",
+        "qty": 64.0,
+        "price_unit": 1.33,
+        "price_subtotal": 85.12,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 323,
+        "product": {
+          "id": 7,
+          "name": "Soldadura/Montaje"
+        },
+        "description": "Soldadura/Montaje",
+        "qty": 2.0,
+        "price_unit": 42.0,
+        "price_subtotal": 84.0,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 324,
+        "product": {
+          "id": 30,
+          "name": "HORAS PINTAR"
+        },
+        "description": "HORAS PINTAR",
+        "qty": 0.5,
+        "price_unit": 40.0,
+        "price_subtotal": 20.0,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 325,
+        "product": {
+          "id": 25,
+          "name": "RAL 7032 IMPRIMACION"
+        },
+        "description": "RAL 7032 IMPRIMACION",
+        "qty": 1.0,
+        "price_unit": 25.0,
+        "price_subtotal": 25.0,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 327,
+        "product": {
+          "id": 41,
+          "name": "LASER"
+        },
+        "description": "LASER",
+        "qty": 2.0,
+        "price_unit": 25.0,
+        "price_subtotal": 50.0,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 328,
+        "product": {
+          "id": 69,
+          "name": "MALLA GRIS 2600 X 1000 (30X30X4)"
+        },
+        "description": "MALLA GRIS 2600 X 1000 (30X30X4)",
+        "qty": 2.0,
+        "price_unit": 20.0,
+        "price_subtotal": 40.0,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 329,
+        "product": {
+          "id": 39,
+          "name": "PERNIO TORNEADO 16 X 100"
+        },
+        "description": "PERNIO TORNEADO 16 X 100",
+        "qty": 1.0,
+        "price_unit": 8.0,
+        "price_subtotal": 8.0,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 330,
+        "product": {
+          "id": 7,
+          "name": "Soldadura/Montaje"
+        },
+        "description": "Soldadura/Montaje",
+        "qty": 1.0,
+        "price_unit": 42.0,
+        "price_subtotal": 42.0,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 331,
+        "product": {
+          "id": 25,
+          "name": "RAL 7032 IMPRIMACION"
+        },
+        "description": "RAL 7032 IMPRIMACION",
+        "qty": 1.0,
+        "price_unit": 8.0,
+        "price_subtotal": 8.0,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 332,
+        "product": {
+          "id": 30,
+          "name": "HORAS PINTAR"
+        },
+        "description": "HORAS PINTAR",
+        "qty": 0.5,
+        "price_unit": 40.0,
+        "price_subtotal": 20.0,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "name": "FRA-00017",
+    "invoice_date": "2026-05-12",
+    "due_date": "2026-05-12",
+    "state": "cancel",
+    "partner": {
+      "id": 33,
+      "name": "ATYCO CONSTRUCCION SL"
+    },
+    "amount_untaxed": 5536.0,
+    "amount_tax": 1162.56,
+    "amount_total": 6698.56,
+    "lines": [
+      {
+        "id": 315,
+        "product": {
+          "id": 22,
+          "name": "MATERIAL COMPLETO"
+        },
+        "description": "MATERIAL COMPLETO",
+        "qty": 2.0,
+        "price_unit": 68.0,
+        "price_subtotal": 136.0,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 317,
+        "product": {
+          "id": 22,
+          "name": "MATERIAL COMPLETO"
+        },
+        "description": "MATERIAL COMPLETO",
+        "qty": 50.0,
+        "price_unit": 108.0,
+        "price_subtotal": 5400.0,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "name": "FRA-00016",
+    "invoice_date": "2026-05-06",
+    "due_date": "2026-05-06",
+    "state": "posted",
+    "partner": {
+      "id": 49,
+      "name": "CESAR SANCHEZ VALERO"
+    },
+    "amount_untaxed": 2213.4,
+    "amount_tax": 464.81,
+    "amount_total": 2678.21,
+    "lines": [
+      {
+        "id": 286,
+        "product": {
+          "id": 145,
+          "name": "TUBO 80 X 80 X 2"
+        },
+        "description": "TUBO 80 X 80 X 2",
+        "qty": 12.0,
+        "price_unit": 12.45,
+        "price_subtotal": 149.4,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 287,
+        "product": {
+          "id": 146,
+          "name": "TUBO 80 X 40 X 2"
+        },
+        "description": "TUBO 80 X 40 X 2",
+        "qty": 30.0,
+        "price_unit": 6.9,
+        "price_subtotal": 207.0,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 288,
+        "product": {
+          "id": 41,
+          "name": "LASER"
+        },
+        "description": "LASER\nPLACA 150 X 150 X 8",
+        "qty": 4.0,
+        "price_unit": 15.0,
+        "price_subtotal": 60.0,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 289,
+        "product": {
+          "id": 41,
+          "name": "LASER"
+        },
+        "description": "LASER\nPLACA 80 X 80 X 3",
+        "qty": 3.0,
+        "price_unit": 5.0,
+        "price_subtotal": 15.0,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 290,
+        "product": {
+          "id": 47,
+          "name": "PLACA"
+        },
+        "description": "PLACA\nPLACA 80 X 80 X 8",
+        "qty": 3.0,
+        "price_unit": 8.0,
+        "price_subtotal": 24.0,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 291,
+        "product": {
+          "id": 7,
+          "name": "Soldadura/Montaje"
+        },
+        "description": "Soldadura/Montaje",
+        "qty": 4.0,
+        "price_unit": 42.0,
+        "price_subtotal": 168.0,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 292,
+        "product": {
+          "id": 51,
+          "name": "PINTURA"
+        },
+        "description": "PINTURA",
+        "qty": 1.0,
+        "price_unit": 40.0,
+        "price_subtotal": 40.0,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 293,
+        "product": {
+          "id": 1,
+          "name": "Horas Oficial"
+        },
+        "description": "Horas Oficial",
+        "qty": 18.0,
+        "price_unit": 25.0,
+        "price_subtotal": 450.0,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 294,
+        "product": {
+          "id": 172,
+          "name": "PANEL SANDWICH ESP. 40"
+        },
+        "description": "PANEL SANDWICH ESP. 40",
+        "qty": 7.0,
+        "price_unit": 150.0,
+        "price_subtotal": 1050.0,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 295,
+        "product": {
+          "id": 175,
+          "name": "REMTAES"
+        },
+        "description": "REMTAES",
+        "qty": 1.0,
+        "price_unit": 50.0,
+        "price_subtotal": 50.0,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "name": "FRA-00015 N.º Pedido: 450239873",
+    "invoice_date": "2026-05-05",
+    "due_date": "2026-05-05",
+    "state": "posted",
+    "partner": {
+      "id": 29,
+      "name": "DURANTIA INFRAESTRUCTURAS SOCIEDAD ANONIMA."
+    },
+    "amount_untaxed": 534.25,
+    "amount_tax": 112.19,
+    "amount_total": 646.44,
+    "lines": [
+      {
+        "id": 273,
+        "product": {
+          "id": 22,
+          "name": "MATERIAL COMPLETO"
+        },
+        "description": "MATERIAL COMPLETO",
+        "qty": 1.0,
+        "price_unit": 534.25,
+        "price_subtotal": 534.25,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "name": "FRA-00014",
+    "invoice_date": "2026-05-01",
+    "due_date": "2026-05-01",
+    "state": "posted",
+    "partner": {
+      "id": 19,
+      "name": "COMUNIDAD JARDINES DE TAXIDA"
+    },
+    "amount_untaxed": 816.0,
+    "amount_tax": 171.36,
+    "amount_total": 987.36,
+    "lines": [
+      {
+        "id": 253,
+        "product": {
+          "id": 1,
+          "name": "Horas Oficial"
+        },
+        "description": "Horas Oficial",
+        "qty": 20.0,
+        "price_unit": 30.5,
+        "price_subtotal": 610.0,
+        "taxes": [
+          {
+            "id": 6
+          }
+        ]
+      },
+      {
+        "id": 254,
+        "product": {
+          "id": 18,
+          "name": "Medidas Seguridad ( Arneses, anclaje)"
+        },
+        "description": "Medidas Seguridad ( Arneses, anclaje)",
+        "qty": 1.0,
+        "price_unit": 165.0,
+        "price_subtotal": 165.0,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 255,
+        "product": {
+          "id": 15,
+          "name": "TOPE SEGURIDAD"
+        },
+        "description": "TOPE SEGURIDAD",
+        "qty": 1.0,
+        "price_unit": 20.0,
+        "price_subtotal": 20.0,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 256,
+        "product": {
+          "id": 19,
+          "name": "DESPLAZAMINETO"
+        },
+        "description": "DESPLAZAMINETO",
+        "qty": 60.0,
+        "price_unit": 0.35,
+        "price_subtotal": 21.0,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "FRA-00013",
+    "invoice_date": "2026-05-01",
+    "due_date": "2026-04-28",
+    "state": "posted",
+    "partner": {
+      "id": 20,
+      "name": "LURDES (VILLA BENI)"
+    },
+    "amount_untaxed": 1750.19,
+    "amount_tax": 367.54,
+    "amount_total": 2117.73,
+    "lines": [
+      {
+        "id": 58,
+        "product": {
+          "id": 17,
+          "name": "CONJUNTO"
+        },
+        "description": "CONJUNTO",
+        "qty": 1.0,
+        "price_unit": 468.09,
+        "price_subtotal": 468.09,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 60,
+        "product": {
+          "id": 17,
+          "name": "CONJUNTO"
+        },
+        "description": "CONJUNTO",
+        "qty": 1.0,
+        "price_unit": 775.15,
+        "price_subtotal": 775.15,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 62,
+        "product": {
+          "id": 17,
+          "name": "CONJUNTO"
+        },
+        "description": "CONJUNTO",
+        "qty": 1.0,
+        "price_unit": 506.95,
+        "price_subtotal": 506.95,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "REPARAR TECHADO PATIO",
+    "invoice_date": "2026-04-30",
+    "due_date": "2026-05-07",
+    "state": "posted",
+    "partner": {
+      "id": 35,
+      "name": "Jesús Soto Henares"
+    },
+    "amount_untaxed": 854.6,
+    "amount_tax": 179.47,
+    "amount_total": 1034.07,
+    "lines": [
+      {
+        "id": 125,
+        "product": {
+          "id": 22,
+          "name": "MATERIAL COMPLETO"
+        },
+        "description": "MATERIAL COMPLETO",
+        "qty": 1.0,
+        "price_unit": 854.6,
+        "price_subtotal": 854.6,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "name": "FRA-00012",
+    "invoice_date": "2026-04-30",
+    "due_date": "2026-04-30",
+    "state": "posted",
+    "partner": {
+      "id": 27,
+      "name": "BAÑOS 10 SL"
+    },
+    "amount_untaxed": 228.5,
+    "amount_tax": 47.99,
+    "amount_total": 276.49,
+    "lines": [
+      {
+        "id": 161,
+        "product": {
+          "id": 1,
+          "name": "Horas Oficial"
+        },
+        "description": "Horas Oficial",
+        "qty": 2.0,
+        "price_unit": 25.0,
+        "price_subtotal": 50.0,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 162,
+        "product": {
+          "id": 77,
+          "name": "MOTOR 261176 instema"
+        },
+        "description": "MOTOR 261176 instema",
+        "qty": 1.0,
+        "price_unit": 145.0,
+        "price_subtotal": 145.0,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 164,
+        "product": {
+          "id": 1,
+          "name": "Horas Oficial"
+        },
+        "description": "Horas Oficial",
+        "qty": 0.5,
+        "price_unit": 25.0,
+        "price_subtotal": 12.5,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 165,
+        "product": {
+          "id": 57,
+          "name": "CAJA ELECTRICA"
+        },
+        "description": "CAJA ELECTRICA",
+        "qty": 1.0,
+        "price_unit": 21.0,
+        "price_subtotal": 21.0,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "MATERIAL INOX EUROATOMIZADO ES5000251",
+    "invoice_date": "2026-04-29",
+    "due_date": "2026-04-29",
+    "state": "posted",
+    "partner": {
+      "id": 34,
+      "name": "LB MASCERCA ESPAÑA SOCIEDAD LIMITADA."
+    },
+    "amount_untaxed": 485.8,
+    "amount_tax": 102.02,
+    "amount_total": 587.82,
+    "lines": [
+      {
+        "id": 74,
+        "product": {
+          "id": 41,
+          "name": "LASER"
+        },
+        "description": "LASER",
+        "qty": 2.0,
+        "price_unit": 61.0,
+        "price_subtotal": 122.0,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 75,
+        "product": {
+          "id": 7,
+          "name": "Soldadura/Montaje"
+        },
+        "description": "Soldadura/Montaje",
+        "qty": 1.0,
+        "price_unit": 42.0,
+        "price_subtotal": 42.0,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 77,
+        "product": {
+          "id": 41,
+          "name": "LASER"
+        },
+        "description": "LASER",
+        "qty": 1.0,
+        "price_unit": 59.0,
+        "price_subtotal": 59.0,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 78,
+        "product": {
+          "id": 7,
+          "name": "Soldadura/Montaje"
+        },
+        "description": "Soldadura/Montaje",
+        "qty": 1.0,
+        "price_unit": 42.0,
+        "price_subtotal": 42.0,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 79,
+        "product": {
+          "id": 51,
+          "name": "PINTURA"
+        },
+        "description": "PINTURA",
+        "qty": 0.2,
+        "price_unit": 40.0,
+        "price_subtotal": 8.0,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 81,
+        "product": {
+          "id": 41,
+          "name": "LASER"
+        },
+        "description": "LASER",
+        "qty": 2.0,
+        "price_unit": 15.0,
+        "price_subtotal": 30.0,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 83,
+        "product": {
+          "id": 41,
+          "name": "LASER"
+        },
+        "description": "LASER",
+        "qty": 2.0,
+        "price_unit": 18.0,
+        "price_subtotal": 36.0,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 85,
+        "product": {
+          "id": 41,
+          "name": "LASER"
+        },
+        "description": "LASER",
+        "qty": 1.0,
+        "price_unit": 17.3,
+        "price_subtotal": 17.3,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 87,
+        "product": {
+          "id": 41,
+          "name": "LASER"
+        },
+        "description": "LASER",
+        "qty": 1.0,
+        "price_unit": 24.9,
+        "price_subtotal": 24.9,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 89,
+        "product": {
+          "id": 41,
+          "name": "LASER"
+        },
+        "description": "LASER",
+        "qty": 1.0,
+        "price_unit": 24.9,
+        "price_subtotal": 24.9,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 91,
+        "product": {
+          "id": 41,
+          "name": "LASER"
+        },
+        "description": "LASER",
+        "qty": 1.0,
+        "price_unit": 17.3,
+        "price_subtotal": 17.3,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 93,
+        "product": {
+          "id": 41,
+          "name": "LASER"
+        },
+        "description": "LASER",
+        "qty": 1.0,
+        "price_unit": 34.5,
+        "price_subtotal": 34.5,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 95,
+        "product": {
+          "id": 41,
+          "name": "LASER"
+        },
+        "description": "LASER",
+        "qty": 1.0,
+        "price_unit": 27.9,
+        "price_subtotal": 27.9,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "ZAPATAS IMPRESAS",
+    "invoice_date": "2026-04-28",
+    "due_date": "2026-04-28",
+    "state": "posted",
+    "partner": {
+      "id": 23,
+      "name": "TALLERES A GUILLAMON SL"
+    },
+    "amount_untaxed": 224.4,
+    "amount_tax": 47.12,
+    "amount_total": 271.52,
+    "lines": [
+      {
+        "id": 53,
+        "product": {
+          "id": 97,
+          "name": "MATERIAL PLA"
+        },
+        "description": "MATERIAL PLA",
+        "qty": 680.0,
+        "price_unit": 0.08,
+        "price_subtotal": 54.4,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 54,
+        "product": {
+          "id": 96,
+          "name": "IMPRESORA 3D HORAS"
+        },
+        "description": "IMPRESORA 3D HORAS",
+        "qty": 85.0,
+        "price_unit": 2.0,
+        "price_subtotal": 170.0,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "PEDIDO GEOLITE TOLVAS BANDEJAS Y PROTECCIONES",
+    "invoice_date": "2026-04-21",
+    "due_date": "2026-04-21",
+    "state": "posted",
+    "partner": {
+      "id": 23,
+      "name": "TALLERES A GUILLAMON SL"
+    },
+    "amount_untaxed": 728.5,
+    "amount_tax": 140.18,
+    "amount_total": 868.68,
+    "lines": [
+      {
+        "id": 32,
+        "product": {
+          "id": 1,
+          "name": "Horas Oficial"
+        },
+        "description": "Horas Oficial",
+        "qty": 2.0,
+        "price_unit": 30.5,
+        "price_subtotal": 61.0,
+        "taxes": []
+      },
+      {
+        "id": 33,
+        "product": {
+          "id": 41,
+          "name": "LASER"
+        },
+        "description": "LASER",
+        "qty": 3.0,
+        "price_unit": 28.0,
+        "price_subtotal": 84.0,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 35,
+        "product": {
+          "id": 42,
+          "name": "ANGULO 30"
+        },
+        "description": "ANGULO 30",
+        "qty": 2.0,
+        "price_unit": 28.0,
+        "price_subtotal": 56.0,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 36,
+        "product": {
+          "id": 7,
+          "name": "Soldadura/Montaje"
+        },
+        "description": "Soldadura/Montaje",
+        "qty": 1.0,
+        "price_unit": 47.0,
+        "price_subtotal": 47.0,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 37,
+        "product": {
+          "id": 25,
+          "name": "RAL 7032 IMPRIMACION"
+        },
+        "description": "RAL 7032 IMPRIMACION",
+        "qty": 1.0,
+        "price_unit": 20.0,
+        "price_subtotal": 20.0,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 39,
+        "product": {
+          "id": 1,
+          "name": "Horas Oficial"
+        },
+        "description": "Horas Oficial",
+        "qty": 2.0,
+        "price_unit": 30.5,
+        "price_subtotal": 61.0,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 40,
+        "product": {
+          "id": 41,
+          "name": "LASER"
+        },
+        "description": "LASER",
+        "qty": 3.0,
+        "price_unit": 15.0,
+        "price_subtotal": 45.0,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 41,
+        "product": {
+          "id": 43,
+          "name": "RAL 1016"
+        },
+        "description": "RAL 1016",
+        "qty": 1.0,
+        "price_unit": 20.0,
+        "price_subtotal": 20.0,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 43,
+        "product": {
+          "id": 1,
+          "name": "Horas Oficial"
+        },
+        "description": "Horas Oficial",
+        "qty": 2.0,
+        "price_unit": 30.5,
+        "price_subtotal": 61.0,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 44,
+        "product": {
+          "id": 41,
+          "name": "LASER"
+        },
+        "description": "LASER",
+        "qty": 3.0,
+        "price_unit": 26.0,
+        "price_subtotal": 78.0,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 45,
+        "product": {
+          "id": 44,
+          "name": "TUBO DIAMETRO 80 X 2"
+        },
+        "description": "TUBO DIAMETRO 80 X 2",
+        "qty": 3.0,
+        "price_unit": 15.0,
+        "price_subtotal": 45.0,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 46,
+        "product": {
+          "id": 7,
+          "name": "Soldadura/Montaje"
+        },
+        "description": "Soldadura/Montaje",
+        "qty": 1.5,
+        "price_unit": 47.0,
+        "price_subtotal": 70.5,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 47,
+        "product": {
+          "id": 25,
+          "name": "RAL 7032 IMPRIMACION"
+        },
+        "description": "RAL 7032 IMPRIMACION",
+        "qty": 1.0,
+        "price_unit": 20.0,
+        "price_subtotal": 20.0,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 49,
+        "product": {
+          "id": 20,
+          "name": "MATERIAL"
+        },
+        "description": "MATERIAL",
+        "qty": 3.0,
+        "price_unit": 20.0,
+        "price_subtotal": 60.0,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "REPARAR PUERTA Y TAPA",
+    "invoice_date": "2026-04-20",
+    "due_date": "2026-04-20",
+    "state": "posted",
+    "partner": {
+      "id": 24,
+      "name": "ANA MARIA TENA CAÑIZAL"
+    },
+    "amount_untaxed": 123.97,
+    "amount_tax": 26.03,
+    "amount_total": 150.0,
+    "lines": [
+      {
+        "id": 28,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "Anticipo de 100,00%",
+        "qty": 1.0,
+        "price_unit": 123.97,
+        "price_subtotal": 123.97,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "TOLVA ASPIRACION GEOTILES",
+    "invoice_date": "2026-04-15",
+    "due_date": "2026-04-15",
+    "state": "posted",
+    "partner": {
+      "id": 23,
+      "name": "TALLERES A GUILLAMON SL"
+    },
+    "amount_untaxed": 1359.09,
+    "amount_tax": 285.41,
+    "amount_total": 1644.5,
+    "lines": [
+      {
+        "id": 25,
+        "product": {
+          "id": 37,
+          "name": "TOLVA ASPIRACION GEOTILES"
+        },
+        "description": "TOLVA ASPIRACION GEOTILES",
+        "qty": 3.0,
+        "price_unit": 453.03,
+        "price_subtotal": 1359.09,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "REPARAR PISTON PRENSA1",
+    "invoice_date": "2026-04-14",
+    "due_date": "2026-04-14",
+    "state": "posted",
+    "partner": {
+      "id": 26,
+      "name": "MIELSO SA"
+    },
+    "amount_untaxed": 169.0,
+    "amount_tax": 35.49,
+    "amount_total": 204.49,
+    "lines": [
+      {
+        "id": 22,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "Anticipo de 100,00%",
+        "qty": 1.0,
+        "price_unit": 169.0,
+        "price_subtotal": 169.0,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "REPARAR PISTON PRENSA",
+    "invoice_date": "2026-04-10",
+    "due_date": "2026-04-10",
+    "state": "posted",
+    "partner": {
+      "id": 26,
+      "name": "MIELSO SA"
+    },
+    "amount_untaxed": 229.0,
+    "amount_tax": 48.09,
+    "amount_total": 277.09,
+    "lines": [
+      {
+        "id": 19,
+        "product": {
+          "id": null,
+          "name": null
+        },
+        "description": "Anticipo de 100,00%",
+        "qty": 1.0,
+        "price_unit": 229.0,
+        "price_subtotal": 229.0,
+        "taxes": [
+          {
+            "id": 5
+          }
+        ]
+      }
+    ]
+  }
+]
