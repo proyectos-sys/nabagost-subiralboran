@@ -30,13 +30,26 @@ async function main() {
       subtotal: line.subtotal,
       faena: line.analytic,
     })),
+    lineas_presupuesto: preview.saleLines.map((plan) => ({
+      presupuesto: plan.order.name,
+      cliente: plan.order.partnerName,
+      estado: plan.order.state,
+      descripcion: plan.description,
+      cantidad: plan.quantity,
+      coste: plan.costUnit,
+      precio_venta: plan.priceUnit,
+      margen_sobre_coste: `${preview.markupPercent}%`,
+    })),
     total_extraido: preview.totalExtracted,
     total_lineas: preview.totalLines,
     avisos: preview.warnings,
   }, null, 2));
 
+  const saleSummary = preview.saleLines.length
+    ? ` y anadir ${preview.saleLines.length} linea(s) a presupuestos`
+    : "";
   const rl = createInterface({ input, output });
-  const answer = await rl.question("Crear compra en borrador en Odoo? Escribe SI para confirmar: ");
+  const answer = await rl.question(`Crear compra en borrador en Odoo${saleSummary}? Escribe SI para confirmar: `);
   rl.close();
 
   if (answer.trim().toUpperCase() !== "SI") {
@@ -45,7 +58,13 @@ async function main() {
   }
 
   const created = await createPurchaseOrder(preview);
-  console.log(JSON.stringify({ compra: created.name, id: created.id, url: created.url }, null, 2));
+  console.log(JSON.stringify({
+    compra: created.name,
+    id: created.id,
+    url: created.url,
+    lineas_presupuesto_creadas: created.saleLines,
+    avisos_presupuesto: created.saleWarnings,
+  }, null, 2));
 }
 
 main().catch((error: unknown) => {

@@ -106,7 +106,7 @@ function toolsList() {
     },
     {
       name: "create_purchase_from_image",
-      description: "Crea una compra en borrador desde imagen solo si confirmed=true; si no, devuelve needs_confirmation.",
+      description: "Crea una compra en borrador desde imagen solo si confirmed=true; si no, devuelve needs_confirmation. Si la faena manuscrita corresponde a un presupuesto, tambien anade a ese presupuesto una linea marcada [IA] con el coste + margen (preview.saleLines).",
       inputSchema: {
         type: "object",
         required: ["imagePath"],

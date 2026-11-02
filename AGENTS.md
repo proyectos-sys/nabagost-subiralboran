@@ -23,3 +23,5 @@
 - Si el albaran tiene una anotacion a mano (no impresa) indicando una faena/cliente (tipo `S55`, `s066` o un nombre), esa anotacion determina la cuenta analitica de la linea o del documento entero. La anotacion de una linea concreta tiene prioridad sobre la anotacion general del documento.
 - Distinguir siempre texto impreso original de texto anadido a mano; solo el texto a mano se usa para la faena. No usar datos impresos (referencia de proveedor, codigo de producto, etc.) para inferir una faena.
 - Si no se encuentra o es ambigua la cuenta analitica para una faena anotada, se deja la linea sin `analytic_distribution` y se avisa; nunca se adivina ni se crea una cuenta nueva.
+- Si la faena anotada corresponde a un presupuesto (`S55` -> `S00055`), se anade tambien una linea a ese `sale.order` con descripcion que empieza por `[IA]` y precio de venta = coste + `SALE_MARKUP_PERCENT` (40% por defecto). Nunca se crean presupuestos nuevos ni se tocan lineas existentes; solo se anaden lineas al final, y solo en presupuestos en estado `draft`, `sent` o `sale`.
+- Si el presupuesto no se encuentra, es ambiguo o no admite lineas, se crea igualmente la compra y se avisa.

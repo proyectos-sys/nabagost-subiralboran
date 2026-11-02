@@ -2,8 +2,20 @@ import { basename } from "node:path";
 import { readFileSync } from "node:fs";
 import { getPurchaseEnv } from "./env";
 import { extractPurchaseDataFromImage } from "./openai-vision";
-import { many2OneId, OdooJson2Client, type OdooMany2One } from "./odoo-json2";
-import type { AnalyticMatch, ExtractedPurchaseData, ProductMatch, PurchaseLineInput, PurchasePreview, VendorMatch, CreatedPurchase } from "./types";
+import { many2OneId, many2OneName, OdooJson2Client, type OdooMany2One } from "./odoo-json2";
+import type {
+  AnalyticMatch,
+  CreatedPurchase,
+  CreatedSaleLine,
+  ExtractedPurchaseData,
+  ProductMatch,
+  PurchaseLineInput,
+  PurchasePreview,
+  PurchasePreviewLine,
+  SaleLinePlan,
+  SaleOrderMatch,
+  VendorMatch,
+} from "./types";
 
 type PartnerRow = { id: number; name?: string; vat?: string };
 export type ProductRow = { id: number; display_name?: string; name?: string; default_code?: string; uom_po_id?: OdooMany2One; uom_id?: OdooMany2One };
@@ -11,6 +23,11 @@ type PurchaseRow = { id: number; name?: string };
 type PickingTypeRow = { id: number; name?: string; complete_name?: string };
 type TaxRow = { id: number; name?: string; amount?: number };
 type AnalyticRow = { id: number; name?: string };
+type SaleOrderRow = { id: number; name?: string; state?: string; partner_id?: OdooMany2One };
+type SequenceRow = { sequence?: number };
+
+// Estados en los que aun se pueden anadir lineas al presupuesto (no bloqueado ni cancelado).
+const SALE_ORDER_EDITABLE_STATES = ["draft", "sent", "sale"];
 
 const client = new OdooJson2Client();
 
@@ -25,23 +42,40 @@ export async function buildPurchasePreview(imagePath: string, extracted: Extract
     warnings.push(error instanceof Error ? error.message : "No se ha encontrado proveedor.");
     return undefined;
   });
+  const env = getPurchaseEnv();
+  const addToSaleOrder = env.ADD_COST_TO_SALE_ORDER === "true";
+  const saleOrderByRef = new Map<string, Promise<SaleOrderMatch | undefined>>();
   const documentAnalytic = extracted.documentJobRef
     ? await findAnalyticAccount(extracted.documentJobRef, warnings)
     : undefined;
-  const lines = await Promise.all(
+  const lines: PurchasePreviewLine[] = await Promise.all(
     extracted.lines.map(async (line) => {
       const product = await findProduct(line, warnings, extracted.vendorName);
       const analytic = line.jobRef
         ? await findAnalyticAccount(line.jobRef, warnings)
         : documentAnalytic;
+      const jobRef = line.jobRef || extracted.documentJobRef;
+      let saleOrder: SaleOrderMatch | undefined;
+      if (addToSaleOrder && jobRef) {
+        const key = jobRef.trim().toUpperCase();
+        if (!saleOrderByRef.has(key)) {
+          saleOrderByRef.set(key, findSaleOrder(jobRef, analytic, warnings));
+        }
+        saleOrder = await saleOrderByRef.get(key);
+      }
       return {
         ...line,
         product,
         subtotal: roundMoney(line.quantity * line.unitPrice),
         analytic,
+        saleOrder,
       };
     }),
   );
+  const saleLines = buildSaleLinePlans(lines, extracted, vendor?.name, env.SALE_MARKUP_PERCENT);
+  if (saleLines.some((plan) => plan.taxRate === undefined)) {
+    warnings.push("Hay lineas sin IVA detectado: se anadiran al presupuesto sin impuesto. Revisalo.");
+  }
   const totalLines = roundMoney(lines.reduce((sum, line) => sum + line.subtotal, 0));
   const totalLinesWithTax = roundMoney(
     lines.reduce((sum, line) => sum + line.subtotal * (1 + (line.taxRate || 0) / 100), 0),
@@ -76,7 +110,97 @@ export async function buildPurchasePreview(imagePath: string, extracted: Extract
     totalExtracted,
     totalLines,
     documentAnalytic,
+    saleLines,
+    markupPercent: env.SALE_MARKUP_PERCENT,
   };
+}
+
+export function applyMarkup(cost: number, markupPercent: number): number {
+  return roundMoney(cost * (1 + markupPercent / 100));
+}
+
+export function buildSaleLineDescription(
+  description: string,
+  document: Pick<ExtractedPurchaseData, "reference" | "vendorName">,
+  vendorName = "",
+): string {
+  const origin = [
+    document.reference ? `albarán ${document.reference}` : "albarán",
+    document.vendorName || vendorName,
+  ]
+    .filter(Boolean)
+    .join(" · ");
+  return `[IA] ${description.trim()} (${origin})`;
+}
+
+export function buildSaleLinePlans(
+  lines: PurchasePreviewLine[],
+  document: Pick<ExtractedPurchaseData, "reference" | "vendorName">,
+  vendorName: string | undefined,
+  markupPercent: number,
+): SaleLinePlan[] {
+  return lines.flatMap((line) =>
+    line.saleOrder
+      ? [{
+          order: line.saleOrder,
+          description: buildSaleLineDescription(line.description, document, vendorName),
+          quantity: line.quantity,
+          costUnit: line.unitPrice,
+          priceUnit: applyMarkup(line.unitPrice, markupPercent),
+          taxRate: line.taxRate,
+        }]
+      : [],
+  );
+}
+
+// "S55" -> "55"; si la anotacion no es un codigo S, se intenta con el nombre de la cuenta analitica ("S00055 - Cliente").
+export function saleOrderDigits(rawRef: string, analyticName?: string): string {
+  const digits =
+    rawRef.trim().match(/^s\s*0*(\d{1,6})$/i)?.[1] || analyticName?.match(/^S0*(\d+)/i)?.[1] || "";
+  return Number(digits) > 0 ? digits.replace(/^0+/, "") : "";
+}
+
+// Odoo numera los presupuestos como S00055, pero se aceptan variantes con menos ceros.
+export function saleOrderNameCandidates(digits: string): string[] {
+  const names: string[] = [];
+  for (let width = digits.length; width <= 6; width += 1) {
+    names.push(`S${digits.padStart(width, "0")}`);
+  }
+  return names;
+}
+
+export async function findSaleOrder(
+  rawRef: string,
+  analytic: AnalyticMatch | undefined,
+  warnings: string[],
+): Promise<SaleOrderMatch | undefined> {
+  const digits = saleOrderDigits(rawRef, analytic?.name);
+  if (!digits) {
+    return undefined;
+  }
+
+  const rows = await client.call<SaleOrderRow[]>("sale.order", "search_read", {
+    domain: [["name", "in", saleOrderNameCandidates(digits)]],
+    fields: ["id", "name", "state", "partner_id"],
+    limit: 5,
+  });
+  if (rows.length === 0) {
+    warnings.push(`No se encontro presupuesto para la faena "${rawRef}". No se anadira linea al presupuesto.`);
+    return undefined;
+  }
+  if (rows.length > 1) {
+    warnings.push(`Varios presupuestos coinciden con la faena "${rawRef}". Revisa manualmente.`);
+    return undefined;
+  }
+
+  const row = rows[0];
+  const name = row.name || `S${digits}`;
+  if (!SALE_ORDER_EDITABLE_STATES.includes(row.state || "")) {
+    warnings.push(`El presupuesto ${name} esta en estado "${row.state}" y no admite lineas nuevas. No se anadira linea.`);
+    return undefined;
+  }
+
+  return { id: row.id, name, state: row.state || "", partnerName: many2OneName(row.partner_id) || undefined };
 }
 
 export async function findVendor(data: Pick<ExtractedPurchaseData, "vendorVat" | "vendorName">): Promise<VendorMatch> {
@@ -471,6 +595,12 @@ export async function createPurchaseOrder(preview: PurchasePreview): Promise<Cre
   await forcePurchaseDraft(orderId);
   await attachImageToPurchase(orderId, preview.imagePath);
 
+  // La compra ya existe: si falla el presupuesto no se pierde, se avisa para completarlo a mano.
+  const sale = await addLinesToSaleOrders(preview).catch((error: unknown) => ({
+    created: [] as CreatedSaleLine[],
+    warnings: [`No se pudieron anadir lineas a los presupuestos: ${error instanceof Error ? error.message : "error desconocido"}`],
+  }));
+
   const order = (
     await client.call<PurchaseRow[]>("purchase.order", "search_read", {
       domain: [["id", "=", orderId]],
@@ -486,7 +616,65 @@ export async function createPurchaseOrder(preview: PurchasePreview): Promise<Cre
     name,
     url: `${env.ODOO_URL.replace(/\/$/, "")}/web#id=${orderId}&model=purchase.order&view_type=form`,
     preview,
+    saleLines: sale.created,
+    saleWarnings: sale.warnings,
   };
+}
+
+async function addLinesToSaleOrders(preview: PurchasePreview): Promise<{ created: CreatedSaleLine[]; warnings: string[] }> {
+  const created: CreatedSaleLine[] = [];
+  const warnings: string[] = [];
+  if (preview.saleLines.length === 0) {
+    return { created, warnings };
+  }
+
+  const fields = await client.fieldsGet("sale.order.line");
+  const plansByOrder = new Map<number, SaleLinePlan[]>();
+  for (const plan of preview.saleLines) {
+    plansByOrder.set(plan.order.id, [...(plansByOrder.get(plan.order.id) || []), plan]);
+  }
+
+  for (const [orderId, plans] of plansByOrder) {
+    const orderName = plans[0].order.name;
+    try {
+      // Al final del presupuesto, tras las lineas y secciones que ya tenga.
+      let sequence = await nextSaleLineSequence(orderId);
+      for (const plan of plans) {
+        const vals: Record<string, unknown> = {
+          order_id: orderId,
+          name: plan.description,
+          product_uom_qty: plan.quantity,
+          price_unit: plan.priceUnit,
+        };
+        const tax = await findTaxCommand(plan.taxRate, "sale");
+        setIfWritable(fields, vals, "sequence", sequence);
+        // Coste real de la linea: el margen del presupuesto se calcula contra esto.
+        setIfWritable(fields, vals, "purchase_price", plan.costUnit);
+        setIfWritable(fields, vals, "tax_id", tax);
+        setIfWritable(fields, vals, "tax_ids", tax);
+        validateWritable(fields, vals, "sale.order.line");
+        const lineCreated = await client.call<number[] | number>("sale.order.line", "create", { vals_list: [vals] });
+        created.push({ orderId, orderName, lineId: Array.isArray(lineCreated) ? lineCreated[0] : lineCreated });
+        sequence += 1;
+      }
+    } catch (error) {
+      warnings.push(
+        `No se pudieron anadir todas las lineas al presupuesto ${orderName}: ${error instanceof Error ? error.message : "error desconocido"}`,
+      );
+    }
+  }
+
+  return { created, warnings };
+}
+
+async function nextSaleLineSequence(orderId: number): Promise<number> {
+  const rows = await client.call<SequenceRow[]>("sale.order.line", "search_read", {
+    domain: [["order_id", "=", orderId]],
+    fields: ["sequence"],
+    order: "sequence desc",
+    limit: 1,
+  });
+  return rows[0] ? (rows[0].sequence ?? 10) + 1 : 10;
 }
 
 export async function createPurchaseFromImage(imagePath: string): Promise<CreatedPurchase> {
@@ -539,7 +727,7 @@ async function forcePurchaseDraft(orderId: number): Promise<void> {
   });
 }
 
-async function findTaxCommand(taxRate?: number): Promise<unknown | undefined> {
+async function findTaxCommand(taxRate?: number, type: "purchase" | "sale" = "purchase"): Promise<unknown | undefined> {
   if (typeof taxRate !== "number" || taxRate <= 0) {
     return undefined;
   }
@@ -547,7 +735,7 @@ async function findTaxCommand(taxRate?: number): Promise<unknown | undefined> {
   const rows = await client.call<TaxRow[]>("account.tax", "search_read", {
     domain: [
       ["amount", "=", taxRate],
-      ["type_tax_use", "=", "purchase"],
+      ["type_tax_use", "=", type],
     ],
     fields: ["id", "name", "amount"],
     limit: 1,

@@ -13,6 +13,14 @@ const envSchema = z.object({
   DEFAULT_PURCHASE_LOCATION: z.string().optional().default("NAVAGOST: Recepciones"),
   DEFAULT_VENDOR_ID: z.coerce.number().int().positive().optional(),
   FALLBACK_PRODUCT_ID: z.coerce.number().int().positive().optional(),
+  SALE_MARKUP_PERCENT: z.preprocess(
+    (value) => (value === "" ? undefined : value),
+    z.coerce.number().min(0).max(1000).default(40),
+  ),
+  ADD_COST_TO_SALE_ORDER: z.preprocess(
+    (value) => (value === "" ? undefined : value),
+    z.enum(["true", "false"]).default("true"),
+  ),
 });
 
 export type PurchaseEnv = z.infer<typeof envSchema>;

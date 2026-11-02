@@ -17,6 +17,8 @@ OPENAI_API_KEY=
 DEFAULT_PURCHASE_LOCATION=NAVAGOST: Recepciones
 DEFAULT_VENDOR_ID=
 FALLBACK_PRODUCT_ID=
+SALE_MARKUP_PERCENT=40
+ADD_COST_TO_SALE_ORDER=true
 ```
 
 `ODOO_API_KEY`, `GEMINI_API_KEY` y `OPENAI_API_KEY` solo se usan en servidor/CLI. No se imprimen en logs.
@@ -82,3 +84,15 @@ Herramientas disponibles:
 - No crea cuentas analiticas nuevas.
 - Si el albaran trae una anotacion a mano de faena/cliente (ref tipo `S55` o nombre), se busca la cuenta analitica existente (`account.analytic.account`) por codigo normalizado o por nombre; si hay ref por linea, gana sobre la ref de todo el documento.
 - Si no hay coincidencia clara, la linea se crea sin cuenta analitica y queda un aviso para revision manual.
+
+## Linea en el presupuesto (coste + margen)
+
+Ademas de imputar el coste a la cuenta analitica, si la faena manuscrita es un codigo de presupuesto (`S55` -> `S00055`, o una cuenta analitica cuyo nombre empieza por ese codigo) se anade una linea al `sale.order` correspondiente:
+
+- Descripcion: `[IA] <descripcion del albaran> (albaran <ref> · <proveedor>)`. La marca `[IA]` indica que se metio automaticamente y hay que revisarla.
+- Precio de venta = coste unitario sin IVA + `SALE_MARKUP_PERCENT` (por defecto 40%). El coste real se guarda en `purchase_price` (si el campo existe) para que el margen del presupuesto salga solo.
+- La linea va sin producto, al final del presupuesto, con el IVA de venta que coincida con el de la linea.
+- Solo se anade si el presupuesto esta en `draft`, `sent` o `sale`. Si esta bloqueado/cancelado, no existe o hay varios candidatos, la compra se crea igual y queda un aviso.
+- Si falla el presupuesto despues de crear la compra, la compra no se pierde: el error sale en `saleWarnings`.
+- `ADD_COST_TO_SALE_ORDER=false` desactiva esta funcion.
+- El preview (`saleLines`) muestra lo que se anadira antes de confirmar.

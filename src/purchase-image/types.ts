@@ -47,10 +47,27 @@ export type AnalyticMatch = {
   source: "code" | "name";
 };
 
+export type SaleOrderMatch = {
+  id: number;
+  name: string;
+  state: string;
+  partnerName?: string;
+};
+
 export type PurchasePreviewLine = PurchaseLineInput & {
   product: ProductMatch;
   subtotal: number;
   analytic?: AnalyticMatch;
+  saleOrder?: SaleOrderMatch;
+};
+
+export type SaleLinePlan = {
+  order: SaleOrderMatch;
+  description: string;
+  quantity: number;
+  costUnit: number;
+  priceUnit: number;
+  taxRate?: number;
 };
 
 export type PurchasePreview = {
@@ -63,6 +80,14 @@ export type PurchasePreview = {
   totalExtracted: number;
   totalLines: number;
   documentAnalytic?: AnalyticMatch;
+  saleLines: SaleLinePlan[];
+  markupPercent: number;
+};
+
+export type CreatedSaleLine = {
+  orderId: number;
+  orderName: string;
+  lineId: number;
 };
 
 export type CreatedPurchase = {
@@ -70,4 +95,6 @@ export type CreatedPurchase = {
   name: string;
   url: string;
   preview: PurchasePreview;
+  saleLines: CreatedSaleLine[];
+  saleWarnings: string[];
 };

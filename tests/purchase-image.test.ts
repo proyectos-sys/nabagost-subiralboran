@@ -1,7 +1,18 @@
 import { describe, expect, it } from "vitest";
 import { extractedPurchaseSchema } from "../src/purchase-image/types";
 import { withoutSecrets } from "../src/purchase-image/env";
-import { cleanReusableProductName, genericWorkshopProductName, productLookupQueries, reusableProductFamily, scoreProductMatch } from "../src/purchase-image/purchase-service";
+import {
+  applyMarkup,
+  buildSaleLineDescription,
+  buildSaleLinePlans,
+  cleanReusableProductName,
+  genericWorkshopProductName,
+  productLookupQueries,
+  reusableProductFamily,
+  saleOrderDigits,
+  saleOrderNameCandidates,
+  scoreProductMatch,
+} from "../src/purchase-image/purchase-service";
 
 describe("purchase image schemas", () => {
   it("valida la extraccion minima de una imagen de compra", () => {
@@ -110,5 +121,55 @@ describe("purchase image schemas", () => {
     );
     expect(disolvente).toBeGreaterThan(0.55);
     expect(esmalte).toBeGreaterThan(0.55);
+  });
+});
+
+describe("linea en el presupuesto desde el albaran", () => {
+  it("aplica el margen sobre el coste y redondea a centimos", () => {
+    expect(applyMarkup(100, 40)).toBe(140);
+    expect(applyMarkup(12.35, 40)).toBe(17.29);
+    expect(applyMarkup(10, 0)).toBe(10);
+  });
+
+  it("marca la descripcion con [IA] y el origen del albaran", () => {
+    expect(buildSaleLineDescription("TUBO 40x20x2", { reference: "A-123", vendorName: "HIMECAS" })).toBe(
+      "[IA] TUBO 40x20x2 (albarán A-123 · HIMECAS)",
+    );
+    expect(buildSaleLineDescription("TUBO 40x20x2", { reference: "", vendorName: "" }, "Proveedor Odoo")).toBe(
+      "[IA] TUBO 40x20x2 (albarán · Proveedor Odoo)",
+    );
+  });
+
+  it("deduce el numero de presupuesto de la faena o de la cuenta analitica", () => {
+    expect(saleOrderDigits("S55")).toBe("55");
+    expect(saleOrderDigits("s066")).toBe("66");
+    expect(saleOrderDigits("S00055")).toBe("55");
+    expect(saleOrderDigits("Cliente Demo", "S00038 - GEOTILES")).toBe("38");
+    expect(saleOrderDigits("Cliente Demo")).toBe("");
+    expect(saleOrderDigits("S0")).toBe("");
+  });
+
+  it("genera los nombres posibles del presupuesto con distintos ceros", () => {
+    expect(saleOrderNameCandidates("55")).toContain("S00055");
+    expect(saleOrderNameCandidates("55")).toContain("S055");
+    expect(saleOrderNameCandidates("38")).toContain("S00038");
+  });
+
+  it("solo planifica lineas de venta para lineas con presupuesto resuelto", () => {
+    const order = { id: 7, name: "S00055", state: "sale" };
+    const product = { id: 1, name: "TUBO", source: "match" as const };
+    const plans = buildSaleLinePlans(
+      [
+        { description: "TUBO", productReference: "", quantity: 2, unitPrice: 10, taxRate: 21, jobRef: "S55", product, subtotal: 20, saleOrder: order },
+        { description: "CHAPA", productReference: "", quantity: 1, unitPrice: 5, jobRef: "", product, subtotal: 5 },
+      ],
+      { reference: "A-1", vendorName: "HIMECAS" },
+      undefined,
+      40,
+    );
+
+    expect(plans).toHaveLength(1);
+    expect(plans[0]).toMatchObject({ order, quantity: 2, costUnit: 10, priceUnit: 14, taxRate: 21 });
+    expect(plans[0].description.startsWith("[IA] ")).toBe(true);
   });
 });
