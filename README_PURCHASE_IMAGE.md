@@ -93,6 +93,7 @@ Ademas de imputar el coste a la cuenta analitica, si la faena manuscrita es un c
 - Precio de venta = coste unitario sin IVA + `SALE_MARKUP_PERCENT` (por defecto 40%). El coste real se guarda en `purchase_price` (si el campo existe) para que el margen del presupuesto salga solo.
 - La linea va sin producto, al final del presupuesto, con el IVA de venta que coincida con el de la linea.
 - Solo se anade si el presupuesto esta en `draft`, `sent` o `sale`. Si esta bloqueado/cancelado, no existe o hay varios candidatos, la compra se crea igual y queda un aviso.
+- No se anade si el presupuesto ya tiene alguna linea de `Soldadura`, `Horas Oficial`, `Horas Peon` u `Horas Pintura` (se comparan por el principio del nombre del producto o de la linea): lo mas probable es que alguien lo rellenara a mano y el material ya este puesto, asi que se duplicaria. La compra se crea igual, el coste se imputa a la analitica y el preview/`saleWarnings` avisa de por que no se anadio. Un presupuesto en blanco o solo con material si recibe la linea. Si no se pueden leer las lineas del presupuesto, tampoco se anade (se prefiere no duplicar).
 - Si falla el presupuesto despues de crear la compra, la compra no se pierde: el error sale en `saleWarnings`.
 - `ADD_COST_TO_SALE_ORDER=false` desactiva esta funcion.
 - El preview (`saleLines`) muestra lo que se anadira antes de confirmar.

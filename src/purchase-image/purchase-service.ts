@@ -25,9 +25,15 @@ type TaxRow = { id: number; name?: string; amount?: number };
 type AnalyticRow = { id: number; name?: string };
 type SaleOrderRow = { id: number; name?: string; state?: string; partner_id?: OdooMany2One };
 type SequenceRow = { sequence?: number };
+type SaleLineRow = { name?: string | false; product_id?: OdooMany2One };
 
 // Estados en los que aun se pueden anadir lineas al presupuesto (no bloqueado ni cancelado).
 const SALE_ORDER_EDITABLE_STATES = ["draft", "sent", "sale"];
+
+// Si el presupuesto ya tiene estas lineas de mano de obra, alguien lo relleno a mano y lo mas probable es que
+// el material tambien este puesto: anadir la linea del albaran lo duplicaria. Se comparan por el principio del
+// nombre (ya normalizado: mayusculas, sin acentos ni signos) para no confundir con material como "Varilla de soldadura".
+const MANUAL_LABOUR_PATTERNS = [/^SOLDADURA\b/, /^HORAS? (DE )?OFICIAL\b/, /^HORAS? (DE )?PEON\b/, /^HORAS? (DE )?PINT/];
 
 const client = new OdooJson2Client();
 
@@ -200,7 +206,45 @@ export async function findSaleOrder(
     return undefined;
   }
 
+  let labourLines: string[];
+  try {
+    labourLines = findManualLabourLines(
+      await client.call<SaleLineRow[]>("sale.order.line", "search_read", {
+        domain: [
+          ["order_id", "=", row.id],
+          ["display_type", "=", false],
+        ],
+        fields: ["name", "product_id"],
+        limit: 500,
+      }),
+    );
+  } catch (error) {
+    // Sin poder comprobarlo no se arriesga a duplicar: la compra se crea igual y se avisa.
+    warnings.push(
+      `No se pudieron comprobar las lineas del presupuesto ${name} (${error instanceof Error ? error.message : "error desconocido"}). No se anadira linea.`,
+    );
+    return undefined;
+  }
+  if (labourLines.length > 0) {
+    warnings.push(
+      `El presupuesto ${name} ya tiene ${labourLines.map((line) => `"${line}"`).join(", ")}: lo mas probable es que ya este imputado a mano. No se anadira linea para no duplicar.`,
+    );
+    return undefined;
+  }
+
   return { id: row.id, name, state: row.state || "", partnerName: many2OneName(row.partner_id) || undefined };
+}
+
+// Nombres de las lineas de mano de obra (soldadura, horas oficial/peon/pintura) que ya tiene un presupuesto.
+export function findManualLabourLines(lines: SaleLineRow[]): string[] {
+  const found: string[] = [];
+  for (const line of lines) {
+    const productName = many2OneName(line.product_id).replace(/^\[[^\]]*\]\s*/, "");
+    const description = (typeof line.name === "string" ? line.name : "").split("\n")[0];
+    const label = [productName, description].find((text) => MANUAL_LABOUR_PATTERNS.some((pattern) => pattern.test(normalizeName(text))));
+    if (label && !found.includes(label.trim())) found.push(label.trim());
+  }
+  return found;
 }
 
 export async function findVendor(data: Pick<ExtractedPurchaseData, "vendorVat" | "vendorName">): Promise<VendorMatch> {
